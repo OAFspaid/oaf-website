@@ -294,6 +294,10 @@ address {
   gap: 0.9rem;
 }
 
+.breadcrumbs__item + .breadcrumbs__item {
+  margin-top: 0;
+}
+
 .breadcrumbs__item + .breadcrumbs__item::before {
   content: "/";
   color: rgba(255, 255, 255, 0.7);
