@@ -2,7 +2,7 @@
 
 ## Product Overview
 
-The Operation Antifragile website is a GitHub Pages-hosted Jekyll site designed to support the Antifragile Foundation's mission: helping veterans, first responders, and operators become resilient and strong under stress through evidence-based training, mental fortitude development, and holistic wellness support.
+The Operation Antifragile website is a GitHub Pages-hosted Jekyll site designed to support Operation Antifragile's mission: helping veterans, first responders, and operators become resilient and strong under stress through evidence-based training, mental fortitude development, and holistic wellness support.
 
 This is a **content-driven informational site** with heavy emphasis on program discovery and external integrations. It is not a transaction platform—primary conversion flows direct users to external partner platforms (Train Heroic for training programs, contact form for inquiries).
 
