@@ -12,7 +12,7 @@ tags:
 - first responder
 - mental fortitiude
 featured_image: /assets/images/FindTheBalance-Website.png
-description: 'By: Matt Spaid'
+description: "Instead of relying on recovery gadgets, I frequently turn to an inherently accurate, built-in system: my breath. Since my teenage years, I have engaged in breathwork and mindfulness training, making"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: 'Mental Fortitude: What Your Breath-Hold Reveals About Your Nervous

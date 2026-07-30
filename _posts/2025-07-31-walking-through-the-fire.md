@@ -12,7 +12,7 @@ tags:
 - first responder
 - mental fortitiude
 featured_image: /assets/images/1000005204-1.jpg
-description: I’m forever grateful for my friend, Rev. Kris.
+description: "I’m forever grateful for my friend, Rev. Kris."
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: Walking Through the Fire

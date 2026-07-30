@@ -10,9 +10,7 @@ tags:
 - first responder
 - mental fortitiude
 featured_image: /assets/images/When-suicide-becomes-an-option.png
-description: 'A recent poll in a veteran group raised the question: Are some people
-  biologically wired for suicidal ideation—or is it the result of trauma and life
-  experie...'
+description: "A recent poll in a veteran group raised the question: Are some people biologically wired for suicidal ideation—or is it the result of trauma and life experience?"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: When Suicide Becomes an Option

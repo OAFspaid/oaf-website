@@ -7,8 +7,7 @@ permalink: /unlocking-the-vagus-nerve-the-bodys-secret-path-to-healing-and-resil
 categories: []
 tags: []
 featured_image: /assets/images/IMG_9556-scaled.jpg
-description: 'The vagus nerve has become a bit of a buzzword lately. You’ve probably
-  seen posts like: “Do THIS to stimulate your vagus nerve!” But… what does that actually...'
+description: "The vagus nerve has become a bit of a buzzword lately. You’ve probably seen posts like: “Do THIS to stimulate your vagus nerve!” But… what does that actually mean?"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: 'Unlocking the Vagus Nerve: The Body’s Secret Path to Healing

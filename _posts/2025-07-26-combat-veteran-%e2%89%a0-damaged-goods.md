@@ -12,7 +12,7 @@ tags:
 - first responder
 - mental fortitiude
 featured_image: /assets/images/2024-01-19-4.jpg
-description: By Matt Spaid, Founder of Operation Antifragile
+description: "There’s something that’s been weighing on me ever since I left my last fire department. I haven’t talked about it much, but I feel like I need to now. Not for drama, but for truth. Maybe there’s"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: Combat Veteran ≠ Damaged Goods

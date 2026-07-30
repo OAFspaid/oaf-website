@@ -13,9 +13,7 @@ tags:
 - first responder
 - mental fortitiude
 featured_image: /assets/images/LegionsStrongestMatt-17-scaled.jpg
-description: I still remember everything very clearly. We had just pulled up to a
-  wreck, where a garbage truck had crushed a patrol car. Officer trapped inside. Agonal
-  br...
+description: "I still remember everything very clearly. We had just pulled up to a wreck, where a garbage truck had crushed a patrol car. Officer trapped inside. Agonal breathing. Time was of the essence."
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: 'Raise the Floor: Why Training Culture Makes All the Difference'

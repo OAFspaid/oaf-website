@@ -10,7 +10,7 @@ tags:
 - first responder
 - mental fortitiude
 featured_image: /assets/images/FB_IMG_1770078607368.jpg
-description: 'By: Matt Spaid'
+description: "This story does involve extremes, but not for the sake of drama."
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: '100 Kilometers on the Colorado River: Preparation, Performance,

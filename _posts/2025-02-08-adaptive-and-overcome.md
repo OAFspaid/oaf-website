@@ -10,9 +10,7 @@ categories:
 - Strength
 tags: []
 featured_image: /assets/images/adaptive-and-overcome.jpg
-description: Coaches – it’s time to broaden your horizons. There is a strong need
-  for good coaches in the adaptive athlete realm, but finding a coach familiar with
-  the be...
+description: "Coaches – it’s time to broaden your horizons. There is a strong need for good coaches in the adaptive athlete realm, but finding a coach familiar with the best methods for training an adaptive"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: Adaptive and Overcome

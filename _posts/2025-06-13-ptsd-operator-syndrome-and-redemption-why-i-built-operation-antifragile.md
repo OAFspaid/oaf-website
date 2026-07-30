@@ -10,9 +10,7 @@ categories:
 tags:
 - first responder
 featured_image: /assets/images/2024-01-19.jpg
-description: I served as an 0311 rifleman in the Marine Corps with 3rd Battalion,
-  4th Marines. I deployed to both Iraq and Afghanistan—to Al-Anbar Province and later
-  to H...
+description: "I served as an 0311 rifleman in the Marine Corps with 3rd Battalion, 4th Marines. I deployed to both Iraq and Afghanistan—to Al-Anbar Province and later to Helmand Province, specifically Now Zad, one"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: 'PTSD, Operator Syndrome, and Redemption: Why I Built Operation

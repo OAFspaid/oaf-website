@@ -9,9 +9,7 @@ categories:
 - Strength
 tags: []
 featured_image: /assets/images/firefighters-are-not-body-builders.jpg
-description: 'While some bodybuilders may happen to be firefighters, the inverse is
-  nowhere close to true: not all firefighters are bodybuilders. But, should firefighters
-  ...'
+description: "While some bodybuilders may happen to be firefighters, the inverse is nowhere close to true: not all firefighters are bodybuilders. But, should firefighters be considered athletes? This has been a"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: Firefighters Are Not Body Builders pt 1

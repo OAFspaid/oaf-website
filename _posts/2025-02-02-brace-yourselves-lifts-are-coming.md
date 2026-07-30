@@ -9,8 +9,7 @@ categories:
 - Coaching
 tags: []
 featured_image: /assets/images/brace-yourselves-lifts-are-coming.jpg
-description: It’s time to obliterate the walls that are blocking you from peak performance.
-  At Power Athlete, we want you to kick down the doors that are standing between...
+description: "It’s time to obliterate the walls that are blocking you from peak performance. At Power Athlete, we want you to kick down the doors that are standing between you and your goals. That means you need"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: Brace Yourselves – Lifts are Coming

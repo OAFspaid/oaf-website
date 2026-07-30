@@ -7,7 +7,7 @@ permalink: /restoring-the-system-how-pemf-therapy-can-help-veterans-and-first-re
 categories: []
 tags: []
 featured_image: /assets/images/Random-Posts.png
-description: 'By: Matt Spaid'
+description: "Tactical professionals spend years in environments that are beyond comprehension for many."
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: 'Restoring the System: How PEMF Therapy Can Help Veterans and

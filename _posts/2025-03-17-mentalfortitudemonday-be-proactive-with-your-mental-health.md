@@ -7,9 +7,7 @@ permalink: /mentalfortitudemonday-be-proactive-with-your-mental-health/
 categories: []
 tags: []
 featured_image: /assets/images/MFM-Fire.png
-description: 'For many veterans who transition into first responder roles, the consensus
-  is clear: mental health in the first responder world is a rough road. It is not
-  ju...'
+description: "For many veterans who transition into first responder roles, the consensus is clear: mental health in the first responder world is a rough road. It is not just Combat Veterans that suffer from mental"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: '#MentalFortitudeMonday Be Proactive With Your Mental Health'

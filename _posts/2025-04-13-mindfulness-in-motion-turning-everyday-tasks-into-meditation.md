@@ -9,7 +9,7 @@ categories:
 - Mindset
 tags: []
 featured_image: /assets/images/MattGymEdits2024-16-scaled.jpg
-description: 'Mindfulness in Motion: Turning Everyday Tasks into Meditation'
+description: "When most people hear the word meditation, they picture someone sitting cross-legged on a cushion, eyes closed, in total silence. But mindfulness isn’t limited to stillness and silence. In fact, some"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: 'Mindfulness in Motion: Turning Everyday Tasks into Meditation'

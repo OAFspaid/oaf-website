@@ -9,9 +9,7 @@ categories:
 - supplements
 tags: []
 featured_image: /assets/images/creatine-image.jpg
-description: For tactical professionals, sleep deprivation isn’t a possibility—it’s
-  a certainty. Whether you’re a firefighter on a 24-hour shift, a first responder
-  answer...
+description: "For tactical professionals, sleep deprivation isn’t a possibility—it’s a certainty. Whether you’re a firefighter on a 24-hour shift, a first responder answering back-to-back calls, or a military"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: 'Mental Fortitude Monday: Creatine – A Tactical Edge for Sleep-Deprived

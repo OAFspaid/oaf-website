@@ -11,7 +11,7 @@ tags:
 - first responder
 - mental fortitiude
 featured_image: /assets/images/PXL_20210717_171810716.MP_-scaled.jpg
-description: I couldn’t sleep.
+description: "Someone I once considered a brother had hurt me — deeply — and it triggered something raw in my nervous system. Disrespectful comments about my service put me in a rage and I saw red. I found myself"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: The Night I Quit the Fire Department

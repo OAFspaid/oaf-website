@@ -12,9 +12,7 @@ tags:
 - first responder
 - mental fortitiude
 featured_image: /assets/images/lifting-face-scaled.jpg
-description: Lately we’ve been emphasizing the parasympathetic nervous system with
-  breathwork, recovery, and learning to downshift. Veterans and first responders often
-  op...
+description: "Lately we’ve been emphasizing the parasympathetic nervous system with breathwork, recovery, and learning to downshift. Veterans and first responders often operate in sympathetic overdrive, and the"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: Firing Up the Sympathetic Nervous System & Building Brain Health

@@ -10,9 +10,7 @@ tags:
 - first responder
 - mental fortitiude
 featured_image: /assets/images/1.png
-description: When most people think about mindfulness, they picture someone sitting
-  cross-legged on a cushion in a quiet room, surrounded by candles and soft music.
-  While...
+description: "When most people think about mindfulness, they picture someone sitting cross-legged on a cushion in a quiet room, surrounded by candles and soft music. While there’s certainly value in meditation,"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: 'Mental Fortitude: Turning Inconvenience Into Mindfulness'

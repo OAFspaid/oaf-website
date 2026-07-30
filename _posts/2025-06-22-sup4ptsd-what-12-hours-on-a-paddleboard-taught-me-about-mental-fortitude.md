@@ -12,7 +12,7 @@ categories:
 - Strength
 tags: []
 featured_image: /assets/images/SUP4PTSD.png
-description: This paddle was personal.
+description: "This paddle was personal."
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: 'SUP4PTSD: What 12 Hours on a Paddleboard Taught Me About Mental

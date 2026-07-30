@@ -9,9 +9,7 @@ categories:
 - Mindset
 tags: []
 featured_image: /assets/images/move-the-dirt-the-power-of-daily-effort.jpg
-description: The tactical population tends to have a more challenging schedule when
-  it comes to making time for your strength training. Some jobs require long hours,
-  days...
+description: "The tactical population tends to have a more challenging schedule when it comes to making time for your strength training. Some jobs require long hours, days, weeks, or even months, where you won’t"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: 'Move the Dirt: The Power of Daily Effort'

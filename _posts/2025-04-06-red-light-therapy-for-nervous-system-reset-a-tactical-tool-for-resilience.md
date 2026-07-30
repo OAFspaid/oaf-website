@@ -9,7 +9,7 @@ tags:
 - antifragile
 - mental fortitiude
 featured_image: /assets/images/Red-Light-Therapy-for-Nerve-Regeneration.png
-description: 'By Matt Spaid | #MentalFortitudeMonday'
+description: "For veterans, first responders, and tactical professionals, prolonged exposure to stress becomes part of the job. Over time, that stress can leave your nervous system in a constant state of"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: 'Red Light Therapy for Nervous System Reset: A Tactical Tool for

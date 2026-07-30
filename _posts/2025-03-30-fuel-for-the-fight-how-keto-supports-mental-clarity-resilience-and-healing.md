@@ -9,9 +9,7 @@ categories:
 - Mindset
 tags: []
 featured_image: /assets/images/steak-and-eggs.jpg
-description: When it comes to building true mental fortitude, nutrition is one of
-  the most overlooked—but most powerful—tools. The brain doesn’t just respond to stress;
-  i...
+description: "When it comes to building true mental fortitude, nutrition is one of the most overlooked—but most powerful—tools. The brain doesn’t just respond to stress; it also responds to fuel. And for veterans,"
 author: Matt Spaid
 breadcrumbs: true
 featured-image-alt: 'Fuel for the Fight: How Keto Supports Mental Clarity, Resilience,
