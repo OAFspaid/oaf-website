@@ -57,7 +57,7 @@
 
   <div class="site-footer__legal">
     <div class="site-footer__legal-inner">
-      <p>© {{ site.time | date: '%Y' }} Operation Antifragile. All rights reserved. | A 501(c)(3) Non-Profit Organization.</p>
+      <p>© {{ site.time | date: '%Y' }} Operation Antifragile. All rights reserved. | A 501(c)(3) Non-Profit Organization. | EIN {{ site.ein }}</p>
       <ul class="site-footer__legal-links" role="list">
         {% for link in footer.legal_links %}
           <li>
