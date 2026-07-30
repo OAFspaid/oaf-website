@@ -327,7 +327,7 @@ featured-image-alt: 'Unlocking the Vagus Nerve: The Body’s Secret Path to Heal
 
 
 
-<p class="wp-block-paragraph">Want help putting this into practice?<br>👉 Reach out to <strong>Operation Antifragile</strong> or follow<a href="https://instagram.com/oaf_training" target="_blank" rel="noopener"> @oaf_training</a> to start your own nervous system reset today.</p>
+<p class="wp-block-paragraph">Want help putting this into practice?<br>👉 Reach out to <strong>Operation Antifragile</strong> or follow<a href="https://www.instagram.com/operationantifragile/" target="_blank" rel="noopener"> @operationantifragile</a> to start your own nervous system reset today.</p>
 
 
 
