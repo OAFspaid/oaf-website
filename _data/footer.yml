@@ -1,28 +1,4 @@
-brand:
-  title: Operation Antifragile
-  text: A new mission to strengthen veterans and first responders through resilient training, recovery, and purpose-built support.
-
 columns:
-  - title: Quick Links
-    links:
-      - title: Home
-        url: /
-      - title: About Us
-        url: /about/
-      - title: Blog
-        url: /blog/
-      - title: Contact Us
-        url: /contact-us/
-  - title: Programs
-    links:
-      - title: Strength Training
-        url: /physical-training/
-      - title: Mental Fortitude
-        url: /mental-fortitude/
-      - title: Mobility Support
-        url: /modern-athlete-warfighter-mobility-and-stability-program/
-      - title: Nutrition & Health
-        url: /nutrition-health/
   - title: Support
     links:
       - title: Donate

@@ -2,15 +2,13 @@
 {% assign contact = site.data.contact %}
 {% assign socials = site.data.social %}
 
-<footer class="site-footer" aria-labelledby="footer-title">
+<footer class="site-footer" id="site-footer">
   <div class="site-footer__main">
     <div class="site-footer__inner">
       <div class="site-footer__brand">
         <a class="site-footer__logo" href="{{ '/' | relative_url }}">
           <img src="{{ '/wp-content/uploads/2024/01/logo-1.png' | relative_url }}" alt="Operation Antifragile" width="230" height="70">
         </a>
-        <h2 id="footer-title" class="site-footer__heading">{{ footer.brand.title }}</h2>
-        <p class="site-footer__description">{{ footer.brand.text }}</p>
 
         <ul class="site-footer__social" role="list" aria-label="Social links">
           {% for item in socials %}
