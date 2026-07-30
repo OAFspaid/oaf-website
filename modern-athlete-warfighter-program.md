@@ -34,10 +34,10 @@ cta-url: "https://marketplace.trainheroic.com/workout-plan/team/modern-athlete-s
   <div class="section-content">
     <h2>Key Elements of Operation Antifragile x Modern Athlete Training</h2>
     <div class="post-grid" role="list">
-      <article class="post-card" role="listitem"><div class="post-card__media"><img src="/wp-content/uploads/2024/12/img-31.png" alt="Training split icon"></div><div class="post-card__body"><h3>The Training Split</h3><p>Warfighter trains six days per week: three strength-focused days and three conditioning-focused days. The system is built to develop strength, power, muscular endurance, and an aerobic base while integrating speed and tempo work.</p></div></article>
-      <article class="post-card" role="listitem"><div class="post-card__media"><img src="/wp-content/uploads/2024/12/img-32.png" alt="Balanced training icon"></div><div class="post-card__body"><h3>Strong, Jacked, and Fast</h3><p>This program balances training stress so you can adapt and improve across multiple domains. It is designed for people who want strength, endurance, and performance instead of one-dimensional progress.</p></div></article>
-      <article class="post-card" role="listitem"><div class="post-card__media"><img src="/wp-content/uploads/2024/12/img-33.png" alt="Elite coaching icon"></div><div class="post-card__body"><h3>Elite Coaching Staff with Elite Results</h3><p>You’re not just getting a program—you’re getting direct access to coaches with years of experience in elite tactical organizations plus collegiate and professional sports, including dialogue and video form checks.</p></div></article>
-      <article class="post-card" role="listitem"><div class="post-card__media"><img src="/wp-content/uploads/2024/12/img-34.png" alt="Warfighter mentality icon"></div><div class="post-card__body"><h3>The Warfighter Mentality</h3><p>The Warfighter mentality is about committing to a goal, finding a way forward, and building a higher state of physical readiness, body composition, and capability.</p></div></article>
+      <article class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2024/12/img-31.png" alt="Training split icon"></div><div class="post-card__body"><h3>The Training Split</h3><p>Warfighter trains six days per week: three strength-focused days and three conditioning-focused days. The system is built to develop strength, power, muscular endurance, and an aerobic base while integrating speed and tempo work.</p></div></article>
+      <article class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2024/12/img-32.png" alt="Balanced training icon"></div><div class="post-card__body"><h3>Strong, Jacked, and Fast</h3><p>This program balances training stress so you can adapt and improve across multiple domains. It is designed for people who want strength, endurance, and performance instead of one-dimensional progress.</p></div></article>
+      <article class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2024/12/img-33.png" alt="Elite coaching icon"></div><div class="post-card__body"><h3>Elite Coaching Staff with Elite Results</h3><p>You’re not just getting a program—you’re getting direct access to coaches with years of experience in elite tactical organizations plus collegiate and professional sports, including dialogue and video form checks.</p></div></article>
+      <article class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2024/12/img-34.png" alt="Warfighter mentality icon"></div><div class="post-card__body"><h3>The Warfighter Mentality</h3><p>The Warfighter mentality is about committing to a goal, finding a way forward, and building a higher state of physical readiness, body composition, and capability.</p></div></article>
     </div>
   </div>
 </section>
@@ -46,11 +46,11 @@ cta-url: "https://marketplace.trainheroic.com/workout-plan/team/modern-athlete-s
   <div class="section-content">
     <h2>Training Gallery</h2>
     <div class="post-grid" role="list">
-      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="/wp-content/uploads/2025/08/warfighter-program-fire-fighters.webp" alt="Fire fighter training systems"></div></figure>
-      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="/wp-content/uploads/2025/08/warfighter-training-1.webp" alt="Warfighter training program"></div></figure>
-      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="/wp-content/uploads/2025/08/modern-athlete-training-program.webp" alt="Modern Athlete training program"></div></figure>
-      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="/wp-content/uploads/2025/08/warfighter-training-systems.webp" alt="Warfighter training systems"></div></figure>
-      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="/wp-content/uploads/2025/08/modern-athlete-strength-systems.webp" alt="Modern Athlete strength systems"></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/warfighter-program-fire-fighters.webp" alt="Fire fighter training systems"></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/warfighter-training-1.webp" alt="Warfighter training program"></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/modern-athlete-training-program.webp" alt="Modern Athlete training program"></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/warfighter-training-systems.webp" alt="Warfighter training systems"></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/modern-athlete-strength-systems.webp" alt="Modern Athlete strength systems"></div></figure>
     </div>
   </div>
 </section>
@@ -59,5 +59,5 @@ cta-url: "https://marketplace.trainheroic.com/workout-plan/team/modern-athlete-s
   <h2>Join the Antifragile Training Mission</h2>
   <p>At Antifragile, we’re not just about building muscles—we’re about building and maintaining strong, resilient bodies that can withstand the pressures of life and service.</p>
   <p>Ready to get stronger, move better, and build resilience? Join us and experience the difference of a training program built by veterans and first responders, for veterans and first responders.</p>
-  <a class="btn" href="/contact-us/">Become Antifragile</a>
+  <a class="btn" href="{{ site.baseurl }}/contact-us/">Become Antifragile</a>
 </section>

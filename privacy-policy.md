@@ -13,6 +13,6 @@ breadcrumbs: true
     <p>Basic web server and browser data such as IP address, device details, referring page, and pages visited may be collected by the hosting platform or other infrastructure required to serve the site.</p>
     <p>Please do not submit confidential, proprietary, or sensitive personally identifiable information through channels that are not explicitly intended for secure intake.</p>
     <p>When you follow outbound links to services such as TrainHeroic, Apple, Insight Timer, social platforms, or the live Operation Antifragile contact workflow, those third parties control their own privacy practices.</p>
-    <p>If you have privacy questions about Operation Antifragile’s current intake or coaching workflows, use the live contact page linked from <a href="/contact-us/">Contact Us</a>.</p>
+    <p>If you have privacy questions about Operation Antifragile’s current intake or coaching workflows, use the live contact page linked from <a href="{{ site.baseurl }}/contact-us/">Contact Us</a>.</p>
   </div>
 </section>

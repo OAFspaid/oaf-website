@@ -210,7 +210,7 @@ address {
 
 .section-band--gold {
   background:
-    var(--color-primary) url("/wp-content/uploads/2024/12/bg-16.png") left center / auto no-repeat;
+    var(--color-primary) url("#{$asset-baseurl}/wp-content/uploads/2024/12/bg-16.png") left center / auto no-repeat;
 }
 
 .section-band--light {

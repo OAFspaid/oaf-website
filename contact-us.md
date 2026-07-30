@@ -41,8 +41,8 @@ description: "Current contact options for Operation Antifragile."
     <section class="contact-card" aria-labelledby="contact-links">
       <h2 id="contact-links">Other Ways to Connect</h2>
       <ul class="contact-list">
-        <li><a href="/about/">Learn more about the mission</a></li>
-        <li><a href="/blog/">Read the latest articles and updates</a></li>
+        <li><a href="{{ site.baseurl }}/about/">Learn more about the mission</a></li>
+        <li><a href="{{ site.baseurl }}/blog/">Read the latest articles and updates</a></li>
         <li><a href="https://marketplace.trainheroic.com/brand/operation-antifragile" target="_blank" rel="noopener noreferrer">Browse current TrainHeroic programs</a></li>
       </ul>
 

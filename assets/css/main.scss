@@ -2,6 +2,8 @@
 ---
 @charset "utf-8";
 
+$asset-baseurl: "{{ site.baseurl }}";
+
 @import "tokens";
 @import "utilities";
 @import "base";

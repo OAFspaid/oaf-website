@@ -3,10 +3,9 @@ description: GitHub Pages migration scaffold for the Operation Antifragile websi
 lang: en
 timezone: America/Chicago
 
-# GitHub Pages URL configuration
-# Leave empty for local development; set to production URL for Pages deployment
-url: ""
-baseurl: ""
+# GitHub Pages project-site configuration
+url: "https://www.spaid.dev"
+baseurl: "/oaf-website"
 
 # Theme configuration
 theme: minima
