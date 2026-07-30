@@ -9,7 +9,7 @@ breadcrumbs: true
 featured_image: "/wp-content/uploads/2025/08/modern-athlete-program-training.webp"
 featured-image-alt: "Modern Athlete Warfighter training"
 cta-text: "Discover Training Designed for You"
-cta-url: "https://marketplace.trainheroic.com/workout-plan/team/modern-athlete-strength-solutions?attrib=260991-web"
+cta-url: "https://www.skool.com/operation-antifragile-6824/about"
 ---
 
 <section class="content-section">

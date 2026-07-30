@@ -10,9 +10,6 @@ columns:
       - title: Application
         url: https://docs.google.com/forms/d/e/1FAIpQLSdne1leZ2mUm1HM76-DJGBgRpORtC2YUgVxLse6QUYmSBD98Q/viewform
         external: true
-      - title: TrainHeroic
-        url: https://marketplace.trainheroic.com/brand/operation-antifragile
-        external: true
 
 legal_links:
   - title: Disclaimer

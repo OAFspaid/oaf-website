@@ -12,9 +12,6 @@
   primary_button_text: Join Us on Skool
   primary_button_url: https://www.skool.com/operation-antifragile-6824/about
   primary_button_external: true
-  secondary_button_text: TrainHeroic Programs
-  secondary_button_url: https://marketplace.trainheroic.com/brand/operation-antifragile
-  secondary_button_external: true
   hide_legacy_intro: true
 
 "/modern-athlete-warfighter-program/":
@@ -24,9 +21,6 @@
   primary_button_text: Join Us on Skool
   primary_button_url: https://www.skool.com/operation-antifragile-6824/about
   primary_button_external: true
-  secondary_button_text: Explore MASS Warfighter (TrainHeroic)
-  secondary_button_url: https://marketplace.trainheroic.com/workout-plan/team/modern-athlete-strength-solutions?attrib=260991-web
-  secondary_button_external: true
   hide_legacy_intro: true
 
 "/modern-athlete-warfighter-mobility-and-stability-program/":
@@ -36,9 +30,6 @@
   primary_button_text: Join Us on Skool
   primary_button_url: https://www.skool.com/operation-antifragile-6824/about
   primary_button_external: true
-  secondary_button_text: View Mobility & Stability Program (TrainHeroic)
-  secondary_button_url: https://marketplace.trainheroic.com/workout-plan/program/athlete-strength-program-1738374791?attrib=260991-aff-operationantifragile
-  secondary_button_external: true
   hide_legacy_intro: true
 
 "/old-bull-captains-coaches/":
@@ -48,9 +39,6 @@
   primary_button_text: Join Us on Skool
   primary_button_url: https://www.skool.com/operation-antifragile-6824/about
   primary_button_external: true
-  secondary_button_text: Discover Old Bull (TrainHeroic)
-  secondary_button_url: https://marketplace.trainheroic.com/workout-plan/team/old-bull
-  secondary_button_external: true
   hide_legacy_intro: true
 
 "/liftlab-app/":
@@ -75,7 +63,7 @@
   lead: Develop practical tools for resilience, nervous-system regulation, and clear thinking under pressure.
   background_image: /wp-content/uploads/2024/12/mental-conditioning.jpg
   primary_button_text: Insight Timer
-  primary_button_url: https://insighttimer.com/
+  primary_button_url: https://insig.ht/sJuw8Ivuc5b
   primary_button_external: true
   secondary_button_text: Contact Us
   secondary_button_url: /contact-us/

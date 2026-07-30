@@ -55,5 +55,5 @@ GitHub Actions builds the site on pushes and deploys to GitHub Pages from the re
 
 ## Notes
 
-- This repo is a static mirror. External conversions such as TrainHeroic, Apple, Insight Timer, social links, and the live contact workflow remain outbound.
+- This repo is a static mirror. External conversions such as Apple, Insight Timer, social links, and the live contact workflow remain outbound.
 - Keep new internal links relative/rooted so they work both locally and on GitHub Pages.

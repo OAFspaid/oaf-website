@@ -14,9 +14,6 @@ description: "Current contact options for Operation Antifragile."
     primary_text="Open the Live Contact Form"
     primary_url="https://operationantifragile.com/contact-us/"
     primary_external=true
-    secondary_text="View TrainHeroic Programs"
-    secondary_url="https://marketplace.trainheroic.com/brand/operation-antifragile"
-    secondary_external=true
   %}
 
   <div class="contact-grid">
@@ -43,7 +40,6 @@ description: "Current contact options for Operation Antifragile."
       <ul class="contact-list">
         <li><a href="{{ site.baseurl }}/about/">Learn more about the mission</a></li>
         <li><a href="{{ site.baseurl }}/blog/">Read the latest articles and updates</a></li>
-        <li><a href="https://marketplace.trainheroic.com/brand/operation-antifragile" target="_blank" rel="noopener noreferrer">Browse current TrainHeroic programs</a></li>
       </ul>
 
       <ul class="contact-social" aria-label="Social platforms">

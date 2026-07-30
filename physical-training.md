@@ -9,7 +9,7 @@ breadcrumbs: true
 featured_image: "/wp-content/uploads/2025/01/antifragile-training.jpg"
 featured-image-alt: "Operation Antifragile training session"
 cta-text: "Discover Physical Training Designed for You"
-cta-url: "https://marketplace.trainheroic.com/brand/operation-antifragile"
+cta-url: "https://www.skool.com/operation-antifragile-6824/about"
 ---
 
 <section class="content-section">

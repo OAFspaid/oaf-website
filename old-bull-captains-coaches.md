@@ -9,7 +9,7 @@ breadcrumbs: true
 featured_image: "/wp-content/uploads/2025/09/old-bull-training.webp"
 featured-image-alt: "Old Bull training program"
 cta-text: "Discover Training Designed for You"
-cta-url: "https://marketplace.trainheroic.com/workout-plan/team/old-bull"
+cta-url: "https://www.skool.com/operation-antifragile-6824/about"
 ---
 
 <section class="content-section">

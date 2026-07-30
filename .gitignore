@@ -20,3 +20,6 @@ vendor/bundle/
 # Migration and visual QA working artifacts
 _pages_fetched/
 qa-artifacts/
+
+# macOS
+.DS_Store

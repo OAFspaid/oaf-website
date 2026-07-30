@@ -9,7 +9,7 @@ breadcrumbs: true
 featured_image: "/wp-content/uploads/2025/08/modern-warfighter-stability-mobility.webp"
 featured-image-alt: "Stability and mobility training session"
 cta-text: "Modern Athlete Warfighter: Mobility & Stability Program"
-cta-url: "https://marketplace.trainheroic.com/workout-plan/program/athlete-strength-program-1738374791?attrib=260991-aff-operationantifragile"
+cta-url: "https://www.skool.com/operation-antifragile-6824/about"
 ---
 
 <section class="content-section">
@@ -18,7 +18,7 @@ cta-url: "https://marketplace.trainheroic.com/workout-plan/program/athlete-stren
     <h3>What’s Included</h3>
     <ul>
       <li>12 weeks of expertly programmed mobility, stability, and foundational strength work</li>
-      <li>Lifetime access to the program via the TrainHeroic app</li>
+      <li>Lifetime access to the program</li>
       <li>Daily sessions that can be completed in 10–15 minutes</li>
       <li>Instructional videos for every movement</li>
       <li>Designed by a Doctor of Physical Therapy and board-certified orthopedic specialist</li>
