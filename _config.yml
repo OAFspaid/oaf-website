@@ -6,9 +6,9 @@ timezone: America/Chicago
 # Organization identity
 ein: "99-2773713"  # 501(c)(3) Employer Identification Number
 
-# GitHub Pages project-site configuration
-url: "https://www.spaid.dev"
-baseurl: "/oaf-website"
+# GitHub Pages account-site configuration
+url: "https://oafspaid.github.io"
+baseurl: ""
 
 # Theme configuration
 theme: minima
