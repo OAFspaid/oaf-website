@@ -12,6 +12,9 @@
   primary_button_text: Join Us on Skool
   primary_button_url: https://www.skool.com/operation-antifragile-6824/about
   primary_button_external: true
+  secondary_button_text: Join the Team on CoachLogik
+  secondary_button_url: https://link.coachlogik.com/5vrlkx
+  secondary_button_external: true
   hide_legacy_intro: true
 
 "/modern-athlete-warfighter-program/":
