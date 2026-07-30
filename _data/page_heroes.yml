@@ -59,6 +59,7 @@
   background_image: /wp-content/uploads/2024/01/img-14.png
   primary_button_text: Discover Better Nutrition
   primary_button_url: /wp-content/uploads/2024/12/Nutrition-Protocol-Anti-Fragile.pdf
+  primary_button_newtab: true
   hide_legacy_intro: true
 
 "/mental-fortitude/":

@@ -19,6 +19,8 @@ layout: default
 {% assign hero_secondary_text = hero.secondary_button_text %}
 {% assign hero_secondary_url = hero.secondary_button_url %}
 {% assign hero_secondary_external = hero.secondary_button_external %}
+{% assign hero_primary_newtab = hero.primary_button_newtab %}
+{% assign hero_secondary_newtab = hero.secondary_button_newtab %}
 
 {% include hero.html
   class="hero--page hero--program"
@@ -30,9 +32,11 @@ layout: default
   primary_text=hero_primary_text
   primary_url=hero_primary_url
   primary_external=hero_primary_external
+  primary_newtab=hero_primary_newtab
   secondary_text=hero_secondary_text
   secondary_url=hero_secondary_url
   secondary_external=hero_secondary_external
+  secondary_newtab=hero_secondary_newtab
   show_breadcrumbs=true
 %}
 
