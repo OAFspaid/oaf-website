@@ -69,8 +69,6 @@
   primary_button_text: Insight Timer
   primary_button_url: https://insig.ht/sJuw8Ivuc5b
   primary_button_external: true
-  secondary_button_text: Contact Us
-  secondary_button_url: /contact-us/
   hide_legacy_intro: true
 
 "/blog/":
