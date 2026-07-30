@@ -28,8 +28,8 @@ cta-url: "https://apps.apple.com/redeem?ctx=offercodes&id=6563138857&code=OAFMEM
   <div class="section-content">
     <h2>LiftLab in Action</h2>
     <div class="post-grid" role="list">
-      <figure class="post-card" role="listitem"><div class="post-card__media"><video controls preload="metadata" poster="{{ site.baseurl }}/assets/images/2025/09/liftlab-poster2.webp"><source src="{{ site.baseurl }}/assets/images/2025/09/Benching.mov" type="video/quicktime"></video></div></figure>
-      <figure class="post-card" role="listitem"><div class="post-card__media"><video controls preload="metadata" poster="{{ site.baseurl }}/assets/images/2025/09/liftlab-poster.webp"><source src="{{ site.baseurl }}/assets/images/2025/09/SquatwithChains.mov" type="video/quicktime"></video></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><video controls preload="metadata" poster="{{ site.baseurl }}/assets/images/2025/09/liftlab-poster2.webp"><source src="{{ site.baseurl }}/assets/images/2025/09/Benching.mp4" type="video/mp4"></video></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><video controls preload="metadata" poster="{{ site.baseurl }}/assets/images/2025/09/liftlab-poster.webp"><source src="{{ site.baseurl }}/assets/images/2025/09/SquatwithChains.mp4" type="video/mp4"></video></div></figure>
     </div>
   </div>
 </section>
