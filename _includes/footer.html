@@ -22,12 +22,7 @@
       </div>
 
       <section class="site-footer__column" aria-labelledby="footer-contact">
-        <h3 id="footer-contact">{{ contact.address_label }}</h3>
-        <address class="site-footer__contact">
-          {% for line in contact.address_lines %}
-            <span>{{ line }}</span>
-          {% endfor %}
-        </address>
+        <h3 id="footer-contact">{{ contact.contact_label }}</h3>
         <p class="site-footer__meta">
           <span>{{ contact.phone_label }}</span>
           <a href="{{ contact.phone_url }}">{{ contact.phone_display }}</a>
