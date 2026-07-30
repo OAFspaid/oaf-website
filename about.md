@@ -15,3 +15,9 @@ breadcrumbs: true
   </div>
 </section>
 
+<section class="content-section">
+  <div class="section-content">
+    {% include youtube.html id="mWcpHjAqBJ8" title="About Operation Antifragile" %}
+  </div>
+</section>
+
