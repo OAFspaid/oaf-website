@@ -28,7 +28,6 @@ breadcrumbs: true
     <div class="post-grid" role="list">
       <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2026/07/who-we-serve-1.jpg" alt="Veterans and first responders training with Operation Antifragile"></div></figure>
       <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2026/07/who-we-serve-2.jpg" alt="Operation Antifragile community building strength together"></div></figure>
-      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2026/07/who-we-serve-3.webp" alt="Member of the Operation Antifragile community"></div></figure>
       <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2026/07/who-we-serve-4.jpg" alt="Veterans and first responders supported by Operation Antifragile"></div></figure>
     </div>
     <p>Whether you’re navigating life after the military or balancing work and home as a first responder, we understand that the road can be difficult. Our team has been where you are, and we’ve created a program that helps you find strength, purpose, and healing.</p>
