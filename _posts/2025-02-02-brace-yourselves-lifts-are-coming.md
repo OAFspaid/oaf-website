@@ -8,7 +8,7 @@ categories:
 - Strength
 - Coaching
 tags: []
-featured_image: /wp-content/uploads/brace-yourselves-lifts-are-coming.jpg
+featured_image: /assets/images/brace-yourselves-lifts-are-coming.jpg
 description: It’s time to obliterate the walls that are blocking you from peak performance.
   At Power Athlete, we want you to kick down the doors that are standing between...
 author: Matt Spaid

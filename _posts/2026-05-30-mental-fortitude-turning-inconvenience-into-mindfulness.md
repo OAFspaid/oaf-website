@@ -9,7 +9,7 @@ categories:
 tags:
 - first responder
 - mental fortitiude
-featured_image: /wp-content/uploads/1.png
+featured_image: /assets/images/1.png
 description: When most people think about mindfulness, they picture someone sitting
   cross-legged on a cushion in a quiet room, surrounded by candles and soft music.
   While...

@@ -9,7 +9,7 @@ categories:
 - Mindset
 - Health
 tags: []
-featured_image: /wp-content/uploads/HRV-image.png
+featured_image: /assets/images/HRV-image.png
 description: Having a good HRV score improves your physical AND mental health
 author: Matt Spaid
 breadcrumbs: true

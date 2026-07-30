@@ -8,7 +8,7 @@ categories:
 - Fortitude
 - Mindset
 tags: []
-featured_image: /wp-content/uploads/bg-13.png
+featured_image: /assets/images/bg-13.png
 description: In the chaos of life—especially for those who have walked the warrior’s
   path—true stillness is rare. Your mind is like a monkey, leaping from thought to
   thou...

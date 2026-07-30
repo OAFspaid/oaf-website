@@ -8,7 +8,7 @@ categories:
 - Power Athlete
 - Mindset
 tags: []
-featured_image: /wp-content/uploads/move-the-dirt-the-power-of-daily-effort.jpg
+featured_image: /assets/images/move-the-dirt-the-power-of-daily-effort.jpg
 description: The tactical population tends to have a more challenging schedule when
   it comes to making time for your strength training. Some jobs require long hours,
   days...

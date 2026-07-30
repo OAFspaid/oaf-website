@@ -6,7 +6,7 @@ slug: mental-fortitude-sleep-and-learning-to-regulate-the-brain
 permalink: /mental-fortitude-sleep-and-learning-to-regulate-the-brain/
 categories: []
 tags: []
-featured_image: /wp-content/uploads/20260220_212418-scaled.jpg
+featured_image: /assets/images/20260220_212418-scaled.jpg
 description: Mental Fortitude isn’t pretending to be fine. Sometimes it starts with
   realizing that what you’ve called “normal” for years is actually a nervous system
   stuc...

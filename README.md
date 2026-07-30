@@ -6,7 +6,7 @@ Static Jekyll migration of the Operation Antifragile site, built to run locally 
 
 - Jekyll source for the public site
 - 15 public pages plus 32 public blog posts
-- Local first-party media under `wp-content/uploads/`
+- Local first-party media under `assets/images/`
 - GitHub Pages workflow in `.github/workflows/pages.yml`
 
 ## Local build and preview (Windows PowerShell)
@@ -26,7 +26,7 @@ Preview locally at http://127.0.0.1:4000/.
 - `_posts/` - published articles
 - Root `*.md` pages - public landing/program/legal pages
 - `_layouts/`, `_includes/`, `assets/` - site presentation
-- `wp-content/uploads/` - migrated first-party media and downloads
+- `assets/images/` - migrated first-party media and downloads
 
 ## Theme architecture
 

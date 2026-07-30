@@ -6,7 +6,7 @@ description: "Sharpen the mind, regulate stress, and build resilience with Opera
 hero_kicker: "Our Services"
 hero_title: "Mental Fortitude Training & Support at Antifragile: Sharpening the Mind, Calming the Body"
 breadcrumbs: true
-featured_image: "/wp-content/uploads/2024/12/mental-conditioning.jpg"
+featured_image: "/assets/images/2024/12/mental-conditioning.jpg"
 featured-image-alt: "Mental conditioning and resilience training"
 cta-text: "Develop Mental Resilience"
 cta-url: "/contact-us/"

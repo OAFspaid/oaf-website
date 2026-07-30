@@ -11,7 +11,7 @@ tags:
 - co2tolerance
 - first responder
 - mental fortitiude
-featured_image: /wp-content/uploads/FindTheBalance-Website.png
+featured_image: /assets/images/FindTheBalance-Website.png
 description: 'By: Matt Spaid'
 author: Matt Spaid
 breadcrumbs: true

@@ -26,8 +26,8 @@ breadcrumbs: true
     <h2>Who We Serve</h2>
     <p>Our focus is on those who have spent their lives serving others.</p>
     <div class="post-grid" role="list">
-      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2024/01/img-6.png" alt="Veteran support at Operation Antifragile"></div></figure>
-      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2024/01/img-7.png" alt="First responder support at Operation Antifragile"></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2024/01/img-6.png" alt="Veteran support at Operation Antifragile"></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2024/01/img-7.png" alt="First responder support at Operation Antifragile"></div></figure>
     </div>
     <p>Whether you’re navigating life after the military or balancing work and home as a first responder, we understand that the road can be difficult. Our team has been where you are, and we’ve created a program that helps you find strength, purpose, and healing.</p>
   </div>

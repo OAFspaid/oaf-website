@@ -8,7 +8,7 @@
 "/physical-training/":
   eyebrow: Our Services
   lead: Strength, conditioning, mobility, and recovery guidance designed for tactical readiness and long-term resilience.
-  background_image: /wp-content/uploads/2025/01/antifragile-training.jpg
+  background_image: /assets/images/2025/01/antifragile-training.jpg
   primary_button_text: Join Us on Skool
   primary_button_url: https://www.skool.com/operation-antifragile-6824/about
   primary_button_external: true
@@ -20,7 +20,7 @@
 "/modern-athlete-warfighter-program/":
   eyebrow: Our Services
   lead: Performance-driven strength and conditioning for those committed to getting stronger under stress.
-  background_image: /wp-content/uploads/2025/08/modern-athlete-program-training.webp
+  background_image: /assets/images/2025/08/modern-athlete-program-training.webp
   primary_button_text: Join Us on Skool
   primary_button_url: https://www.skool.com/operation-antifragile-6824/about
   primary_button_external: true
@@ -29,7 +29,7 @@
 "/modern-athlete-warfighter-mobility-and-stability-program/":
   eyebrow: Our Services
   lead: Restore movement quality, joint health, and foundational strength with a tactical mobility-focused plan.
-  background_image: /wp-content/uploads/2025/08/modern-warfighter-stability-mobility.webp
+  background_image: /assets/images/2025/08/modern-warfighter-stability-mobility.webp
   primary_button_text: Get the Program
   primary_button_url: https://marketplace.trainheroic.com/workout-plan/program/athlete-strength-program-1738374791?attrib=260991-aff-operationantifragile
   primary_button_external: true
@@ -38,7 +38,7 @@
 "/old-bull-captains-coaches/":
   eyebrow: Our Services
   lead: Leadership-forward training that helps busy coaches and captains stay strong, prepared, and accountable.
-  background_image: /wp-content/uploads/2025/09/old-bull-training.webp
+  background_image: /assets/images/2025/09/old-bull-training.webp
   primary_button_text: Join the Team
   primary_button_url: https://marketplace.trainheroic.com/workout-plan/team/old-bull
   primary_button_external: true
@@ -47,7 +47,7 @@
 "/liftlab-app/":
   eyebrow: Our Services
   lead: Precision training powered by AI, camera tech, and adaptive programming built for smarter strength work.
-  background_image: /wp-content/uploads/2025/08/lift-lab-app.webp
+  background_image: /assets/images/2025/08/lift-lab-app.webp
   primary_button_text: LiftLab App (iOS Only)
   primary_button_url: https://apps.apple.com/redeem?ctx=offercodes&id=6563138857&code=OAFMEMBERS
   primary_button_external: true
@@ -56,16 +56,16 @@
 "/nutrition-health/":
   eyebrow: Our Services
   lead: Fuel recovery, clarity, and consistent performance with practical nutrition guidance for high-stress lives.
-  background_image: /wp-content/uploads/2024/01/img-14.png
+  background_image: /assets/images/2024/01/img-14.png
   primary_button_text: Discover Better Nutrition
-  primary_button_url: /wp-content/uploads/2024/12/Nutrition-Protocol-Anti-Fragile.pdf
+  primary_button_url: /assets/images/2024/12/Nutrition-Protocol-Anti-Fragile.pdf
   primary_button_newtab: true
   hide_legacy_intro: true
 
 "/mental-fortitude/":
   eyebrow: Our Services
   lead: Develop practical tools for resilience, nervous-system regulation, and clear thinking under pressure.
-  background_image: /wp-content/uploads/2024/12/mental-conditioning.jpg
+  background_image: /assets/images/2024/12/mental-conditioning.jpg
   primary_button_text: Insight Timer
   primary_button_url: https://insig.ht/sJuw8Ivuc5b
   primary_button_external: true
@@ -75,31 +75,31 @@
   eyebrow: Field Notes
   title_html: Our Blog
   lead: Articles, recovery insights, and training notes from Operation Antifragile.
-  background_image: /wp-content/uploads/bg-14.png
+  background_image: /assets/images/bg-14.png
 
 "/contact-us/":
   eyebrow: Contact
   title_html: "Contact <span>Us</span>"
   lead: Reach Operation Antifragile through the details below, or use the live form workflow for active inquiries.
-  background_image: /wp-content/uploads/bg-13.png
+  background_image: /assets/images/bg-13.png
 
 "/privacy-policy/":
   eyebrow: Legal
   lead: Learn how this static site handles analytics, external links, and personal information.
-  background_image: /wp-content/uploads/bg-13.png
+  background_image: /assets/images/bg-13.png
 
 "/disclaimer/":
   eyebrow: Legal
   lead: Important context about educational content, external services, and crisis support.
-  background_image: /wp-content/uploads/bg-13.png
+  background_image: /assets/images/bg-13.png
 
 "/site-map/":
   eyebrow: Explore
   title_html: "Site <span>Map</span>"
   lead: Browse the current pages and articles published on the Operation Antifragile site.
-  background_image: /wp-content/uploads/bg-13.png
+  background_image: /assets/images/bg-13.png
 
 "/thank-you/":
   eyebrow: Contact
   lead: Thanks for reaching out. Use the links below if you need to keep moving.
-  background_image: /wp-content/uploads/bg-13.png
+  background_image: /assets/images/bg-13.png

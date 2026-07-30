@@ -10,7 +10,7 @@ categories:
 tags:
 - first responder
 - mental fortitiude
-featured_image: /wp-content/uploads/PXL_20210717_171810716.MP_-scaled.jpg
+featured_image: /assets/images/PXL_20210717_171810716.MP_-scaled.jpg
 description: I couldn’t sleep.
 author: Matt Spaid
 breadcrumbs: true

@@ -11,7 +11,7 @@ tags:
 - fightorflight
 - first responder
 - mental fortitiude
-featured_image: /wp-content/uploads/lifting-face-scaled.jpg
+featured_image: /assets/images/lifting-face-scaled.jpg
 description: Lately we’ve been emphasizing the parasympathetic nervous system with
   breathwork, recovery, and learning to downshift. Veterans and first responders often
   op...

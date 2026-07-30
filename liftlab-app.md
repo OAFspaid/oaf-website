@@ -6,7 +6,7 @@ description: "Explore LiftLab’s AI-guided, camera-powered strength training pl
 hero_kicker: "Our Services"
 hero_title: "LiftLab: Leverage the Latest in AI and Bionic Vision Camera Technologies"
 breadcrumbs: true
-featured_image: "/wp-content/uploads/2025/08/lift-lab-app.webp"
+featured_image: "/assets/images/2025/08/lift-lab-app.webp"
 featured-image-alt: "LiftLab camera-based training app"
 cta-text: "LiftLab App (iOS Only)"
 cta-url: "https://apps.apple.com/redeem?ctx=offercodes&id=6563138857&code=OAFMEMBERS"
@@ -28,8 +28,8 @@ cta-url: "https://apps.apple.com/redeem?ctx=offercodes&id=6563138857&code=OAFMEM
   <div class="section-content">
     <h2>LiftLab in Action</h2>
     <div class="post-grid" role="list">
-      <figure class="post-card" role="listitem"><div class="post-card__media"><video controls preload="metadata" poster="{{ site.baseurl }}/wp-content/uploads/2025/09/liftlab-poster2.webp"><source src="{{ site.baseurl }}/wp-content/uploads/2025/09/Benching.mov" type="video/quicktime"></video></div></figure>
-      <figure class="post-card" role="listitem"><div class="post-card__media"><video controls preload="metadata" poster="{{ site.baseurl }}/wp-content/uploads/2025/09/liftlab-poster.webp"><source src="{{ site.baseurl }}/wp-content/uploads/2025/09/SquatwithChains.mov" type="video/quicktime"></video></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><video controls preload="metadata" poster="{{ site.baseurl }}/assets/images/2025/09/liftlab-poster2.webp"><source src="{{ site.baseurl }}/assets/images/2025/09/Benching.mov" type="video/quicktime"></video></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><video controls preload="metadata" poster="{{ site.baseurl }}/assets/images/2025/09/liftlab-poster.webp"><source src="{{ site.baseurl }}/assets/images/2025/09/SquatwithChains.mov" type="video/quicktime"></video></div></figure>
     </div>
   </div>
 </section>
@@ -38,10 +38,10 @@ cta-url: "https://apps.apple.com/redeem?ctx=offercodes&id=6563138857&code=OAFMEM
   <div class="section-content">
     <h2>Key Elements of LiftLab Training</h2>
     <div class="post-grid" role="list">
-      <article class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/4.png" alt="LiftLab hyper-personalization illustration"></div><div class="post-card__body"><h3>Why LiftLab?</h3><p>LiftLab is built around hyper-personalization. It uses real-time feedback, advanced analytics, and programming tailored to your adaptation capabilities so training matches how you are actually performing.</p></div></article>
-      <article class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/3.png" alt="LiftLab technology illustration"></div><div class="post-card__body"><h3>Why Is LiftLab Different?</h3><p>Smart programming adapts to your fatigue, recovery, sleep, and stress. Velocity-based training helps you hit the right intensity every session, and built-in AI form tracking helps every rep count while reducing injury risk.</p></div></article>
-      <article class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/2.png" alt="LiftLab innovation illustration"></div><div class="post-card__body"><h3>Simplicity Meets Innovation</h3><p>LiftLab adapts as you progress so you can chase your goals without guessing whether you’re on the right path. No more guessing—just smarter, more consistent progress.</p></div></article>
-      <article class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/1.png" alt="LiftLab exercise library illustration"></div><div class="post-card__body"><h3>Full Exercise Library</h3><p>The app includes a comprehensive exercise library with high-quality demo videos and expert cues for every movement in your program so you can train with confidence and precision.</p></div></article>
+      <article class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2025/08/4.png" alt="LiftLab hyper-personalization illustration"></div><div class="post-card__body"><h3>Why LiftLab?</h3><p>LiftLab is built around hyper-personalization. It uses real-time feedback, advanced analytics, and programming tailored to your adaptation capabilities so training matches how you are actually performing.</p></div></article>
+      <article class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2025/08/3.png" alt="LiftLab technology illustration"></div><div class="post-card__body"><h3>Why Is LiftLab Different?</h3><p>Smart programming adapts to your fatigue, recovery, sleep, and stress. Velocity-based training helps you hit the right intensity every session, and built-in AI form tracking helps every rep count while reducing injury risk.</p></div></article>
+      <article class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2025/08/2.png" alt="LiftLab innovation illustration"></div><div class="post-card__body"><h3>Simplicity Meets Innovation</h3><p>LiftLab adapts as you progress so you can chase your goals without guessing whether you’re on the right path. No more guessing—just smarter, more consistent progress.</p></div></article>
+      <article class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2025/08/1.png" alt="LiftLab exercise library illustration"></div><div class="post-card__body"><h3>Full Exercise Library</h3><p>The app includes a comprehensive exercise library with high-quality demo videos and expert cues for every movement in your program so you can train with confidence and precision.</p></div></article>
     </div>
   </div>
 </section>
@@ -50,11 +50,11 @@ cta-url: "https://apps.apple.com/redeem?ctx=offercodes&id=6563138857&code=OAFMEM
   <div class="section-content">
     <h2>App Gallery</h2>
     <div class="post-grid" role="list">
-      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/lift-lab-app.webp" alt="LiftLab camera"></div></figure>
-      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/lift-lab-app-functionality.webp" alt="LiftLab AI technology"></div></figure>
-      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/lift-lab-biometrics.webp" alt="LiftLab biometrics"></div></figure>
-      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/lift-lab-app-dashboard.webp" alt="LiftLab app dashboard"></div></figure>
-      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/wp-content/uploads/2025/08/lift-lab-technology.webp" alt="LiftLab technology interface"></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2025/08/lift-lab-app.webp" alt="LiftLab camera"></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2025/08/lift-lab-app-functionality.webp" alt="LiftLab AI technology"></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2025/08/lift-lab-biometrics.webp" alt="LiftLab biometrics"></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2025/08/lift-lab-app-dashboard.webp" alt="LiftLab app dashboard"></div></figure>
+      <figure class="post-card" role="listitem"><div class="post-card__media"><img src="{{ site.baseurl }}/assets/images/2025/08/lift-lab-technology.webp" alt="LiftLab technology interface"></div></figure>
     </div>
   </div>
 </section>

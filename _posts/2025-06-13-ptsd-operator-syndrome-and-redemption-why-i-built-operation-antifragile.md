@@ -9,7 +9,7 @@ categories:
 - Fortitude
 tags:
 - first responder
-featured_image: /wp-content/uploads/2024-01-19.jpg
+featured_image: /assets/images/2024-01-19.jpg
 description: I served as an 0311 rifleman in the Marine Corps with 3rd Battalion,
   4th Marines. I deployed to both Iraq and Afghanistan—to Al-Anbar Province and later
   to H...

@@ -7,7 +7,7 @@ slug: restoring-the-system-how-pemf-therapy-can-help-veterans-and-first-responde
 permalink: /restoring-the-system-how-pemf-therapy-can-help-veterans-and-first-responders-heal-from-chronic-stress-pain-and-nervous-system-overload/
 categories: []
 tags: []
-featured_image: /wp-content/uploads/Random-Posts.png
+featured_image: /assets/images/Random-Posts.png
 description: 'By: Matt Spaid'
 author: Matt Spaid
 breadcrumbs: true

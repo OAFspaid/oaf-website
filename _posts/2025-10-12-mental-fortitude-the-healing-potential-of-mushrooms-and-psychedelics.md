@@ -11,7 +11,7 @@ tags:
 - first responder
 - functional mushrooms
 - mental fortitiude
-featured_image: /wp-content/uploads/Brain-Amidst-the-Woodland-Mist.png
+featured_image: /assets/images/Brain-Amidst-the-Woodland-Mist.png
 description: 'By: Matt Spaid'
 author: Matt Spaid
 breadcrumbs: true

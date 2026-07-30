@@ -6,7 +6,7 @@ description: "Restore movement quality, joint health, and resilient performance 
 hero_kicker: "Our Services"
 hero_title: "Modern Athlete Warfighter: Mobility and Stability Program"
 breadcrumbs: true
-featured_image: "/wp-content/uploads/2025/08/modern-warfighter-stability-mobility.webp"
+featured_image: "/assets/images/2025/08/modern-warfighter-stability-mobility.webp"
 featured-image-alt: "Stability and mobility training session"
 cta-text: "Modern Athlete Warfighter: Mobility & Stability Program"
 cta-url: "https://www.skool.com/operation-antifragile-6824/about"

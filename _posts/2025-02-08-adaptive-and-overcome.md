@@ -9,7 +9,7 @@ categories:
 - Adaptive Training
 - Strength
 tags: []
-featured_image: /wp-content/uploads/adaptive-and-overcome.jpg
+featured_image: /assets/images/adaptive-and-overcome.jpg
 description: Coaches – it’s time to broaden your horizons. There is a strong need
   for good coaches in the adaptive athlete realm, but finding a coach familiar with
   the be...

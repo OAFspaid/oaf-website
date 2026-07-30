@@ -6,7 +6,7 @@ description: "Access the Modern Athlete Strength Systems Warfighter program thro
 hero_kicker: "Our Services"
 hero_title: "Modern Athlete Strength Systems: Warfighter Program"
 breadcrumbs: true
-featured_image: "/wp-content/uploads/2025/08/modern-athlete-program-training.webp"
+featured_image: "/assets/images/2025/08/modern-athlete-program-training.webp"
 featured-image-alt: "Modern Athlete Warfighter training"
 cta-text: "Discover Training Designed for You"
 cta-url: "https://www.skool.com/operation-antifragile-6824/about"

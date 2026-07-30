@@ -8,7 +8,7 @@ categories:
 - Fortitude
 - Mindset
 tags: []
-featured_image: /wp-content/uploads/MattGymEdits2024-16-scaled.jpg
+featured_image: /assets/images/MattGymEdits2024-16-scaled.jpg
 description: 'Mindfulness in Motion: Turning Everyday Tasks into Meditation'
 author: Matt Spaid
 breadcrumbs: true

@@ -8,7 +8,7 @@ categories:
 - Nutrition
 - Mindset
 tags: []
-featured_image: /wp-content/uploads/steak-and-eggs.jpg
+featured_image: /assets/images/steak-and-eggs.jpg
 description: When it comes to building true mental fortitude, nutrition is one of
   the most overlooked—but most powerful—tools. The brain doesn’t just respond to stress;
   i...

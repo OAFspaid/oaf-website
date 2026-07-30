@@ -10,7 +10,7 @@ tags:
 - antifragile
 - first responder
 - mental fortitiude
-featured_image: /wp-content/uploads/FB_IMG_1770078607368.jpg
+featured_image: /assets/images/FB_IMG_1770078607368.jpg
 description: 'By: Matt Spaid'
 author: Matt Spaid
 breadcrumbs: true

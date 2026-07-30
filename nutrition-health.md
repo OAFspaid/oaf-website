@@ -6,10 +6,10 @@ description: "Fuel strength, resilience, recovery, and long-term health with Ope
 hero_kicker: "Our Services"
 hero_title: "Nutrition & Health Support at Operation Antifragile: Fueling Strength and Resilience"
 breadcrumbs: true
-featured_image: "/wp-content/uploads/2024/01/img-14.png"
+featured_image: "/assets/images/2024/01/img-14.png"
 featured-image-alt: "Nutrition and health support"
 cta-text: "Download the Free eBook"
-cta-url: "/wp-content/uploads/2024/12/Nutrition-Protocol-Anti-Fragile.pdf"
+cta-url: "/assets/images/2024/12/Nutrition-Protocol-Anti-Fragile.pdf"
 ---
 
 <section class="content-section">

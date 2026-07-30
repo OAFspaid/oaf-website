@@ -11,7 +11,7 @@ tags:
 - antifragile
 - first responder
 - mental fortitiude
-featured_image: /wp-content/uploads/2024-01-19-4.jpg
+featured_image: /assets/images/2024-01-19-4.jpg
 description: By Matt Spaid, Founder of Operation Antifragile
 author: Matt Spaid
 breadcrumbs: true

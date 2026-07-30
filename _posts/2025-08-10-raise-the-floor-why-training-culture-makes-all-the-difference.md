@@ -12,7 +12,7 @@ categories:
 tags:
 - first responder
 - mental fortitiude
-featured_image: /wp-content/uploads/LegionsStrongestMatt-17-scaled.jpg
+featured_image: /assets/images/LegionsStrongestMatt-17-scaled.jpg
 description: I still remember everything very clearly. We had just pulled up to a
   wreck, where a garbage truck had crushed a patrol car. Officer trapped inside. Agonal
   br...

@@ -6,7 +6,7 @@ description: "Build strength, endurance, mobility, and resilience with Operation
 hero_kicker: "Our Services"
 hero_title: "OAF Strength and Conditioning: Building Strength, Power, and Resilience"
 breadcrumbs: true
-featured_image: "/wp-content/uploads/2025/01/antifragile-training.jpg"
+featured_image: "/assets/images/2025/01/antifragile-training.jpg"
 featured-image-alt: "Operation Antifragile training session"
 cta-text: "Discover Physical Training Designed for You"
 cta-url: "https://www.skool.com/operation-antifragile-6824/about"

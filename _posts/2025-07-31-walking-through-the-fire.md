@@ -11,7 +11,7 @@ tags:
 - antifragile
 - first responder
 - mental fortitiude
-featured_image: /wp-content/uploads/1000005204-1.jpg
+featured_image: /assets/images/1000005204-1.jpg
 description: I’m forever grateful for my friend, Rev. Kris.
 author: Matt Spaid
 breadcrumbs: true
@@ -26,13 +26,13 @@ featured-image-alt: Walking Through the Fire
 
 
 
-<div class="wp-block-cover"><img fetchpriority="high" decoding="async" width="1024" height="957" class="wp-block-cover__image-background wp-image-343" alt="" src="{{ site.baseurl }}/wp-content/uploads/2025/07/1000005204-1.jpg" data-object-fit="cover" srcset="{{ site.baseurl }}/wp-content/uploads/2025/07/1000005204-1.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
+<div class="wp-block-cover"><img fetchpriority="high" decoding="async" width="1024" height="957" class="wp-block-cover__image-background wp-image-343" alt="" src="{{ site.baseurl }}/assets/images/2025/07/1000005204-1.jpg" data-object-fit="cover" srcset="{{ site.baseurl }}/assets/images/2025/07/1000005204-1.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container is-layout-flow wp-block-cover-is-layout-flow">
 <p class="has-text-align-center has-large-font-size wp-block-paragraph"></p>
 </div></div>
 
 
 
-<figure class="wp-block-image size-large"><img decoding="async" width="768" height="1024" src="{{ site.baseurl }}/wp-content/uploads/2025/07/20250730_141514-scaled.jpg" alt="" class="wp-image-341" srcset="{{ site.baseurl }}/wp-content/uploads/2025/07/20250730_141514-scaled.jpg 1536w" sizes="(max-width: 768px) 100vw, 768px" /></figure>
+<figure class="wp-block-image size-large"><img decoding="async" width="768" height="1024" src="{{ site.baseurl }}/assets/images/2025/07/20250730_141514-scaled.jpg" alt="" class="wp-image-341" srcset="{{ site.baseurl }}/assets/images/2025/07/20250730_141514-scaled.jpg 1536w" sizes="(max-width: 768px) 100vw, 768px" /></figure>
 
 
 

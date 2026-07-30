@@ -18,25 +18,25 @@ focus:
   button_text: Join Us on Skool
   button_url: https://www.skool.com/operation-antifragile-6824/about
   button_external: true
-  background_image: /wp-content/uploads/bg-2.png
+  background_image: /assets/images/bg-2.png
 
 pillars_title: The Four Pillars
 pillars:
   - title: "Strength<br>Training"
     url: /physical-training/
-    image: /wp-content/uploads/2024/12/strategic-strength-training.png
+    image: /assets/images/2024/12/strategic-strength-training.png
     image_alt: Strength training program
   - title: "Mental<br>Fortitude"
     url: /mental-fortitude/
-    image: /wp-content/uploads/2024/12/mental-fortitude.png
+    image: /assets/images/2024/12/mental-fortitude.png
     image_alt: Mental fortitude training
   - title: "Mobility<br>Support"
     url: /modern-athlete-warfighter-mobility-and-stability-program/
-    image: /wp-content/uploads/2024/01/img-3.png
+    image: /assets/images/2024/01/img-3.png
     image_alt: Mobility support program
   - title: "Nutrition &amp;<br>Health Support"
     url: /nutrition-health/
-    image: /wp-content/uploads/2025/01/nutrition-training-program.png
+    image: /assets/images/2025/01/nutrition-training-program.png
     image_alt: Nutrition and health support
 
 testimonials:

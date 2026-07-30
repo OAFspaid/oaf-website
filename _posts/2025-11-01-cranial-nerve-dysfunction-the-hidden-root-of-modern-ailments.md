@@ -6,7 +6,7 @@ slug: cranial-nerve-dysfunction-the-hidden-root-of-modern-ailments
 permalink: /cranial-nerve-dysfunction-the-hidden-root-of-modern-ailments/
 categories: []
 tags: []
-featured_image: /wp-content/uploads/Copy-of-OAF-Posts-1-1.png
+featured_image: /assets/images/Copy-of-OAF-Posts-1-1.png
 description: 'By: Matt Spaid'
 author: Matt Spaid
 breadcrumbs: true

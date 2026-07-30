@@ -8,7 +8,7 @@ categories:
 - Power Athlete
 - Strength
 tags: []
-featured_image: /wp-content/uploads/firefighters-are-not-body-builders.jpg
+featured_image: /assets/images/firefighters-are-not-body-builders.jpg
 description: 'While some bodybuilders may happen to be firefighters, the inverse is
   nowhere close to true: not all firefighters are bodybuilders. But, should firefighters
   ...'

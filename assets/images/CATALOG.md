@@ -119,8 +119,8 @@ semantic matching (what each image shows, embedded text, and where it could be u
 
 | Current placeholder (AI/generic) | Where | Suggested real photo |
 |---|---|---|
-| `wp-content/uploads/2024/01/img-6.png` (veteran support) | About → Who We Serve | **6356.jpg** or **6359.jpg** |
-| `wp-content/uploads/2024/01/img-7.png` (first responder support) | About → Who We Serve | **6357.jpg** |
+| `assets/images/2024/01/img-6.png` (veteran support) | About → Who We Serve | **6356.jpg** or **6359.jpg** |
+| `assets/images/2024/01/img-7.png` (first responder support) | About → Who We Serve | **6357.jpg** |
 | Pillar / hero background (AI) | Home hero, section banners | **6358.jpg** (wide 16:9) |
 | "Our Story" / founders imagery | About → Our Story | **6356.jpg** / **6357.jpg** |
 

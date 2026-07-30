@@ -11,7 +11,7 @@ categories:
 - Mindset
 - Strength
 tags: []
-featured_image: /wp-content/uploads/SUP4PTSD.png
+featured_image: /assets/images/SUP4PTSD.png
 description: This paddle was personal.
 author: Matt Spaid
 breadcrumbs: true

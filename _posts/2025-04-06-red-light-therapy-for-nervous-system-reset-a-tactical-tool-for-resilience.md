@@ -8,7 +8,7 @@ categories: []
 tags:
 - antifragile
 - mental fortitiude
-featured_image: /wp-content/uploads/Red-Light-Therapy-for-Nerve-Regeneration.png
+featured_image: /assets/images/Red-Light-Therapy-for-Nerve-Regeneration.png
 description: 'By Matt Spaid | #MentalFortitudeMonday'
 author: Matt Spaid
 breadcrumbs: true

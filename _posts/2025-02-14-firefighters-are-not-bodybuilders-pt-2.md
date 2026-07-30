@@ -8,7 +8,7 @@ categories:
 - Power Athlete
 - Strength
 tags: []
-featured_image: /wp-content/uploads/firefighters-are-not-bodybuilders-pt-2.jpg
+featured_image: /assets/images/firefighters-are-not-bodybuilders-pt-2.jpg
 description: In our first article, we discussed how time is of the essence for firefighters,
   and that their ability to perform like an athlete is a key part of the job. P...
 author: Matt Spaid

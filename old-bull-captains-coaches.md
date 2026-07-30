@@ -6,7 +6,7 @@ description: "Train with purpose through the Old Bull program and support Operat
 hero_kicker: "Our Services"
 hero_title: "Old Bull Captains & Coaches Training Program"
 breadcrumbs: true
-featured_image: "/wp-content/uploads/2025/09/old-bull-training.webp"
+featured_image: "/assets/images/2025/09/old-bull-training.webp"
 featured-image-alt: "Old Bull training program"
 cta-text: "Discover Training Designed for You"
 cta-url: "https://www.skool.com/operation-antifragile-6824/about"

@@ -8,7 +8,7 @@ categories:
 - Fortitude
 - supplements
 tags: []
-featured_image: /wp-content/uploads/creatine-image.jpg
+featured_image: /assets/images/creatine-image.jpg
 description: For tactical professionals, sleep deprivation isn’t a possibility—it’s
   a certainty. Whether you’re a firefighter on a 24-hour shift, a first responder
   answer...
