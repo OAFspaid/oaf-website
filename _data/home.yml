@@ -39,6 +39,15 @@ pillars:
     image: /wp-content/uploads/2025/01/nutrition-training-program.png
     image_alt: Nutrition and health support
 
+testimonials:
+  title: Hear It From Our Community
+  lead: "Real stories from the veterans and first responders living the mission."
+  youtube_id: VpzT82-HQIs
+  youtube_list: PLWcb0B1Zioy8
+  video_title: Operation Antifragile testimonials
+  button_text: More on YouTube
+  button_url: https://www.youtube.com/@OperationAntifragileTraining
+
 progress:
   title: No Shortcuts, Only Progress
   text: "We’re clear about one thing: There are no shortcuts. Our program provides the tools and guidance you need to become <strong>stronger under stress</strong>. You will train. You will work on your mental and physical health. You will become <strong>antifragile</strong>."

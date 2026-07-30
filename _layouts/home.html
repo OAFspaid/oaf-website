@@ -55,6 +55,27 @@ layout: default
   </div>
 </section>
 
+{% if home.testimonials %}
+<section class="section-band section-band--warm">
+  <div class="section-shell section-shell--narrow">
+    <div class="section-heading section-heading--center">
+      <h2>{{ home.testimonials.title }}</h2>
+      {% if home.testimonials.lead %}<p class="section-heading__lead">{{ home.testimonials.lead }}</p>{% endif %}
+    </div>
+    {% include youtube.html
+      id=home.testimonials.youtube_id
+      list=home.testimonials.youtube_list
+      title=home.testimonials.video_title
+    %}
+    {% if home.testimonials.button_url %}
+    <div class="section-heading--center" style="margin-top: 2rem;">
+      <a class="button" href="{{ home.testimonials.button_url }}" target="_blank" rel="noopener noreferrer">{{ home.testimonials.button_text }}</a>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
 <section class="section-band section-band--dark">
   <div class="section-shell">
     {% include cta-panel.html

@@ -17,6 +17,14 @@ cta-url: "/contact-us/"
     <p>At Antifragile, we know that physical strength is only part of the equation. To truly thrive under pressure, you need to develop the mental resilience to stay focused, calm, and determined in the face of challenges. That’s where our mental fortitude training comes in. Whether you’re a veteran transitioning to civilian life or a first responder managing the constant demands of your job, mental toughness is essential for success and well-being.</p>
     <p>Our mental fortitude training focuses on practical techniques to help you sharpen your mind and regulate your body’s stress response. We aim to equip you with the skills to face adversity head-on, while maintaining mental clarity and emotional balance.</p>
     <p><a class="btn btn-secondary" href="https://insig.ht/sJuw8Ivuc5b" target="_blank" rel="noopener">Insight Timer Meditation App</a></p>
+    <figure class="media-promo" style="text-align:center;margin:1.75rem 0 0;">
+      <a href="https://getmypemf.com/" target="_blank" rel="noopener">
+        <img src="{{ site.baseurl }}/assets/images/6353.png" alt="Pain is a power problem — PEMF recovery restores cellular signaling for better healing. Schedule a device discussion with Operation Antifragile." style="max-width:420px;width:100%;height:auto;border-radius:10px;">
+      </a>
+      <figcaption style="margin-top:0.9rem;">
+        <a class="btn btn-secondary" href="https://getmypemf.com/" target="_blank" rel="noopener">Explore PEMF Recovery</a>
+      </figcaption>
+    </figure>
   </div>
 </section>
 

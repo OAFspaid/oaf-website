@@ -1,0 +1,17 @@
+{%- comment -%}
+Responsive, privacy-friendly YouTube embed.
+Params:
+  id     (required) — video ID, e.g. "VpzT82-HQIs"
+  list   (optional) — playlist ID, e.g. "PLWcb0B1Zioy8"
+  title  (optional) — accessible iframe title
+{%- endcomment -%}
+{%- assign yt_title = include.title | default: "YouTube video player" -%}
+<div class="video-embed">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/{{ include.id }}{% if include.list %}?list={{ include.list }}{% endif %}"
+    title="{{ yt_title | escape }}"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen></iframe>
+</div>
