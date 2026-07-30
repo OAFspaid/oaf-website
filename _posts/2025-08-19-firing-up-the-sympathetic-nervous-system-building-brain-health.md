@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "Firing Up the Nervous System & Building Brain Health"
 date: 2025-08-19 17:38:26 -0500
-slug: firing-up-the-sympathetic-nervous-system-building-brain-health
-permalink: /firing-up-the-sympathetic-nervous-system-building-brain-health/
 categories:
 - Fortitude
 - Mindset
@@ -14,7 +11,6 @@ tags:
 featured_image: /assets/images/lifting-face-scaled.jpg
 description: "Lately we’ve been emphasizing the parasympathetic nervous system with breathwork, recovery, and learning to downshift. Veterans and first responders often operate in sympathetic overdrive, and the"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: Firing Up the Sympathetic Nervous System & Building Brain Health
 ---
 

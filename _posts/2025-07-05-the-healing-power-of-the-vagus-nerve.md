@@ -1,15 +1,11 @@
 ---
-layout: post
 title: The Healing Power of the Vagus Nerve
 date: 2025-07-05 18:38:27 -0500
-slug: the-healing-power-of-the-vagus-nerve
-permalink: /the-healing-power-of-the-vagus-nerve/
 categories: []
 tags: []
 featured_image: /assets/images/MentalFortitude.png
 description: "There’s a powerful nerve running through your body that influences almost every major system—yet it’s often overlooked in traditional medicine and even functional health circles. It’s called the"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: The Healing Power of the Vagus Nerve
 ---
 

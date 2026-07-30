@@ -1,9 +1,6 @@
 ---
-layout: post
 title: 'Move the Dirt: The Power of Daily Effort'
 date: 2025-02-22 18:28:43 -0500
-slug: move-the-dirt-the-power-of-daily-effort
-permalink: /move-the-dirt-the-power-of-daily-effort/
 categories:
 - Power Athlete
 - Mindset
@@ -11,7 +8,6 @@ tags: []
 featured_image: /assets/images/move-the-dirt-the-power-of-daily-effort.jpg
 description: "The tactical population tends to have a more challenging schedule when it comes to making time for your strength training. Some jobs require long hours, days, weeks, or even months, where you won’t"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: 'Move the Dirt: The Power of Daily Effort'
 ---
 

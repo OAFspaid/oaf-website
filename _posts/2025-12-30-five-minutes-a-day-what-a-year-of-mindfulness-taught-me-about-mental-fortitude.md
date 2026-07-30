@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "Five Minutes a Day: A Year of Mindfulness"
 date: 2025-12-30 15:53:35 -0500
-slug: five-minutes-a-day-what-a-year-of-mindfulness-taught-me-about-mental-fortitude
-permalink: /five-minutes-a-day-what-a-year-of-mindfulness-taught-me-about-mental-fortitude/
 categories: []
 tags:
 - first responder
@@ -12,7 +9,6 @@ tags:
 featured_image: /assets/images/Copy-of-OAF-Posts-1-1.png
 description: "For the past year, I committed to performing at least five minutes of mindfulness every single day. No matter how busy, stressed, tired, or distracted I felt, I made space for it. This practice"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: 'Five Minutes a Day: What a Year of Mindfulness Taught Me About
   Mental Fortitude'
 ---

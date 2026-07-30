@@ -1,15 +1,11 @@
 ---
-layout: post
 title: 'Cranial Nerve Dysfunction: The Hidden Root of Modern Ailments'
 date: 2025-11-01 15:10:07 -0500
-slug: cranial-nerve-dysfunction-the-hidden-root-of-modern-ailments
-permalink: /cranial-nerve-dysfunction-the-hidden-root-of-modern-ailments/
 categories: []
 tags: []
 featured_image: /assets/images/Copy-of-OAF-Posts-1-1.png
 description: "In our modern world, a disconnect often exists between our minds and bodies. While humans are inherently designed for survival, these crucial survival signals can become disrupted. This disruption"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: 'Cranial Nerve Dysfunction: The Hidden Root of Modern Ailments'
 ---
 

@@ -1,9 +1,6 @@
 ---
-layout: post
 title: The Night I Quit the Fire Department
 date: 2025-07-13 13:35:31 -0500
-slug: the-night-i-quit-the-fire-department
-permalink: /the-night-i-quit-the-fire-department/
 categories:
 - Fortitude
 - Mindset
@@ -13,7 +10,6 @@ tags:
 featured_image: /assets/images/PXL_20210717_171810716.MP_-scaled.jpg
 description: "Someone I once considered a brother had hurt me — deeply — and it triggered something raw in my nervous system. Disrespectful comments about my service put me in a rage and I saw red. I found myself"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: The Night I Quit the Fire Department
 ---
 

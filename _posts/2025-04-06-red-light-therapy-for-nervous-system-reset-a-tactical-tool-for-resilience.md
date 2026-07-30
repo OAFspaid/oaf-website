@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "Red Light Therapy: A Nervous System Reset"
 date: 2025-04-06 16:09:45 -0500
-slug: red-light-therapy-for-nervous-system-reset-a-tactical-tool-for-resilience
-permalink: /red-light-therapy-for-nervous-system-reset-a-tactical-tool-for-resilience/
 categories: []
 tags:
 - antifragile
@@ -11,7 +8,6 @@ tags:
 featured_image: /assets/images/Red-Light-Therapy-for-Nerve-Regeneration.png
 description: "For veterans, first responders, and tactical professionals, prolonged exposure to stress becomes part of the job. Over time, that stress can leave your nervous system in a constant state of"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: 'Red Light Therapy for Nervous System Reset: A Tactical Tool for
   Resilience'
 ---

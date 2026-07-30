@@ -1,9 +1,6 @@
 ---
-layout: post
 title: Firefighters Are Not Body Builders pt 2
 date: 2025-02-14 18:46:01 -0500
-slug: firefighters-are-not-bodybuilders-pt-2
-permalink: /firefighters-are-not-bodybuilders-pt-2/
 categories:
 - Power Athlete
 - Strength
@@ -11,7 +8,6 @@ tags: []
 featured_image: /assets/images/firefighters-are-not-bodybuilders-pt-2.jpg
 description: "In our first article, we discussed how time is of the essence for firefighters, and that their ability to perform like an athlete is a key part of the job. Power Athlete defines athleticism as “The"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: Firefighters Are Not Body Builders pt 2
 ---
 

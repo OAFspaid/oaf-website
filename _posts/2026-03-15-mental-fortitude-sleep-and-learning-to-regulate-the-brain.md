@@ -1,15 +1,11 @@
 ---
-layout: post
 title: Mental Fortitude, Sleep, and Learning to Regulate the Brain
 date: 2026-03-15 18:52:37 -0500
-slug: mental-fortitude-sleep-and-learning-to-regulate-the-brain
-permalink: /mental-fortitude-sleep-and-learning-to-regulate-the-brain/
 categories: []
 tags: []
 featured_image: /assets/images/20260220_212418-scaled.jpg
 description: "Mental Fortitude isn’t pretending to be fine. Sometimes it starts with realizing that what you’ve called “normal” for years is actually a nervous system stuck in survival mode."
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: Mental Fortitude, Sleep, and Learning to Regulate the Brain
 ---
 

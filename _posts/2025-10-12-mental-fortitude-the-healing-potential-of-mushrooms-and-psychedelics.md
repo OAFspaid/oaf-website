@@ -1,9 +1,6 @@
 ---
-layout: post
 title: 'Mental Fortitude: The Healing Potential of Mushrooms'
 date: 2025-10-12 15:16:23 -0500
-slug: mental-fortitude-the-healing-potential-of-mushrooms-and-psychedelics
-permalink: /mental-fortitude-the-healing-potential-of-mushrooms-and-psychedelics/
 categories:
 - Fortitude
 - Mindset
@@ -14,7 +11,6 @@ tags:
 featured_image: /assets/images/Brain-Amidst-the-Woodland-Mist.png
 description: "Strength doesn’t just come from your muscles. Every lift, every contraction, every ounce of performance is a conversation between the brain and body. The nervous system significantly influences both"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: 'Mental Fortitude: The Healing Potential of Mushrooms'
 ---
 

@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "PTSD, Redemption & Why I Built Operation Antifragile"
 date: 2025-06-13 23:08:50 -0500
-slug: ptsd-operator-syndrome-and-redemption-why-i-built-operation-antifragile
-permalink: /ptsd-operator-syndrome-and-redemption-why-i-built-operation-antifragile/
 categories:
 - Mindset
 - Fortitude
@@ -12,7 +9,6 @@ tags:
 featured_image: /assets/images/2024-01-19.jpg
 description: "I served as an 0311 rifleman in the Marine Corps with 3rd Battalion, 4th Marines. I deployed to both Iraq and Afghanistan—to Al-Anbar Province and later to Helmand Province, specifically Now Zad, one"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: 'PTSD, Operator Syndrome, and Redemption: Why I Built Operation
   Antifragile'
 ---

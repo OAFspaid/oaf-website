@@ -1,9 +1,6 @@
 ---
-layout: post
 title: Brace Yourselves &#8211; Lifts are Coming
 date: 2025-02-02 19:15:52 -0500
-slug: brace-yourselves-lifts-are-coming
-permalink: /brace-yourselves-lifts-are-coming/
 categories:
 - Strength
 - Coaching
@@ -11,7 +8,6 @@ tags: []
 featured_image: /assets/images/brace-yourselves-lifts-are-coming.jpg
 description: "It’s time to obliterate the walls that are blocking you from peak performance. At Power Athlete, we want you to kick down the doors that are standing between you and your goals. That means you need"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: Brace Yourselves – Lifts are Coming
 ---
 

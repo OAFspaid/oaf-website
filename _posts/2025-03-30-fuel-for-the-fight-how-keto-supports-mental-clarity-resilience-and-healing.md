@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "Fuel for the Fight: How Keto Supports Mental Clarity"
 date: 2025-03-30 20:46:11 -0500
-slug: fuel-for-the-fight-how-keto-supports-mental-clarity-resilience-and-healing
-permalink: /fuel-for-the-fight-how-keto-supports-mental-clarity-resilience-and-healing/
 categories:
 - Nutrition
 - Mindset
@@ -11,7 +8,6 @@ tags: []
 featured_image: /assets/images/steak-and-eggs.jpg
 description: "When it comes to building true mental fortitude, nutrition is one of the most overlooked—but most powerful—tools. The brain doesn’t just respond to stress; it also responds to fuel. And for veterans,"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: 'Fuel for the Fight: How Keto Supports Mental Clarity, Resilience,
   and Healing'
 ---

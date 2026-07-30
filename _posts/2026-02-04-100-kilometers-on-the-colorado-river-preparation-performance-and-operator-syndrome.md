@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "100 Km on the Colorado River: Operator Syndrome"
 date: 2026-02-04 22:47:25 -0500
-slug: 100-kilometers-on-the-colorado-river-preparation-performance-and-operator-syndrome
-permalink: /100-kilometers-on-the-colorado-river-preparation-performance-and-operator-syndrome/
 categories: []
 tags:
 - antifragile
@@ -12,7 +9,6 @@ tags:
 featured_image: /assets/images/FB_IMG_1770078607368.jpg
 description: "This story does involve extremes, but not for the sake of drama."
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: '100 Kilometers on the Colorado River: Preparation, Performance,
   and Operator Syndrome'
 ---

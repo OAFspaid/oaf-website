@@ -1,9 +1,6 @@
 ---
-layout: post
 title: Combat Veteran ≠ Damaged Goods
 date: 2025-07-26 20:24:09 -0500
-slug: combat-veteran-%e2%89%a0-damaged-goods
-permalink: /combat-veteran-%e2%89%a0-damaged-goods/
 categories:
 - Leadership
 - Mindset
@@ -14,7 +11,6 @@ tags:
 featured_image: /assets/images/2024-01-19-4.jpg
 description: "There’s something that’s been weighing on me ever since I left my last fire department. I haven’t talked about it much, but I feel like I need to now. Not for drama, but for truth. Maybe there’s"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: Combat Veteran ≠ Damaged Goods
 ---
 

@@ -1,9 +1,6 @@
 ---
-layout: post
 title: "Taming the Monkey Mind: Mindfulness & Breathwork"
 date: 2025-03-22 21:27:50 -0500
-slug: taming-the-monkey-mind-the-power-of-mindfulness-and-breathwork
-permalink: /taming-the-monkey-mind-the-power-of-mindfulness-and-breathwork/
 categories:
 - Fortitude
 - Mindset
@@ -11,7 +8,6 @@ tags: []
 featured_image: /assets/images/bg-13.png
 description: "In the chaos of life—especially for those who have walked the warrior’s path—true stillness is rare. Your mind is like a monkey, leaping from thought to thought, scanning for threats, running"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: 'Taming the Monkey Mind: The Power of Mindfulness and Breathwork'
 ---
 

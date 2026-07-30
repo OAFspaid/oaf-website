@@ -1,15 +1,11 @@
 ---
-layout: post
 title: "Unlocking the Vagus Nerve: Healing & Resilience"
 date: 2025-07-19 12:20:22 -0500
-slug: unlocking-the-vagus-nerve-the-bodys-secret-path-to-healing-and-resilience
-permalink: /unlocking-the-vagus-nerve-the-bodys-secret-path-to-healing-and-resilience/
 categories: []
 tags: []
 featured_image: /assets/images/IMG_9556-scaled.jpg
 description: "The vagus nerve has become a bit of a buzzword lately. You’ve probably seen posts like: “Do THIS to stimulate your vagus nerve!” But… what does that actually mean?"
 author: Matt Spaid
-breadcrumbs: true
 featured-image-alt: 'Unlocking the Vagus Nerve: The Body’s Secret Path to Healing
   and Resilience'
 ---
