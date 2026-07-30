@@ -100,7 +100,7 @@ layout: default
       </div>
     </div>
     <div class="mission-block__actions">
-      <a class="button" href="{{ home.closing.button_url | relative_url }}">{{ home.closing.button_text }}</a>
+      <a class="button" href="{% if home.closing.button_external %}{{ home.closing.button_url }}{% else %}{{ home.closing.button_url | relative_url }}{% endif %}"{% if home.closing.button_external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ home.closing.button_text }}</a>
     </div>
   </div>
 </section>

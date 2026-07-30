@@ -60,4 +60,5 @@ closing:
     - "The journey from service back to civilian life, or finding balance between work and home as a first responder, can be overwhelming. Creating a routine that focuses on total health and wellness can be the key to strength, healing, and hope. Our programs are designed with you in mind—because we’ve walked that same path."
     - "Join us in this new mission. Let’s build positive, sustainable lifestyle habits that will not only help you manage the symptoms of <strong>Operator Syndrome</strong> but also empower you to live a life of resilience, strength, and purpose."
   button_text: Start Your Membership
-  button_url: /contact-us/
+  button_url: https://docs.google.com/forms/d/e/1FAIpQLSdne1leZ2mUm1HM76-DJGBgRpORtC2YUgVxLse6QUYmSBD98Q/viewform
+  button_external: true
