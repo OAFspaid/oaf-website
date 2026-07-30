@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Firing Up the Sympathetic Nervous System &amp; Building Brain Health
+title: "Firing Up the Nervous System & Building Brain Health"
 date: 2025-08-19 17:38:26 -0500
 slug: firing-up-the-sympathetic-nervous-system-building-brain-health
 permalink: /firing-up-the-sympathetic-nervous-system-building-brain-health/

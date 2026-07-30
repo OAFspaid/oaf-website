@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Fuel for the Fight: How Keto Supports Mental Clarity, Resilience, and Healing'
+title: "Fuel for the Fight: How Keto Supports Mental Clarity"
 date: 2025-03-30 20:46:11 -0500
 slug: fuel-for-the-fight-how-keto-supports-mental-clarity-resilience-and-healing
 permalink: /fuel-for-the-fight-how-keto-supports-mental-clarity-resilience-and-healing/

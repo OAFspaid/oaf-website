@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Taming the Monkey Mind: The Power of Mindfulness and Breathwork'
+title: "Taming the Monkey Mind: Mindfulness & Breathwork"
 date: 2025-03-22 21:27:50 -0500
 slug: taming-the-monkey-mind-the-power-of-mindfulness-and-breathwork
 permalink: /taming-the-monkey-mind-the-power-of-mindfulness-and-breathwork/

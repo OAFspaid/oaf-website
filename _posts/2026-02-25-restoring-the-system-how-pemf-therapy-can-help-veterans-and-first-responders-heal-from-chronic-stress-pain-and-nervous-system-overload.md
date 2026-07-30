@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 'Restoring the System: How PEMF Therapy Can Help Veterans and First Responders
-  Heal from Chronic Stress, Pain, and Nervous System Overload'
+title: "PEMF Therapy: Restoring an Overloaded Nervous System"
 date: 2026-02-25 17:45:51 -0500
 slug: restoring-the-system-how-pemf-therapy-can-help-veterans-and-first-responders-heal-from-chronic-stress-pain-and-nervous-system-overload
 permalink: /restoring-the-system-how-pemf-therapy-can-help-veterans-and-first-responders-heal-from-chronic-stress-pain-and-nervous-system-overload/

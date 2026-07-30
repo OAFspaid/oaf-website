@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Unlocking the Vagus Nerve: The Body’s Secret Path to Healing and Resilience'
+title: "Unlocking the Vagus Nerve: Healing & Resilience"
 date: 2025-07-19 12:20:22 -0500
 slug: unlocking-the-vagus-nerve-the-bodys-secret-path-to-healing-and-resilience
 permalink: /unlocking-the-vagus-nerve-the-bodys-secret-path-to-healing-and-resilience/

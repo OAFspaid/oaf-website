@@ -1,7 +1,6 @@
 ---
 layout: post
-title: '100 Kilometers on the Colorado River: Preparation, Performance, and Operator
-  Syndrome'
+title: "100 Km on the Colorado River: Operator Syndrome"
 date: 2026-02-04 22:47:25 -0500
 slug: 100-kilometers-on-the-colorado-river-preparation-performance-and-operator-syndrome
 permalink: /100-kilometers-on-the-colorado-river-preparation-performance-and-operator-syndrome/

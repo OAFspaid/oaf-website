@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Mental Fortitude: What Your Breath-Hold Reveals About Your Nervous System'
+title: "What Your Breath-Hold Reveals About Your Nervous System"
 date: 2025-11-16 14:42:05 -0500
 slug: mental-fortitude-what-your-breath-hold-reveals-about-your-nervous-system
 permalink: /mental-fortitude-what-your-breath-hold-reveals-about-your-nervous-system/

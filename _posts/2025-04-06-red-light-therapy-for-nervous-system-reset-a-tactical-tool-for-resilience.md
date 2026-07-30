@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Red Light Therapy for Nervous System Reset: A Tactical Tool for Resilience'
+title: "Red Light Therapy: A Nervous System Reset"
 date: 2025-04-06 16:09:45 -0500
 slug: red-light-therapy-for-nervous-system-reset-a-tactical-tool-for-resilience
 permalink: /red-light-therapy-for-nervous-system-reset-a-tactical-tool-for-resilience/

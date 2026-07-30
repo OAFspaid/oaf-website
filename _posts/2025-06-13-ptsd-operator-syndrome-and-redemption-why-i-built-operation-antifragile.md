@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'PTSD, Operator Syndrome, and Redemption: Why I Built Operation Antifragile'
+title: "PTSD, Redemption & Why I Built Operation Antifragile"
 date: 2025-06-13 23:08:50 -0500
 slug: ptsd-operator-syndrome-and-redemption-why-i-built-operation-antifragile
 permalink: /ptsd-operator-syndrome-and-redemption-why-i-built-operation-antifragile/

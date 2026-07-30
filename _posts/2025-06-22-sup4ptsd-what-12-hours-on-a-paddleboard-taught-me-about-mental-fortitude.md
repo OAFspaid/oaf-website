@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'SUP4PTSD: What 12 Hours on a Paddleboard Taught Me About Mental Fortitude'
+title: "SUP4PTSD: 12 Hours on a Paddleboard"
 date: 2025-06-22 15:11:15 -0500
 slug: sup4ptsd-what-12-hours-on-a-paddleboard-taught-me-about-mental-fortitude
 permalink: /sup4ptsd-what-12-hours-on-a-paddleboard-taught-me-about-mental-fortitude/

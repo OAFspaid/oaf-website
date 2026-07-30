@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Mental Fortitude Monday: Creatine – A Tactical Edge for Sleep-Deprived Operators'
+title: "Creatine: A Tactical Edge for Sleep-Deprived Operators"
 date: 2025-02-09 15:46:23 -0500
 slug: mental-fortitude-monday-creatine-a-tactical-edge-for-sleep-deprived-operators
 permalink: /mental-fortitude-monday-creatine-a-tactical-edge-for-sleep-deprived-operators/

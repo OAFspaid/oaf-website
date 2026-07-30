@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 'Master Your Inner State: Using Biofeedback and HRV to Regulate Your Nervous
-  System and Boost Mental Resilience'
+title: "Master Your Inner State: Biofeedback & HRV"
 date: 2025-06-08 17:36:51 -0500
 slug: master-your-inner-state-using-biofeedback-and-hrv-to-regulate-your-nervous-system-and-boost-mental-resilience
 permalink: /master-your-inner-state-using-biofeedback-and-hrv-to-regulate-your-nervous-system-and-boost-mental-resilience/
