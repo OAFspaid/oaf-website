@@ -3,7 +3,7 @@ hero:
   title_html: "A New Mission To Strengthen Our Veterans <span>&amp;</span> First Responders"
   primary_button_text: Become Antifragile
   primary_button_url: /contact-us/
-  background_image: /wp-content/uploads/2024/01/bg-1.png
+  background_image: /assets/images/5536.png
 
 intro:
   title: What is Antifragile
@@ -15,8 +15,8 @@ focus:
   eyebrow: Operation Antifragile
   title_html: "Helping you <br>become <br><span>Antifragile</span>"
   text: "There is no “easy” button here. At the Antifragile Foundation, we believe in a holistic, disciplined approach to health and wellness. You need to train hard, sleep well, and learn to downregulate your nervous system. Transitioning out of the military or balancing the intense demands of a first responder career can be difficult. That’s why we focus on four pillars of well-being:"
-  button_text: Train Heroic
-  button_url: https://marketplace.trainheroic.com/brand/operation-antifragile
+  button_text: Join Us on Skool
+  button_url: https://www.skool.com/operation-antifragile-6824/about
   button_external: true
   background_image: /wp-content/uploads/bg-2.png
 
@@ -42,7 +42,7 @@ pillars:
 progress:
   title: No Shortcuts, Only Progress
   text: "We’re clear about one thing: There are no shortcuts. Our program provides the tools and guidance you need to become <strong>stronger under stress</strong>. You will train. You will work on your mental and physical health. You will become <strong>antifragile</strong>."
-  button_text: About The Antifragile Foundation
+  button_text: About Operation Antifragile
   button_url: /about/
 
 closing:

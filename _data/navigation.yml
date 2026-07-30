@@ -6,6 +6,9 @@ main:
   - title: Our Services
     section: services
     children:
+      - title: Operation Antifragile on Skool
+        url: https://www.skool.com/operation-antifragile-6824/about
+        external: true
       - title: OAF Strength and Conditioning
         url: /physical-training/
       - title: Modern Athlete Warfighter Program

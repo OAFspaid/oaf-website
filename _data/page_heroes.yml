@@ -9,36 +9,48 @@
   eyebrow: Our Services
   lead: Strength, conditioning, mobility, and recovery guidance designed for tactical readiness and long-term resilience.
   background_image: /wp-content/uploads/2025/01/antifragile-training.jpg
-  primary_button_text: Train Heroic
-  primary_button_url: https://marketplace.trainheroic.com/brand/operation-antifragile
+  primary_button_text: Join Us on Skool
+  primary_button_url: https://www.skool.com/operation-antifragile-6824/about
   primary_button_external: true
+  secondary_button_text: TrainHeroic Programs
+  secondary_button_url: https://marketplace.trainheroic.com/brand/operation-antifragile
+  secondary_button_external: true
   hide_legacy_intro: true
 
 "/modern-athlete-warfighter-program/":
   eyebrow: Our Services
   lead: Performance-driven strength and conditioning for those committed to getting stronger under stress.
   background_image: /wp-content/uploads/2025/08/modern-athlete-program-training.webp
-  primary_button_text: Explore MASS Warfighter
-  primary_button_url: https://marketplace.trainheroic.com/workout-plan/team/modern-athlete-strength-solutions?attrib=260991-web
+  primary_button_text: Join Us on Skool
+  primary_button_url: https://www.skool.com/operation-antifragile-6824/about
   primary_button_external: true
+  secondary_button_text: Explore MASS Warfighter (TrainHeroic)
+  secondary_button_url: https://marketplace.trainheroic.com/workout-plan/team/modern-athlete-strength-solutions?attrib=260991-web
+  secondary_button_external: true
   hide_legacy_intro: true
 
 "/modern-athlete-warfighter-mobility-and-stability-program/":
   eyebrow: Our Services
   lead: Restore movement quality, joint health, and foundational strength with a tactical mobility-focused plan.
   background_image: /wp-content/uploads/2025/08/modern-warfighter-stability-mobility.webp
-  primary_button_text: View Mobility & Stability Program
-  primary_button_url: https://marketplace.trainheroic.com/workout-plan/program/athlete-strength-program-1738374791?attrib=260991-aff-operationantifragile
+  primary_button_text: Join Us on Skool
+  primary_button_url: https://www.skool.com/operation-antifragile-6824/about
   primary_button_external: true
+  secondary_button_text: View Mobility & Stability Program (TrainHeroic)
+  secondary_button_url: https://marketplace.trainheroic.com/workout-plan/program/athlete-strength-program-1738374791?attrib=260991-aff-operationantifragile
+  secondary_button_external: true
   hide_legacy_intro: true
 
 "/old-bull-captains-coaches/":
   eyebrow: Our Services
   lead: Leadership-forward training that helps busy coaches and captains stay strong, prepared, and accountable.
   background_image: /wp-content/uploads/2025/09/old-bull-training.webp
-  primary_button_text: Discover Old Bull
-  primary_button_url: https://marketplace.trainheroic.com/workout-plan/team/old-bull
+  primary_button_text: Join Us on Skool
+  primary_button_url: https://www.skool.com/operation-antifragile-6824/about
   primary_button_external: true
+  secondary_button_text: Discover Old Bull (TrainHeroic)
+  secondary_button_url: https://marketplace.trainheroic.com/workout-plan/team/old-bull
+  secondary_button_external: true
   hide_legacy_intro: true
 
 "/liftlab-app/":
