@@ -1,0 +1,54 @@
+hero:
+  eyebrow: Operation Antifragile
+  title_html: "A New Mission To Strengthen Our Veterans <span>&amp;</span> First Responders"
+  primary_button_text: Become Antifragile
+  primary_button_url: /contact-us/
+  background_image: /wp-content/uploads/2024/01/bg-1.png
+
+intro:
+  title: What is Antifragile
+  columns:
+    - "Life after the military or in the service as a first responder comes with a new set of challenges. That’s why we started the Antifragile Foundation—created by veterans and first responders for those who have dedicated their lives to serving others."
+    - "Our mission is simple: to help you become <strong>antifragile</strong>, gaining strength, resilience, and purpose in the face of stress and adversity."
+
+focus:
+  eyebrow: Operation Antifragile
+  title_html: "Helping you <br>become <br><span>Antifragile</span>"
+  text: "There is no “easy” button here. At the Antifragile Foundation, we believe in a holistic, disciplined approach to health and wellness. You need to train hard, sleep well, and learn to downregulate your nervous system. Transitioning out of the military or balancing the intense demands of a first responder career can be difficult. That’s why we focus on four pillars of well-being:"
+  button_text: Train Heroic
+  button_url: https://marketplace.trainheroic.com/brand/operation-antifragile
+  button_external: true
+  background_image: /wp-content/uploads/bg-2.png
+
+pillars_title: The Four Pillars
+pillars:
+  - title: "Strength<br>Training"
+    url: /physical-training/
+    image: /wp-content/uploads/2024/12/strategic-strength-training.png
+    image_alt: Strength training program
+  - title: "Mental<br>Fortitude"
+    url: /mental-fortitude/
+    image: /wp-content/uploads/2024/12/mental-fortitude.png
+    image_alt: Mental fortitude training
+  - title: "Mobility<br>Support"
+    url: /modern-athlete-warfighter-mobility-and-stability-program/
+    image: /wp-content/uploads/2024/01/img-3.png
+    image_alt: Mobility support program
+  - title: "Nutrition &amp;<br>Health Support"
+    url: /nutrition-health/
+    image: /wp-content/uploads/2025/01/nutrition-training-program.png
+    image_alt: Nutrition and health support
+
+progress:
+  title: No Shortcuts, Only Progress
+  text: "We’re clear about one thing: There are no shortcuts. Our program provides the tools and guidance you need to become <strong>stronger under stress</strong>. You will train. You will work on your mental and physical health. You will become <strong>antifragile</strong>."
+  button_text: About The Antifragile Foundation
+  button_url: /about/
+
+closing:
+  title: Designed by Veterans and First Responders, for Veterans and First Responders
+  paragraphs:
+    - "The journey from service back to civilian life, or finding balance between work and home as a first responder, can be overwhelming. Creating a routine that focuses on total health and wellness can be the key to strength, healing, and hope. Our programs are designed with you in mind—because we’ve walked that same path."
+    - "Join us in this new mission. Let’s build positive, sustainable lifestyle habits that will not only help you manage the symptoms of <strong>Operator Syndrome</strong> but also empower you to live a life of resilience, strength, and purpose."
+  button_text: Start Your Membership
+  button_url: /contact-us/

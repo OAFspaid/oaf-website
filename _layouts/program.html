@@ -1,0 +1,43 @@
+---
+layout: default
+---
+{% assign hero = site.data.page_heroes[page.url] %}
+{% assign hero_lead = hero.lead | default: page.description %}
+{% assign hero_eyebrow = hero.eyebrow | default: page.hero_kicker | default: page.hero-kicker %}
+{% assign hero_title_html = hero.title_html | default: page.hero_title | default: page.hero-title %}
+{% assign hero_background = hero.background_image | default: page.hero_image | default: page.hero-image | default: page.featured_image | default: page.featured-image %}
+{% assign legacy_markup = false %}
+{% if content contains 'data-elementor-type' %}
+  {% assign legacy_markup = true %}
+{% endif %}
+{% assign hero_primary_text = hero.primary_button_text | default: page.cta-text %}
+{% assign hero_primary_url = hero.primary_button_url | default: page.cta-url %}
+{% assign hero_primary_external = hero.primary_button_external %}
+{% if hero.primary_button_text == nil and page.cta-url contains '://' %}
+  {% assign hero_primary_external = true %}
+{% endif %}
+{% assign hero_secondary_text = hero.secondary_button_text %}
+{% assign hero_secondary_url = hero.secondary_button_url %}
+{% assign hero_secondary_external = hero.secondary_button_external %}
+
+{% include hero.html
+  class="hero--page hero--program"
+  eyebrow=hero_eyebrow
+  title_html=hero_title_html
+  title=page.title
+  lead=hero_lead
+  background_image=hero_background
+  primary_text=hero_primary_text
+  primary_url=hero_primary_url
+  primary_external=hero_primary_external
+  secondary_text=hero_secondary_text
+  secondary_url=hero_secondary_url
+  secondary_external=hero_secondary_external
+  show_breadcrumbs=true
+%}
+
+<article class="page-shell program-shell{% if hero.hide_legacy_intro %} page-shell--hide-legacy-intro{% endif %}">
+  <div class="page-shell__content{% if legacy_markup %} page-shell__content--legacy page-rich-content{% endif %}">
+    {{ content }}
+  </div>
+</article>

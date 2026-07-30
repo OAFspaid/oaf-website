@@ -1,0 +1,92 @@
+{% assign nav = site.data.navigation %}
+{% assign is_blog_context = false %}
+{% if page.layout == 'post' or page.url == '/blog/' %}
+  {% assign is_blog_context = true %}
+{% endif %}
+
+<header class="site-header{% if page.url == '/' %} site-header--home{% endif %}">
+  <div class="site-header__inner">
+    <a class="site-header__brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/wp-content/uploads/2025/01/logo.png' | relative_url }}" alt="Operation Antifragile" width="214" height="64">
+    </a>
+
+    <button
+      class="site-header__toggle"
+      type="button"
+      id="nav-toggle"
+      aria-expanded="false"
+      aria-controls="nav-panel"
+      aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div class="site-header__panel" id="nav-panel">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <ul class="site-nav__list">
+          {% for item in nav.main %}
+            {% if item.children %}
+              {% assign has_active_child = false %}
+              {% for child in item.children %}
+                {% if page.url == child.url %}
+                  {% assign has_active_child = true %}
+                {% endif %}
+              {% endfor %}
+              <li class="site-nav__item site-nav__item--has-children{% if has_active_child %} is-active{% endif %}">
+                <button
+                  class="site-nav__link site-nav__link--toggle"
+                  type="button"
+                  data-nav-submenu-toggle
+                  aria-haspopup="true"
+                  aria-expanded="{% if has_active_child %}true{% else %}false{% endif %}"
+                  aria-controls="site-nav-submenu-{{ forloop.index }}">
+                  <span>{{ item.title }}</span>
+                  <svg class="site-nav__caret" viewBox="0 0 320 512" aria-hidden="true" focusable="false">
+                    <path d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"></path>
+                  </svg>
+                </button>
+                <ul class="site-nav__submenu" id="site-nav-submenu-{{ forloop.index }}">
+                  {% for child in item.children %}
+                    <li>
+                      <a class="{% if page.url == child.url %}is-current{% endif %}" href="{{ child.url | relative_url }}"{% if page.url == child.url %} aria-current="page"{% endif %}>{{ child.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              {% assign item_active = false %}
+              {% if page.url == item.url %}
+                {% assign item_active = true %}
+              {% endif %}
+              {% if is_blog_context and item.url == '/blog/' %}
+                {% assign item_active = true %}
+              {% endif %}
+              <li class="site-nav__item{% if item_active %} is-active{% endif %}">
+                <a
+                  class="site-nav__link{% if item_active %} is-current{% endif %}"
+                  href="{% if item.external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"
+                  {% if item_active %}aria-current="page"{% endif %}
+                  {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                  {{ item.title }}
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
+
+      <div class="site-header__actions">
+        <a class="button button--compact" href="{{ nav.actions.donate.url }}" target="_blank" rel="noopener noreferrer">
+          {{ nav.actions.donate.title }}
+        </a>
+        <a class="button button--compact button--contact" href="{{ nav.actions.contact.url | relative_url }}">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M21.6 3.6a1 1 0 0 0-1-.16l-17 7A1 1 0 0 0 4 12.34l5.84 2.33 2.33 5.84a1 1 0 0 0 .9.63h.06a1 1 0 0 0 .9-.52l7-17a1 1 0 0 0-.43-1.02ZM13.4 17.5l-1.36-3.4a1 1 0 0 0-.58-.58l-3.4-1.36L18.4 7.9Z"></path>
+          </svg>
+          <span>{{ nav.actions.contact.title }}</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,14 @@
+{% assign crumbs_title = include.title | default: page.title %}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol class="breadcrumbs__list">
+    <li class="breadcrumbs__item">
+      <a href="{{ '/' | relative_url }}">Home</a>
+    </li>
+    {% if include.parent_title and include.parent_url %}
+      <li class="breadcrumbs__item">
+        <a href="{{ include.parent_url | relative_url }}">{{ include.parent_title }}</a>
+      </li>
+    {% endif %}
+    <li class="breadcrumbs__item" aria-current="page">{{ crumbs_title | strip_html }}</li>
+  </ol>
+</nav>

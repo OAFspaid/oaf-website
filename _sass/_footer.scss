@@ -1,0 +1,117 @@
+.site-footer {
+  background: var(--color-surface-muted);
+  border-top: 1px solid var(--color-border);
+}
+
+.site-footer__main {
+  padding: clamp(3rem, 5vw, 4.5rem) 0;
+}
+
+.site-footer__inner {
+  width: min(calc(100% - (var(--gutter) * 2)), var(--container-width));
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.site-footer__logo {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.site-footer__heading,
+.site-footer__column h3 {
+  margin-bottom: 1rem;
+  color: var(--color-body-strong);
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+}
+
+.site-footer__description,
+.site-footer__contact,
+.site-footer__meta,
+.site-footer__links a {
+  font-size: 0.9rem;
+}
+
+.site-footer__contact span {
+  display: block;
+}
+
+.site-footer__meta span {
+  display: block;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  margin-bottom: 0.2rem;
+}
+
+.site-footer__links,
+.site-footer__social,
+.site-footer__legal-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer__links li + li,
+.site-footer__legal-links li + li {
+  margin-top: 0.55rem;
+}
+
+.site-footer__social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+
+.site-footer__social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  background: var(--color-primary-soft);
+  color: var(--color-body);
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-footer__social a:hover,
+.site-footer__social a:focus-visible {
+  background: var(--color-body);
+  color: var(--color-primary);
+}
+
+.site-footer__legal {
+  border-top: 1px solid rgba(45, 44, 40, 0.16);
+}
+
+.site-footer__legal-inner {
+  width: min(calc(100% - (var(--gutter) * 2)), var(--container-width));
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+  align-items: center;
+  padding: 1rem 0 1.5rem;
+}
+
+.site-footer__legal-inner p,
+.site-footer__legal-links a {
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+.site-footer__legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem 1.1rem;
+}

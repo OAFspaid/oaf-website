@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{% assign hero = site.data.page_heroes[page.url] %}
+{% assign posts = site.posts | sort: 'date' | reverse %}
+{% assign hero_lead = hero.lead | default: page.description %}
+
+{% include hero.html
+  class="hero--page hero--blog"
+  eyebrow=hero.eyebrow
+  title_html=hero.title_html
+  title=page.title
+  lead=hero_lead
+  background_image=hero.background_image
+  show_breadcrumbs=true
+%}
+
+<section class="page-shell blog-shell">
+  <div class="page-shell__content">
+    {% if content != blank %}
+      <div class="blog-shell__intro prose-block">
+        {{ content }}
+      </div>
+    {% endif %}
+
+    <div class="post-grid" role="list">
+      {% for post in posts %}
+        {% assign featured = post.featured_image | default: post.featured-image %}
+        <article class="post-card" role="listitem">
+          {% if featured %}
+            <a class="post-card__media" href="{{ post.url | relative_url }}">
+              <img src="{{ featured | relative_url }}" alt="{{ post.featured_image_alt | default: post.featured-image-alt | default: post.title }}">
+            </a>
+          {% endif %}
+          <div class="post-card__body">
+            <p class="post-card__meta">{{ post.date | date: "%B %d, %Y" }}</p>
+            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            <p>{{ post.description | default: post.excerpt | strip_html | strip_newlines | truncate: 180 }}</p>
+            <a class="post-card__cta" href="{{ post.url | relative_url }}">Read article</a>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,52 @@
+brand:
+  title: Operation Antifragile
+  text: A new mission to strengthen veterans and first responders through resilient training, recovery, and purpose-built support.
+
+columns:
+  - title: Quick Links
+    links:
+      - title: Home
+        url: /
+      - title: About Us
+        url: /about/
+      - title: Blog
+        url: /blog/
+      - title: Contact Us
+        url: /contact-us/
+  - title: Programs
+    links:
+      - title: Strength Training
+        url: /physical-training/
+      - title: Mental Fortitude
+        url: /mental-fortitude/
+      - title: Mobility Support
+        url: /modern-athlete-warfighter-mobility-and-stability-program/
+      - title: Nutrition & Health
+        url: /nutrition-health/
+  - title: Support
+    links:
+      - title: Donate
+        url: https://buy.stripe.com/7sIaFj5Yh96S7L29AB
+        external: true
+      - title: Merch
+        url: https://operationantifragile.secure-decoration.com/
+        external: true
+      - title: Application
+        url: https://docs.google.com/forms/d/e/1FAIpQLSdne1leZ2mUm1HM76-DJGBgRpORtC2YUgVxLse6QUYmSBD98Q/viewform
+        external: true
+      - title: TrainHeroic
+        url: https://marketplace.trainheroic.com/brand/operation-antifragile
+        external: true
+
+legal_links:
+  - title: Disclaimer
+    url: /disclaimer/
+  - title: Privacy Policy
+    url: /privacy-policy/
+  - title: Site Map
+    url: /site-map/
+  - title: Digital Marketing by 6S Digital
+    url: https://6sdigital.com/
+    external: true
+
+legal_copy: "© 2026 Operation Antifragile. All rights reserved. | A 501(c)(3) Non-Profit Organization."

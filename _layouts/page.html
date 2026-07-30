@@ -1,0 +1,34 @@
+---
+layout: default
+---
+{% assign hero = site.data.page_heroes[page.url] %}
+{% assign hero_eyebrow = hero.eyebrow | default: page.hero_kicker | default: page.hero-kicker %}
+{% assign hero_title_html = hero.title_html | default: page.hero_title | default: page.hero-title %}
+{% assign show_hero = true %}
+{% if page.url == '/' %}
+  {% assign show_hero = false %}
+{% endif %}
+{% assign legacy_markup = false %}
+{% if content contains 'data-elementor-type' %}
+  {% assign legacy_markup = true %}
+{% endif %}
+{% assign hero_lead = hero.lead | default: page.description %}
+{% assign hero_background = hero.background_image | default: page.hero_image | default: page.hero-image | default: page.featured_image | default: page.featured-image %}
+
+{% if show_hero %}
+  {% include hero.html
+    class="hero--page"
+    eyebrow=hero_eyebrow
+    title_html=hero_title_html
+    title=page.title
+    lead=hero_lead
+    background_image=hero_background
+    show_breadcrumbs=true
+  %}
+{% endif %}
+
+<article class="page-shell{% if hero.hide_legacy_intro %} page-shell--hide-legacy-intro{% endif %}">
+  <div class="page-shell__content{% if legacy_markup %} page-shell__content--legacy page-rich-content{% endif %}">
+    {{ content }}
+  </div>
+</article>

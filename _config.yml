@@ -1,0 +1,95 @@
+title: Operation Antifragile
+description: GitHub Pages migration scaffold for the Operation Antifragile website.
+lang: en
+timezone: America/Chicago
+
+# GitHub Pages URL configuration
+# Leave empty for local development; set to production URL for Pages deployment
+url: ""
+baseurl: ""
+
+# Theme configuration
+theme: minima
+permalink: /:slug/
+strict_front_matter: true
+
+# Collections for proper post/page structure
+collections:
+  posts:
+    output: true
+    permalink: /:slug/
+  pages:
+    output: true
+    permalink: /:slug/
+    
+# Markdown processor
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Sass compilation
+sass:
+  style: compressed
+
+# Plugin configuration
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Feed plugin settings
+feed:
+  path: /feed.xml
+  categories:
+    - news
+    - updates
+
+# Sitemap plugin settings (jekyll-sitemap auto-generates sitemap.xml)
+# No configuration needed; it respects permalink and collections
+
+# SEO tag plugin settings (jekyll-seo-tag auto-generates meta tags)
+# Configure any site-specific social settings below:
+social:
+  name: Operation Antifragile
+  links:
+    - https://github.com/
+
+# Exclude files from output
+exclude:
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - .gitattributes
+  - COMPLETION_REPORT.md
+  - DESIGN.md
+  - DOCUMENTATION_INDEX.md
+  - FILE_STRUCTURE.md
+  - HANDOFF.md
+  - PRESENTATION_LAYER.md
+  - PRODUCT.md
+
+# Include dotfiles if needed
+include:
+  - .htaccess
+
+# Default front matter settings
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Liquid settings
+liquid:
+  error_mode: strict
+
+# Build settings
+incremental: false

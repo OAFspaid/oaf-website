@@ -1,0 +1,64 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  min-height: 3.5rem;
+  padding: 1rem 1.75rem;
+  border: 2px solid var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: var(--color-primary);
+  color: var(--color-body);
+}
+
+.button:hover,
+.button:focus-visible {
+  background: transparent;
+  color: var(--color-primary);
+}
+
+.button--ghost {
+  background: transparent;
+  color: var(--color-primary);
+}
+
+.button--ghost:hover,
+.button--ghost:focus-visible {
+  background: var(--color-primary);
+  color: var(--color-body);
+}
+
+.button--compact {
+  min-height: 3rem;
+  padding: 0.85rem 1.25rem;
+}
+
+.button--contact {
+  padding-right: 1.5rem;
+}
+
+.button--contact svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+}
+
+.btn {
+  @extend .button;
+}
+
+.btn-secondary {
+  @extend .button;
+  background: transparent;
+  color: var(--color-primary);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus-visible {
+  background: var(--color-primary);
+  color: var(--color-body);
+}

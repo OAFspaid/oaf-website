@@ -1,0 +1,39 @@
+main:
+  - title: Home
+    url: /
+  - title: About Us
+    url: /about/
+  - title: Our Services
+    section: services
+    children:
+      - title: OAF Strength and Conditioning
+        url: /physical-training/
+      - title: Modern Athlete Warfighter Program
+        url: /modern-athlete-warfighter-program/
+      - title: "Modern Athlete Warfighter Program: Mobility and Stability"
+        url: /modern-athlete-warfighter-mobility-and-stability-program/
+      - title: Old Bull Captains & Coaches
+        url: /old-bull-captains-coaches/
+      - title: LiftLab Mobile App
+        url: /liftlab-app/
+      - title: Nutrition Health
+        url: /nutrition-health/
+      - title: Mental Fortitude
+        url: /mental-fortitude/
+  - title: Blog
+    url: /blog/
+  - title: Merch
+    url: https://operationantifragile.secure-decoration.com/
+    external: true
+  - title: Application
+    url: https://docs.google.com/forms/d/e/1FAIpQLSdne1leZ2mUm1HM76-DJGBgRpORtC2YUgVxLse6QUYmSBD98Q/viewform
+    external: true
+
+actions:
+  donate:
+    title: Donate
+    url: https://buy.stripe.com/7sIaFj5Yh96S7L29AB
+    external: true
+  contact:
+    title: Contact Us
+    url: /contact-us/

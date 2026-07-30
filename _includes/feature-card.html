@@ -1,0 +1,31 @@
+{% assign tag_name = include.url | default: nil %}
+{% if tag_name %}
+  {% assign href = include.url %}
+  {% unless include.external %}
+    {% assign href = include.url | relative_url %}
+  {% endunless %}
+  <a class="feature-card feature-card--{{ include.variant | default: 'default' }}" href="{{ href }}"{% if include.external %} target="_blank" rel="noopener noreferrer"{% endif %}>
+{% else %}
+  <article class="feature-card feature-card--{{ include.variant | default: 'default' }}">
+{% endif %}
+    {% if include.image %}
+      <div class="feature-card__media">
+        <img src="{{ include.image | relative_url }}" alt="{{ include.image_alt | default: include.title | strip_html }}">
+      </div>
+    {% endif %}
+    <div class="feature-card__body">
+      {% if include.eyebrow %}
+        <p class="feature-card__eyebrow">{{ include.eyebrow }}</p>
+      {% endif %}
+      {% if include.title %}
+        <h3 class="feature-card__title">{{ include.title }}</h3>
+      {% endif %}
+      {% if include.text %}
+        <div class="feature-card__text">{{ include.text | markdownify }}</div>
+      {% endif %}
+    </div>
+{% if tag_name %}
+  </a>
+{% else %}
+  </article>
+{% endif %}

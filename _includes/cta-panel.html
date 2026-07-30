@@ -1,0 +1,32 @@
+{% assign panel_class = include.class | default: '' %}
+<section class="cta-panel {{ panel_class }}">
+  <div class="cta-panel__content">
+    {% if include.title %}
+      <h2>{{ include.title }}</h2>
+    {% endif %}
+    {% if include.text %}
+      <div class="cta-panel__text">{{ include.text | markdownify }}</div>
+    {% endif %}
+  </div>
+
+  {% if include.primary_text or include.secondary_text %}
+    <div class="cta-panel__actions">
+      {% if include.primary_text and include.primary_url %}
+        <a
+          class="button"
+          href="{% if include.primary_external %}{{ include.primary_url }}{% else %}{{ include.primary_url | relative_url }}{% endif %}"
+          {% if include.primary_external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+          {{ include.primary_text }}
+        </a>
+      {% endif %}
+      {% if include.secondary_text and include.secondary_url %}
+        <a
+          class="button button--ghost"
+          href="{% if include.secondary_external %}{{ include.secondary_url }}{% else %}{{ include.secondary_url | relative_url }}{% endif %}"
+          {% if include.secondary_external %}target="_blank" rel="noopener noreferrer"{% endif %}>
+          {{ include.secondary_text }}
+        </a>
+      {% endif %}
+    </div>
+  {% endif %}
+</section>

@@ -1,0 +1,85 @@
+---
+layout: default
+---
+{% assign home = site.data.home %}
+
+{% include hero.html
+  class="hero--home"
+  eyebrow=home.hero.eyebrow
+  title_html=home.hero.title_html
+  primary_text=home.hero.primary_button_text
+  primary_url=home.hero.primary_button_url
+  background_image=home.hero.background_image
+%}
+
+<section class="section-band section-band--gold">
+  <div class="section-shell section-shell--narrow">
+    <div class="section-heading section-heading--center">
+      <h2>{{ home.intro.title }}</h2>
+    </div>
+    <div class="split-copy split-copy--ruled">
+      {% for column in home.intro.columns %}
+        <div class="split-copy__column">{{ column | markdownify }}</div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-band section-band--texture" style="--section-background: url('{{ home.focus.background_image | relative_url }}')">
+  <div class="section-shell">
+    <div class="story-panel">
+      <p class="story-panel__eyebrow">{{ home.focus.eyebrow }}</p>
+      <h2 class="story-panel__title">{{ home.focus.title_html }}</h2>
+      <div class="story-panel__text">{{ home.focus.text | markdownify }}</div>
+      <a class="button" href="{{ home.focus.button_url }}" target="_blank" rel="noopener noreferrer">{{ home.focus.button_text }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section-band section-band--light">
+  <div class="section-shell">
+    <div class="section-heading section-heading--center">
+      <h2>{{ home.pillars_title }}</h2>
+    </div>
+    <div class="feature-grid feature-grid--pillars">
+      {% for pillar in home.pillars %}
+        {% include feature-card.html
+          variant="pillar"
+          image=pillar.image
+          image_alt=pillar.image_alt
+          title=pillar.title
+          url=pillar.url
+        %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section-band section-band--dark">
+  <div class="section-shell">
+    {% include cta-panel.html
+      title=home.progress.title
+      text=home.progress.text
+      primary_text=home.progress.button_text
+      primary_url=home.progress.button_url
+    %}
+  </div>
+</section>
+
+<section class="section-band section-band--warm">
+  <div class="section-shell">
+    <div class="mission-block">
+      <div class="mission-block__copy">
+        <h2>{{ home.closing.title }}</h2>
+      </div>
+      <div class="mission-block__body">
+        {% for paragraph in home.closing.paragraphs %}
+          {{ paragraph | markdownify }}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="mission-block__actions">
+      <a class="button" href="{{ home.closing.button_url | relative_url }}">{{ home.closing.button_text }}</a>
+    </div>
+  </div>
+</section>

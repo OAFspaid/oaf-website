@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{% assign featured = page.featured_image | default: page.featured-image | default: '/wp-content/uploads/bg-13.png' %}
+{% assign category = page.categories | first %}
+
+{% capture post_lead %}
+  <p>
+    <time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    {% if category %} · {{ category }}{% endif %}
+  </p>
+{% endcapture %}
+
+{% include hero.html
+  class="hero--page hero--post"
+  eyebrow="Operation Antifragile Blog"
+  title=page.title
+  lead=post_lead
+  background_image=featured
+  show_breadcrumbs=true
+  parent_title="Blog"
+  parent_url="/blog/"
+%}
+
+<article class="page-shell post-shell">
+  <div class="page-shell__content">
+    <div class="article-card">
+      {% if page.author %}
+        <p class="article-card__author">By {{ page.author }}</p>
+      {% endif %}
+
+      {% if page.tags %}
+        <ul class="article-card__tags" role="list">
+          {% for tag in page.tags %}
+            <li>#{{ tag }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      <div class="article-card__body">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</article>
