@@ -71,6 +71,7 @@ exclude:
   - HANDOFF.md
   - PRESENTATION_LAYER.md
   - PRODUCT.md
+  - docs/  # Internal spec/architecture docs — not site pages; exclude to prevent Liquid processing
 
 # Include dotfiles if needed
 include:

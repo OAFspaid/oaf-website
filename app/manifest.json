@@ -1,0 +1,62 @@
+{
+  "name": "OAF OS — Operation Antifragile",
+  "short_name": "OAF OS",
+  "description": "Operation Antifragile Operational Support System — demo for veterans and first responders.",
+  "lang": "en-US",
+  "start_url": "/app/?source=pwa",
+  "scope": "/app/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#c8ad70",
+  "background_color": "#1e1e1e",
+  "categories": ["productivity", "health", "lifestyle"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Apply",
+      "short_name": "Apply",
+      "description": "Start an application for training, care package, or retreat",
+      "url": "/app/#/apply",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Crisis Resources",
+      "short_name": "Crisis",
+      "description": "988 Lifeline, Veterans Crisis Line, and more — always accessible",
+      "url": "/app/#/crisis-resources",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View your role-appropriate dashboard",
+      "url": "/app/#/dashboard",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

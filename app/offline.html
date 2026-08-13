@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>OAF OS — You're Offline</title>
+  <!-- Fully self-contained: zero external requests. All styles are inline. -->
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #1e1e1e;
+      --surface:  #2a2a2a;
+      --gold:     #c8ad70;
+      --gold-soft:rgba(200,173,112,0.12);
+      --ink:      #f8f6f1;
+      --muted:    #9a9589;
+      --danger:   #c0392b;
+      --border:   #3a3a3a;
+      --radius:   0.5rem;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Segoe UI", "Work Sans", system-ui, sans-serif;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    header {
+      width: 100%;
+      max-width: 40rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 2.5rem;
+    }
+
+    .wordmark {
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: 0.08em;
+      color: var(--gold);
+      text-transform: uppercase;
+    }
+
+    main {
+      width: 100%;
+      max-width: 40rem;
+      flex: 1;
+    }
+
+    .offline-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .offline-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    .try-again-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--gold);
+      color: #1a1a1a;
+      border: none;
+      border-radius: var(--radius);
+      padding: 0.65rem 1.5rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      margin-top: 0.5rem;
+      transition: background 0.15s;
+    }
+
+    .try-again-btn:hover,
+    .try-again-btn:focus {
+      background: #b89a5c;
+      outline: 2px solid var(--gold);
+      outline-offset: 2px;
+    }
+
+    /* Crisis resources section */
+    .crisis-section {
+      border: 2px solid var(--danger);
+      border-radius: var(--radius);
+      background: rgba(192,57,43,0.08);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .crisis-section h2 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #e74c3c;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .crisis-resource {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: calc(var(--radius) - 0.125rem);
+      padding: 0.9rem 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .crisis-resource:last-child { margin-bottom: 0; }
+
+    .crisis-resource h3 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 0.5rem;
+    }
+
+    .crisis-resource p {
+      font-size: 0.85rem;
+      margin-bottom: 0.4rem;
+      color: var(--muted);
+    }
+
+    .crisis-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.25rem;
+    }
+
+    .crisis-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 2rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-decoration: none;
+      transition: opacity 0.15s;
+    }
+
+    .crisis-link:hover,
+    .crisis-link:focus {
+      opacity: 0.85;
+      outline: 2px solid currentColor;
+      outline-offset: 2px;
+    }
+
+    .link-call  { background: var(--danger);  color: #fff; }
+    .link-text  { background: #2980b9;        color: #fff; }
+    .link-web   { background: var(--gold);    color: #1a1a1a; }
+
+    /* Disclaimer */
+    .disclaimer {
+      background: var(--gold-soft);
+      border: 1px solid rgba(200,173,112,0.25);
+      border-radius: var(--radius);
+      padding: 0.85rem 1rem;
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+
+    footer {
+      width: 100%;
+      max-width: 40rem;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--muted);
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <span class="wordmark">OAF OS</span>
+    <span style="font-size:0.75rem;color:var(--muted);">Operation Antifragile</span>
+  </header>
+
+  <main>
+
+    <!-- Offline notice -->
+    <div class="offline-card">
+      <span class="offline-icon" role="img" aria-label="No network connection">📡</span>
+      <h1>You're Offline</h1>
+      <p>
+        No network connection detected. Previously loaded demo data may still be
+        available — use the app's back button or navigate to a section you've visited
+        before.
+      </p>
+      <p>
+        When you're back online, tap <strong>Try Again</strong> to reload.
+      </p>
+      <button class="try-again-btn" onclick="window.location.reload()">
+        ↻ Try Again
+      </button>
+    </div>
+
+    <!-- Crisis resources — always accessible offline via tel:/sms: links -->
+    <section class="crisis-section" aria-label="Crisis resources">
+      <h2>⚠ Crisis Resources</h2>
+
+      <div class="crisis-resource">
+        <h3>988 Suicide &amp; Crisis Lifeline</h3>
+        <p>Free, confidential crisis support — call or text, 24/7.</p>
+        <div class="crisis-links">
+          <a href="tel:988" class="crisis-link link-call">📞 Call 988</a>
+          <a href="sms:988" class="crisis-link link-text">💬 Text 988</a>
+        </div>
+      </div>
+
+      <div class="crisis-resource">
+        <h3>Veterans Crisis Line</h3>
+        <p>Call 988 and press&nbsp;1. Text 838255. Available 24/7 for veterans, service members, and their families.</p>
+        <div class="crisis-links">
+          <a href="tel:988" class="crisis-link link-call">📞 Call 988, press 1</a>
+          <a href="sms:838255" class="crisis-link link-text">💬 Text 838255</a>
+          <a href="https://www.veteranscrisisline.net/" class="crisis-link link-web" target="_blank" rel="noopener">🌐 veteranscrisisline.net</a>
+        </div>
+      </div>
+
+      <div class="crisis-resource">
+        <h3>CopLine — Law Enforcement Support</h3>
+        <p>24/7 confidential support for law enforcement officers (active and retired) and their family members, answered by retired officers.</p>
+        <div class="crisis-links">
+          <a href="tel:18002675463" class="crisis-link link-call">📞 1-800-267-5463</a>
+          <a href="https://www.copline.org/" class="crisis-link link-web" target="_blank" rel="noopener">🌐 copline.org</a>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Non-clinical disclaimer -->
+    <div class="disclaimer" role="note">
+      <strong>Important:</strong> OAF OS is an operational tool. It does not provide
+      medical, clinical, or emergency services. The crisis resources above are
+      independent services operated by third parties — OAF makes no claims about
+      their staffing, credentials, or availability. If you are in immediate danger,
+      call&nbsp;<strong>911</strong>.
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; Operation Antifragile &mdash; Demo Mode. No real data is stored or transmitted.
+  </footer>
+
+</body>
+</html>

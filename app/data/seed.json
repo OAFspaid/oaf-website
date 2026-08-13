@@ -1,0 +1,1216 @@
+{
+  "meta": {
+    "version": "0.1.0-alpha",
+    "generated": "2026-08-11",
+    "demo": true,
+    "notice": "This is demonstration data only — it is stored exclusively in this browser and does not represent any real member, staff, or program record."
+  },
+  "roles": [
+    {
+      "id": "member",
+      "label": "Member",
+      "description": "Veterans and first responders accepted into an OAF support path.",
+      "persona": {
+        "displayName": "R. Vance",
+        "initials": "RV",
+        "unit": "Army / 11B Infantry, Separated 2021"
+      }
+    },
+    {
+      "id": "staff",
+      "label": "Staff",
+      "description": "OAF team members who manage intake, review requests, and coordinate support.",
+      "persona": {
+        "displayName": "K. Boone",
+        "initials": "KB",
+        "unit": "Staff — Intake Coordinator"
+      }
+    },
+    {
+      "id": "coach",
+      "label": "Coach",
+      "description": "OAF coaches who deliver training, accountability, and follow-up.",
+      "persona": {
+        "displayName": "D. Harlow",
+        "initials": "DH",
+        "unit": "Coach — Strength & Conditioning"
+      }
+    }
+  ],
+  "pillars": [
+    {
+      "id": "strength",
+      "title": "Strength Training",
+      "blurb": "Disciplined strength and conditioning paths built around progress.",
+      "icon": "dumbbell"
+    },
+    {
+      "id": "mental",
+      "title": "Mental Fortitude",
+      "blurb": "Practical accountability, education, and follow-up under stress.",
+      "icon": "brain"
+    },
+    {
+      "id": "mobility",
+      "title": "Mobility Support",
+      "blurb": "Mobility, stability, recovery, and adaptable training support.",
+      "icon": "activity"
+    },
+    {
+      "id": "nutrition",
+      "title": "Nutrition & Health Support",
+      "blurb": "Lifestyle and recovery habits that help members keep momentum.",
+      "icon": "heart-pulse"
+    }
+  ],
+  "applicationTypes": [
+    {
+      "id": "remote-training",
+      "title": "Remote Training",
+      "blurb": "Structured programming you follow on your own schedule, with accountability and practical follow-up.",
+      "estMinutes": 5,
+      "fields": [
+        {
+          "id": "full_name",
+          "label": "Full name",
+          "type": "text",
+          "required": true,
+          "help": "First and last name as you want it on file."
+        },
+        {
+          "id": "email",
+          "label": "Email address",
+          "type": "email",
+          "required": true,
+          "help": "We'll use this to reach you about your application status."
+        },
+        {
+          "id": "background",
+          "label": "Military or first-responder background",
+          "type": "select",
+          "required": true,
+          "help": "Select the category that best describes your service.",
+          "options": [
+            "Active duty military",
+            "Veteran",
+            "Active law enforcement",
+            "Retired law enforcement",
+            "Active fire / EMS",
+            "Retired fire / EMS",
+            "Other first responder",
+            "Prefer not to say"
+          ]
+        },
+        {
+          "id": "training_goal",
+          "label": "What's your primary training goal right now?",
+          "type": "textarea",
+          "required": true,
+          "help": "Plain language is fine. Tell us where you are and what you're working toward."
+        },
+        {
+          "id": "schedule_availability",
+          "label": "Training days per week you can realistically commit to",
+          "type": "select",
+          "required": true,
+          "help": "Be honest — the program will be built around your real schedule.",
+          "options": [
+            "1–2 days",
+            "3–4 days",
+            "5+ days"
+          ]
+        },
+        {
+          "id": "equipment_access",
+          "label": "Equipment access",
+          "type": "radio",
+          "required": true,
+          "help": "What best describes your setup?",
+          "options": [
+            "Full gym",
+            "Home gym / limited equipment",
+            "Bodyweight only",
+            "Varies"
+          ]
+        },
+        {
+          "id": "ack_not_emergency",
+          "label": "I understand OAF OS is not an emergency service. If I am in crisis, I will contact 988 or the Veterans Crisis Line.",
+          "type": "checkbox",
+          "required": true,
+          "help": "This acknowledgement is required to proceed."
+        }
+      ]
+    },
+    {
+      "id": "in-person-training",
+      "title": "In-Person Training",
+      "blurb": "Train face-to-face with an OAF coach — individual or small-group sessions for hands-on coaching and connection.",
+      "estMinutes": 5,
+      "fields": [
+        {
+          "id": "full_name",
+          "label": "Full name",
+          "type": "text",
+          "required": true,
+          "help": "First and last name as you want it on file."
+        },
+        {
+          "id": "email",
+          "label": "Email address",
+          "type": "email",
+          "required": true,
+          "help": "We'll use this to reach you about scheduling."
+        },
+        {
+          "id": "phone",
+          "label": "Phone number (optional)",
+          "type": "tel",
+          "required": false,
+          "help": "Helpful if a coach needs to confirm details quickly."
+        },
+        {
+          "id": "location_region",
+          "label": "General region or metro area",
+          "type": "text",
+          "required": true,
+          "help": "We'll check coach availability near you. City and state is enough."
+        },
+        {
+          "id": "session_preference",
+          "label": "Session format preference",
+          "type": "radio",
+          "required": true,
+          "help": "Individual sessions are one-on-one. Small group is 2–6 people.",
+          "options": [
+            "Individual (one-on-one)",
+            "Small group",
+            "No preference"
+          ]
+        },
+        {
+          "id": "background_note",
+          "label": "Brief background and what brings you here",
+          "type": "textarea",
+          "required": true,
+          "help": "A few sentences about your service background and what you're hoping to work on."
+        },
+        {
+          "id": "ack_not_emergency",
+          "label": "I understand OAF OS is not an emergency service. If I am in crisis, I will contact 988 or the Veterans Crisis Line.",
+          "type": "checkbox",
+          "required": true,
+          "help": "This acknowledgement is required to proceed."
+        }
+      ]
+    },
+    {
+      "id": "care-package",
+      "title": "Care Package Support",
+      "blurb": "Request equipment or practical support. Staff review eligibility, priority, and next steps.",
+      "estMinutes": 7,
+      "fields": [
+        {
+          "id": "full_name",
+          "label": "Full name",
+          "type": "text",
+          "required": true,
+          "help": "First and last name as you want it on file."
+        },
+        {
+          "id": "email",
+          "label": "Email address",
+          "type": "email",
+          "required": true,
+          "help": "Staff will contact you here with status updates."
+        },
+        {
+          "id": "background",
+          "label": "Military or first-responder background",
+          "type": "select",
+          "required": true,
+          "help": "Select the category that best describes your service.",
+          "options": [
+            "Active duty military",
+            "Veteran",
+            "Active law enforcement",
+            "Retired law enforcement",
+            "Active fire / EMS",
+            "Retired fire / EMS",
+            "Other first responder",
+            "Prefer not to say"
+          ]
+        },
+        {
+          "id": "support_request",
+          "label": "What kind of support are you requesting?",
+          "type": "textarea",
+          "required": true,
+          "help": "Your request — use plain language. A staff member will review this before any support is granted."
+        },
+        {
+          "id": "urgency",
+          "label": "Timeframe",
+          "type": "radio",
+          "required": true,
+          "help": "Helps staff prioritize the queue. This is not an emergency intake.",
+          "options": [
+            "Flexible — no hard deadline",
+            "Within the next 30 days",
+            "Within the next 2 weeks"
+          ]
+        },
+        {
+          "id": "additional_context",
+          "label": "Anything else staff should know? (optional)",
+          "type": "textarea",
+          "required": false,
+          "help": "Leave blank if not applicable."
+        },
+        {
+          "id": "ack_not_emergency",
+          "label": "I understand this is not an emergency service. For urgent needs, I will contact 911 or 988.",
+          "type": "checkbox",
+          "required": true,
+          "help": "This acknowledgement is required to proceed."
+        }
+      ]
+    },
+    {
+      "id": "retreat",
+      "title": "Retreat Interest",
+      "blurb": "Share interest in an OAF retreat so the team can review fit, timing, and readiness.",
+      "estMinutes": 5,
+      "fields": [
+        {
+          "id": "full_name",
+          "label": "Full name",
+          "type": "text",
+          "required": true,
+          "help": "First and last name as you want it on file."
+        },
+        {
+          "id": "email",
+          "label": "Email address",
+          "type": "email",
+          "required": true,
+          "help": "We'll follow up here with next steps."
+        },
+        {
+          "id": "retreat_interest",
+          "label": "Which retreat window interests you?",
+          "type": "select",
+          "required": true,
+          "help": "Select the option that best fits your schedule. Final details are shared after review.",
+          "options": [
+            "Fall 2026 — Midwest",
+            "Winter 2026–27 — Mountain West",
+            "Open to any available window"
+          ]
+        },
+        {
+          "id": "prior_participation",
+          "label": "Have you participated in an OAF program before?",
+          "type": "radio",
+          "required": true,
+          "help": "Prior participation is not required.",
+          "options": [
+            "Yes",
+            "No",
+            "Currently active in a program"
+          ]
+        },
+        {
+          "id": "background_note",
+          "label": "Why are you interested in a retreat?",
+          "type": "textarea",
+          "required": true,
+          "help": "Plain language. Tell us what you're hoping to get out of the experience."
+        },
+        {
+          "id": "ack_not_emergency",
+          "label": "I understand OAF OS is not an emergency service. If I am in crisis, I will contact 988 or the Veterans Crisis Line.",
+          "type": "checkbox",
+          "required": true,
+          "help": "This acknowledgement is required to proceed."
+        }
+      ]
+    }
+  ],
+  "members": [
+    {
+      "id": "member-001",
+      "firstName": "R.",
+      "lastName": "Vance",
+      "role": "member",
+      "branch": "Army",
+      "joinedAt": "2026-07-14T10:22:00Z",
+      "status": "active",
+      "assignedCoachId": "coach-001",
+      "email": "rv-demo@example.com",
+      "phone": "(555) 012-3456"
+    },
+    {
+      "id": "member-002",
+      "firstName": "J.",
+      "lastName": "Caldwell",
+      "role": "member",
+      "branch": "first-responder",
+      "joinedAt": "2026-07-28T08:45:00Z",
+      "status": "pending",
+      "assignedCoachId": null,
+      "email": "jc-demo@example.com",
+      "phone": "(555) 098-7654"
+    },
+    {
+      "id": "member-003",
+      "firstName": "T.",
+      "lastName": "Mora",
+      "role": "member",
+      "branch": "Veteran",
+      "joinedAt": "2026-06-10T09:00:00Z",
+      "status": "inactive",
+      "assignedCoachId": null,
+      "email": "tm-demo@example.com",
+      "phone": "(555) 555-0199"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-001",
+      "type": "remote-training",
+      "submittedAt": "2026-07-14T10:22:00Z",
+      "status": "approved",
+      "statusHistory": [
+        {
+          "status": "submitted",
+          "at": "2026-07-14T10:22:00Z",
+          "note": "Application received."
+        },
+        {
+          "status": "under-review",
+          "at": "2026-07-15T08:00:00Z",
+          "note": "Staff began intake review."
+        },
+        {
+          "status": "approved",
+          "at": "2026-07-17T14:30:00Z",
+          "note": "Approved. Matched to remote strength track. Coach D. Harlow assigned."
+        }
+      ],
+      "summary": "Veteran seeking structured remote programming to rebuild conditioning after a career transition.",
+      "assignedTo": "coach"
+    },
+    {
+      "id": "app-002",
+      "type": "care-package",
+      "submittedAt": "2026-07-20T15:05:00Z",
+      "status": "under-review",
+      "statusHistory": [
+        {
+          "status": "submitted",
+          "at": "2026-07-20T15:05:00Z",
+          "note": "Care package request received."
+        },
+        {
+          "status": "under-review",
+          "at": "2026-07-21T09:30:00Z",
+          "note": "Staff reviewing eligibility and request details."
+        }
+      ],
+      "summary": "Request for training equipment to support home-based program.",
+      "assignedTo": "staff"
+    },
+    {
+      "id": "app-003",
+      "type": "in-person-training",
+      "submittedAt": "2026-07-28T08:45:00Z",
+      "status": "under-review",
+      "statusHistory": [
+        {
+          "status": "submitted",
+          "at": "2026-07-28T08:45:00Z",
+          "note": "Application received."
+        },
+        {
+          "status": "under-review",
+          "at": "2026-07-29T10:00:00Z",
+          "note": "Staff checking coach availability in requested region."
+        }
+      ],
+      "summary": "First responder — firefighter looking for small-group in-person sessions.",
+      "assignedTo": "staff"
+    },
+    {
+      "id": "app-004",
+      "type": "retreat",
+      "submittedAt": "2026-08-01T12:00:00Z",
+      "status": "submitted",
+      "statusHistory": [
+        {
+          "status": "submitted",
+          "at": "2026-08-01T12:00:00Z",
+          "note": "Retreat interest form received. Pending initial review."
+        }
+      ],
+      "summary": "Veteran interested in Fall 2026 Midwest retreat window.",
+      "assignedTo": null
+    },
+    {
+      "id": "app-005",
+      "type": "remote-training",
+      "submittedAt": "2026-06-10T09:00:00Z",
+      "status": "approved",
+      "statusHistory": [
+        {
+          "status": "submitted",
+          "at": "2026-06-10T09:00:00Z",
+          "note": "Application received."
+        },
+        {
+          "status": "under-review",
+          "at": "2026-06-11T08:00:00Z",
+          "note": "Staff review completed."
+        },
+        {
+          "status": "approved",
+          "at": "2026-06-13T14:00:00Z",
+          "note": "Approved. Matched to remote programming. 12-week block completed."
+        }
+      ],
+      "summary": "Completed 12-week remote strength block. Member requested transition to independent programming.",
+      "assignedTo": null
+    },
+    {
+      "id": "app-006",
+      "type": "care-package",
+      "submittedAt": "2026-08-08T14:30:00Z",
+      "status": "submitted",
+      "statusHistory": [
+        {
+          "status": "submitted",
+          "at": "2026-08-08T14:30:00Z",
+          "note": "Request received. In queue for staff review."
+        }
+      ],
+      "summary": "Request for nutritional support resources and access to the OAF nutrition guide.",
+      "assignedTo": null
+    }
+  ],
+  "carePackages": [
+    {
+      "id": "cp-001",
+      "requestedAt": "2026-06-15T10:00:00Z",
+      "title": "Home Training Equipment — Resistance Bands & Jump Rope",
+      "items": [
+        "Resistance band set (light/medium/heavy) x1",
+        "Speed jump rope x1"
+      ],
+      "status": "delivered",
+      "priority": "standard",
+      "statusHistory": [
+        {
+          "status": "requested",
+          "at": "2026-06-15T10:00:00Z",
+          "note": "Request received."
+        },
+        {
+          "status": "under_review",
+          "at": "2026-06-16T08:30:00Z",
+          "note": "Staff reviewing eligibility."
+        },
+        {
+          "status": "approved",
+          "at": "2026-06-18T13:00:00Z",
+          "note": "Approved. Sourcing items."
+        },
+        {
+          "status": "sourcing",
+          "at": "2026-06-19T09:00:00Z",
+          "note": "Items located. Pending procurement."
+        },
+        {
+          "status": "shipped",
+          "at": "2026-06-22T11:00:00Z",
+          "note": "Package shipped via USPS. Tracking provided to member."
+        },
+        {
+          "status": "delivered",
+          "at": "2026-06-25T00:00:00Z",
+          "note": "Confirmed delivered. Follow-up scheduled."
+        },
+        {
+          "status": "follow_up",
+          "at": "2026-07-02T10:00:00Z",
+          "note": "Coach checked in. Member confirmed receipt and started program."
+        },
+        {
+          "status": "closed",
+          "at": "2026-07-02T10:30:00Z",
+          "note": "Package cycle complete."
+        }
+      ],
+      "followUpAt": "2026-07-02T10:00:00Z",
+      "notes": "Member confirmed receipt and began using equipment in week 1 of remote programming block."
+    },
+    {
+      "id": "cp-002",
+      "requestedAt": "2026-07-01T09:00:00Z",
+      "title": "Knee Sleeve Support — Bilateral",
+      "items": [
+        "Compression knee sleeves (pair) x1"
+      ],
+      "status": "needs_info",
+      "priority": "standard",
+      "statusHistory": [
+        {
+          "status": "requested",
+          "at": "2026-07-01T09:00:00Z",
+          "note": "Request received."
+        },
+        {
+          "status": "under_review",
+          "at": "2026-07-02T08:00:00Z",
+          "note": "Staff reviewing details."
+        },
+        {
+          "status": "needs_info",
+          "at": "2026-07-03T11:30:00Z",
+          "note": "Staff requested member's sizing and whether a specific brand or spec is required."
+        }
+      ],
+      "followUpAt": "2026-07-10T09:00:00Z",
+      "notes": "Waiting on sizing response from member. Flagged for follow-up."
+    },
+    {
+      "id": "cp-003",
+      "requestedAt": "2026-07-10T14:00:00Z",
+      "title": "Nutrition Protocol Guide",
+      "items": [
+        "OAF Nutrition Protocol (printed copy) x1"
+      ],
+      "status": "shipped",
+      "priority": "low",
+      "statusHistory": [
+        {
+          "status": "requested",
+          "at": "2026-07-10T14:00:00Z",
+          "note": "Request received."
+        },
+        {
+          "status": "under_review",
+          "at": "2026-07-11T09:00:00Z",
+          "note": "Staff confirmed eligibility."
+        },
+        {
+          "status": "approved",
+          "at": "2026-07-12T10:00:00Z",
+          "note": "Approved for print and ship."
+        },
+        {
+          "status": "sourcing",
+          "at": "2026-07-13T09:00:00Z",
+          "note": "Print run confirmed."
+        },
+        {
+          "status": "shipped",
+          "at": "2026-07-15T11:00:00Z",
+          "note": "Shipped via USPS First Class. Tracking provided."
+        }
+      ],
+      "followUpAt": "2026-07-22T10:00:00Z",
+      "notes": "Awaiting delivery confirmation."
+    },
+    {
+      "id": "cp-004",
+      "requestedAt": "2026-07-20T08:30:00Z",
+      "title": "Pull-Up Bar — Doorframe Mount",
+      "items": [
+        "Doorframe pull-up bar x1"
+      ],
+      "status": "under_review",
+      "priority": "high",
+      "statusHistory": [
+        {
+          "status": "requested",
+          "at": "2026-07-20T08:30:00Z",
+          "note": "Request received."
+        },
+        {
+          "status": "under_review",
+          "at": "2026-07-21T09:00:00Z",
+          "note": "Staff reviewing priority and sourcing options."
+        }
+      ],
+      "followUpAt": "2026-07-27T09:00:00Z",
+      "notes": "Member flagged urgency due to starting 8-week strength block next week."
+    },
+    {
+      "id": "cp-005",
+      "requestedAt": "2026-08-02T11:00:00Z",
+      "title": "Recovery Tools — Foam Roller & Lacrosse Ball",
+      "items": [
+        "High-density foam roller (24\") x1",
+        "Lacrosse ball (pair) x1"
+      ],
+      "status": "approved",
+      "priority": "standard",
+      "statusHistory": [
+        {
+          "status": "requested",
+          "at": "2026-08-02T11:00:00Z",
+          "note": "Request received."
+        },
+        {
+          "status": "under_review",
+          "at": "2026-08-03T08:30:00Z",
+          "note": "Eligibility confirmed. Checking inventory."
+        },
+        {
+          "status": "approved",
+          "at": "2026-08-05T10:00:00Z",
+          "note": "Approved. Procurement in progress."
+        }
+      ],
+      "followUpAt": "2026-08-12T09:00:00Z",
+      "notes": "Items in stock with vendor. Expecting to ship within 3 business days."
+    },
+    {
+      "id": "cp-006",
+      "requestedAt": "2026-08-08T16:00:00Z",
+      "title": "Adjustable Dumbbells — Light Set",
+      "items": [
+        "Adjustable dumbbell set (5–25 lbs) x1"
+      ],
+      "status": "requested",
+      "priority": "standard",
+      "statusHistory": [
+        {
+          "status": "requested",
+          "at": "2026-08-08T16:00:00Z",
+          "note": "Request received. In queue."
+        }
+      ],
+      "followUpAt": null,
+      "notes": "New request. Pending initial staff review."
+    },
+    {
+      "id": "cp-007",
+      "requestedAt": "2026-05-20T10:00:00Z",
+      "title": "Weighted Vest",
+      "items": [
+        "Tactical weighted vest (20 lbs) x1"
+      ],
+      "status": "closed",
+      "priority": "standard",
+      "statusHistory": [
+        {
+          "status": "requested",
+          "at": "2026-05-20T10:00:00Z",
+          "note": "Request received."
+        },
+        {
+          "status": "under_review",
+          "at": "2026-05-21T08:30:00Z",
+          "note": "Staff reviewing."
+        },
+        {
+          "status": "approved",
+          "at": "2026-05-23T10:00:00Z",
+          "note": "Approved."
+        },
+        {
+          "status": "sourcing",
+          "at": "2026-05-24T09:00:00Z",
+          "note": "Sourcing."
+        },
+        {
+          "status": "shipped",
+          "at": "2026-05-28T11:00:00Z",
+          "note": "Shipped."
+        },
+        {
+          "status": "delivered",
+          "at": "2026-06-01T00:00:00Z",
+          "note": "Delivered and confirmed."
+        },
+        {
+          "status": "follow_up",
+          "at": "2026-06-08T10:00:00Z",
+          "note": "Coach checked in. Member reported using vest 3x/week."
+        },
+        {
+          "status": "closed",
+          "at": "2026-06-08T10:30:00Z",
+          "note": "Cycle complete. Member active in programming."
+        }
+      ],
+      "followUpAt": "2026-06-08T10:00:00Z",
+      "notes": "Full lifecycle completed. Member actively using vest in conditioning blocks."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Review app-002 care package request",
+      "description": "Member submitted a home equipment request. Staff follow-up needed on shipping address and item priority. See app-002.",
+      "dueDate": "2026-08-13T17:00:00Z",
+      "status": "in-progress",
+      "assigneeRole": "staff",
+      "relatedTo": "app-002"
+    },
+    {
+      "id": "task-002",
+      "title": "Deliver Week 3 programming to app-001 member",
+      "description": "Remote training member is entering week 3. Send updated programming block with notes on progression.",
+      "dueDate": "2026-08-12T09:00:00Z",
+      "status": "open",
+      "assigneeRole": "coach",
+      "relatedTo": "app-001"
+    },
+    {
+      "id": "task-003",
+      "title": "Source pull-up bar for cp-004",
+      "description": "Locate and procure doorframe pull-up bar. Member starting 8-week block soon. Prioritize.",
+      "dueDate": "2026-08-11T17:00:00Z",
+      "status": "in-progress",
+      "assigneeRole": "staff",
+      "relatedTo": "cp-004"
+    },
+    {
+      "id": "task-004",
+      "title": "Check in with app-001 member — mood and energy",
+      "description": "It has been 7 days since last check-in. Schedule a brief accountability check-in to confirm momentum and adjust if needed.",
+      "dueDate": "2026-08-12T10:00:00Z",
+      "status": "open",
+      "assigneeRole": "coach",
+      "relatedTo": "app-001"
+    },
+    {
+      "id": "task-005",
+      "title": "Confirm coach availability — app-003 region",
+      "description": "In-person applicant is in the Midwest region. Confirm which coaches can cover the requested city and flag capacity.",
+      "dueDate": "2026-08-14T17:00:00Z",
+      "status": "open",
+      "assigneeRole": "staff",
+      "relatedTo": "app-003"
+    },
+    {
+      "id": "task-006",
+      "title": "Log follow-up note for cp-003 delivery",
+      "description": "Confirm cp-003 (nutrition guide) was received. Log delivery confirmation and mark follow-up complete.",
+      "dueDate": "2026-08-11T12:00:00Z",
+      "status": "done",
+      "assigneeRole": "staff",
+      "relatedTo": "cp-003"
+    },
+    {
+      "id": "task-007",
+      "title": "Review app-004 retreat interest form",
+      "description": "New retreat interest submission. Review background, assess readiness, and assign to retreat coordinator.",
+      "dueDate": "2026-08-15T17:00:00Z",
+      "status": "open",
+      "assigneeRole": "staff",
+      "relatedTo": "app-004"
+    },
+    {
+      "id": "task-008",
+      "title": "Update cp-002 member with sizing request",
+      "description": "Send follow-up message asking for knee sleeve sizing and any brand/spec preference. Waiting on response.",
+      "dueDate": "2026-08-11T10:00:00Z",
+      "status": "open",
+      "assigneeRole": "staff",
+      "relatedTo": "cp-002"
+    },
+    {
+      "id": "task-009",
+      "title": "Write Week 3 coaching notes for app-001",
+      "description": "Document observations from week 2 check-in. Note progression, any movement corrections, and next focus areas.",
+      "dueDate": "2026-08-13T17:00:00Z",
+      "status": "open",
+      "assigneeRole": "coach",
+      "relatedTo": "app-001"
+    },
+    {
+      "id": "task-010",
+      "title": "Process cp-005 procurement",
+      "description": "Foam roller and lacrosse ball set approved. Place order with vendor and log tracking info.",
+      "dueDate": "2026-08-12T12:00:00Z",
+      "status": "in-progress",
+      "assigneeRole": "staff",
+      "relatedTo": "cp-005"
+    },
+    {
+      "id": "task-011",
+      "title": "Complete initial review of app-006",
+      "description": "Nutrition support request just came in. Read the request, confirm eligibility, and update status to in_review.",
+      "dueDate": "2026-08-14T12:00:00Z",
+      "status": "open",
+      "assigneeRole": "staff",
+      "relatedTo": "app-006"
+    },
+    {
+      "id": "task-012",
+      "title": "Prepare retreat capacity report for Fall 2026",
+      "description": "Compile current retreat interest submissions and confirmed spots. Share summary with program coordinator before 08/18.",
+      "dueDate": "2026-08-18T17:00:00Z",
+      "status": "open",
+      "assigneeRole": "staff",
+      "relatedTo": null
+    }
+  ],
+  "checkIns": [
+    {
+      "id": "ci-001",
+      "mood": 3,
+      "energy": 3,
+      "sleepHours": 6.5,
+      "createdAt": "2026-07-21T08:00:00Z",
+      "notes": "First week in. Felt rough getting back into a routine but finished all three sessions."
+    },
+    {
+      "id": "ci-002",
+      "mood": 4,
+      "energy": 3,
+      "sleepHours": 7.0,
+      "createdAt": "2026-07-28T08:00:00Z",
+      "notes": "Week 2 done. Deadlift numbers went up. Sleep still inconsistent."
+    },
+    {
+      "id": "ci-003",
+      "mood": 4,
+      "energy": 4,
+      "sleepHours": 7.5,
+      "createdAt": "2026-08-04T08:00:00Z",
+      "notes": "Felt more settled this week. Hit all five sessions. Schedule is starting to feel normal."
+    },
+    {
+      "id": "ci-004",
+      "mood": 2,
+      "energy": 2,
+      "sleepHours": 5.0,
+      "createdAt": "2026-08-07T07:30:00Z",
+      "notes": "Rough couple days. Work schedule shifted. Missed two sessions. Not a failure — just adjusting."
+    },
+    {
+      "id": "ci-005",
+      "mood": 3,
+      "energy": 3,
+      "sleepHours": 6.5,
+      "createdAt": "2026-08-09T08:00:00Z",
+      "notes": "Back on track. Did a short conditioning session to reset. Feeling more like myself."
+    },
+    {
+      "id": "ci-006",
+      "mood": 4,
+      "energy": 4,
+      "sleepHours": 7.0,
+      "createdAt": "2026-08-11T07:00:00Z",
+      "notes": "Good session this morning. Numbers holding. Coach note helped refocus the week."
+    },
+    {
+      "id": "ci-007",
+      "mood": 3,
+      "energy": 2,
+      "sleepHours": 5.5,
+      "createdAt": "2026-07-30T09:00:00Z",
+      "notes": "Low energy day. Did mobility work instead of the main lift. Still showed up."
+    },
+    {
+      "id": "ci-008",
+      "mood": 4,
+      "energy": 4,
+      "sleepHours": 8.0,
+      "createdAt": "2026-08-01T08:30:00Z",
+      "notes": "Best sleep in weeks. Hit morning session before shift. Felt dialed in."
+    }
+  ],
+  "coachingNotes": [
+    {
+      "id": "cn-001",
+      "author": "D. Harlow",
+      "subject": "Week 2 check-in — R. Vance",
+      "content": "Member completed all five sessions. Deadlift form is solid — cue on bracing before the pull. Sleep is still under target. Discussed sleep window consistency. No changes to programming this week. Goal: hit 7 hours four nights out of seven.",
+      "createdAt": "2026-07-28T10:00:00Z",
+      "visibility": "coach-only"
+    },
+    {
+      "id": "cn-002",
+      "author": "D. Harlow",
+      "subject": "Week 3 programming adjustment",
+      "content": "Increased squat volume by one working set based on week 2 performance. Mobility work added to Tuesday and Thursday sessions. Member should complete the hip and ankle circuit before main lifts. Purpose is to build durable movement, not flexibility for its own sake.",
+      "createdAt": "2026-08-04T10:30:00Z",
+      "visibility": "coach-only"
+    },
+    {
+      "id": "cn-003",
+      "author": "D. Harlow",
+      "subject": "Schedule disruption — recovery protocol",
+      "content": "Member flagged two missed sessions due to shift change. Advised: do not try to catch up by stacking missed days. Return to the current week's programming and finish what's left. Consistency over volume. Reminder logged for next week's check-in.",
+      "createdAt": "2026-08-08T11:00:00Z",
+      "visibility": "coach-only"
+    },
+    {
+      "id": "cn-004",
+      "author": "K. Boone",
+      "subject": "Intake note — app-003",
+      "content": "Firefighter applicant is requesting in-person sessions. Region confirmed as Midwest. Forwarded to coach availability check. No coach confirmed yet. Member notified of expected 5–7 day response window.",
+      "createdAt": "2026-07-15T09:00:00Z",
+      "visibility": "coach-only"
+    },
+    {
+      "id": "cn-005",
+      "author": "D. Harlow",
+      "subject": "Accountability follow-up — app-001",
+      "content": "Week 3 momentum is good. Member is using the programming correctly and self-reporting honestly. Biggest current obstacle is sleep. Next phase: introduce one nutrition habit — consistent protein timing around training. No overhaul, just one change.",
+      "createdAt": "2026-08-05T14:00:00Z",
+      "visibility": "coach-only"
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-001",
+      "title": "OAF Strength and Conditioning Overview",
+      "category": "training",
+      "blurb": "How OAF approaches strength and conditioning for veterans and first responders.",
+      "url": "https://operationantifragile.com/physical-training/",
+      "external": false
+    },
+    {
+      "id": "res-002",
+      "title": "Modern Athlete Warfighter Program",
+      "category": "training",
+      "blurb": "Daily strength and conditioning programming built by Division 1 coaches and Special Operations veterans.",
+      "url": "https://operationantifragile.com/modern-athlete-warfighter-program/",
+      "external": false
+    },
+    {
+      "id": "res-003",
+      "title": "Old Bull Captains & Coaches Program",
+      "category": "training",
+      "blurb": "Efficient strength training for those who need to lead by example. 20–60 minute sessions.",
+      "url": "https://operationantifragile.com/old-bull-captains-coaches/",
+      "external": false
+    },
+    {
+      "id": "res-004",
+      "title": "Warfighter Mobility & Stability Program",
+      "category": "mobility",
+      "blurb": "12-week program designed to restore joint health and movement quality. 10–15 minutes per session.",
+      "url": "https://operationantifragile.com/modern-athlete-warfighter-mobility-and-stability-program/",
+      "external": false
+    },
+    {
+      "id": "res-005",
+      "title": "OAF Mental Fortitude Overview",
+      "category": "mental-fortitude",
+      "blurb": "Practical tools and approaches for stress regulation, focus, and mental resilience.",
+      "url": "https://operationantifragile.com/mental-fortitude/",
+      "external": false
+    },
+    {
+      "id": "res-006",
+      "title": "Insight Timer — Meditation & Mindfulness",
+      "category": "mental-fortitude",
+      "blurb": "Free meditation and breathwork app. OAF uses this as a practical mindfulness tool for stress regulation.",
+      "url": "https://insig.ht/sJuw8Ivuc5b",
+      "external": true
+    },
+    {
+      "id": "res-007",
+      "title": "OAF Nutrition & Health Support",
+      "category": "nutrition",
+      "blurb": "Practical nutrition guidance for veterans and first responders focused on recovery and sustained performance.",
+      "url": "https://operationantifragile.com/nutrition-health/",
+      "external": false
+    },
+    {
+      "id": "res-008",
+      "title": "OAF Nutrition Protocol (Free eBook)",
+      "category": "nutrition",
+      "blurb": "Downloadable nutrition protocol PDF. Practical, no-overhaul guidance for fueling training and recovery.",
+      "url": "https://operationantifragile.com/assets/images/2024/12/Nutrition-Protocol-Anti-Fragile.pdf",
+      "external": false
+    },
+    {
+      "id": "res-009",
+      "title": "988 Suicide & Crisis Lifeline",
+      "category": "crisis",
+      "blurb": "Call or text 988. Free, confidential support available 24/7.",
+      "url": "https://988lifeline.org/",
+      "external": true
+    },
+    {
+      "id": "res-010",
+      "title": "Veterans Crisis Line",
+      "category": "crisis",
+      "blurb": "Call 988 and press 1. Text 838255. Chat at veteranscrisisline.net. Dedicated line for veterans and their families.",
+      "url": "https://www.veteranscrisisline.net/",
+      "external": true
+    },
+    {
+      "id": "res-011",
+      "title": "QRFup Crisis App",
+      "category": "crisis",
+      "blurb": "A free crisis-support app for veterans, first responders, and their families.",
+      "url": "https://www.qrfup.org/",
+      "external": true
+    },
+    {
+      "id": "res-015",
+      "title": "CopLine",
+      "category": "crisis",
+      "blurb": "24/7 confidential support for law enforcement officers and their family members, answered by retired officers. Call 1-800-267-5463.",
+      "url": "https://www.copline.org/",
+      "external": true
+    },
+    {
+      "id": "res-012",
+      "title": "VA Benefits Overview",
+      "category": "benefits",
+      "blurb": "The VA provides a range of benefits for eligible veterans. Visit va.gov to review eligibility, claims, and available programs.",
+      "url": "https://www.va.gov/",
+      "external": true
+    },
+    {
+      "id": "res-013",
+      "title": "OAF About & Mission",
+      "category": "training",
+      "blurb": "Who we are, who we serve, and why we built this program.",
+      "url": "https://operationantifragile.com/about/",
+      "external": false
+    },
+    {
+      "id": "res-014",
+      "title": "OAF Disclaimer",
+      "category": "benefits",
+      "blurb": "Important information about what OAF is — and is not. Not a clinical, medical, or emergency service.",
+      "url": "https://operationantifragile.com/disclaimer/",
+      "external": false
+    }
+  ],
+  "retreats": [
+    {
+      "id": "ret-001",
+      "name": "Fall 2026 Retreat",
+      "window": "October 2026",
+      "location": "Midwest — details shared after review",
+      "capacity": 12,
+      "spotsOpen": 5,
+      "status": "open",
+      "blurb": "A focused, multi-day program built around strength, accountability, and peer connection. Open to active OAF members and qualified applicants.",
+      "date": "2026-10-15",
+      "interestedMemberIds": []
+    },
+    {
+      "id": "ret-002",
+      "name": "Winter 2026–27 Retreat",
+      "window": "January 2027",
+      "location": "Mountain West — details shared after review",
+      "capacity": 10,
+      "spotsOpen": 10,
+      "status": "accepting_interest",
+      "blurb": "Interest form open. Final details and participant list confirmed closer to the window. Spots are limited and reviewed for fit.",
+      "date": "2027-01-15",
+      "interestedMemberIds": []
+    },
+    {
+      "id": "ret-003",
+      "name": "Spring 2026 Retreat (Completed)",
+      "window": "April 2026",
+      "location": "Southeast — details shared after review",
+      "capacity": 12,
+      "spotsOpen": 0,
+      "status": "closed",
+      "blurb": "This retreat cycle is complete. Participants have transitioned to follow-on programming.",
+      "date": "2026-04-15",
+      "interestedMemberIds": []
+    }
+  ],
+  "impactMetrics": [
+    {
+      "id": "imp-001",
+      "label": "Members supported",
+      "value": 87,
+      "unit": "members",
+      "period": "Year to date",
+      "note": "Illustrative demo figure — not a verified program statistic."
+    },
+    {
+      "id": "imp-002",
+      "label": "Care packages delivered",
+      "value": 142,
+      "unit": "packages",
+      "period": "Year to date",
+      "note": "Illustrative demo figure — not a verified program statistic."
+    },
+    {
+      "id": "imp-003",
+      "label": "Active coaching relationships",
+      "value": 23,
+      "unit": "members",
+      "period": "Current",
+      "note": "Illustrative demo figure — not a verified program statistic."
+    },
+    {
+      "id": "imp-004",
+      "label": "Retreats completed",
+      "value": 3,
+      "unit": "retreats",
+      "period": "All time",
+      "note": "Illustrative demo figure — not a verified program statistic."
+    },
+    {
+      "id": "imp-005",
+      "label": "Applications reviewed",
+      "value": 214,
+      "unit": "applications",
+      "period": "All time",
+      "note": "Illustrative demo figure — not a verified program statistic."
+    },
+    {
+      "id": "imp-006",
+      "label": "Average days intake to match",
+      "value": 4.2,
+      "unit": "days",
+      "period": "Last 90 days",
+      "note": "Illustrative demo figure — not a verified program statistic."
+    }
+  ],
+  "crisisResources": [
+    {
+      "id": "crisis-988",
+      "name": "988 Suicide & Crisis Lifeline",
+      "contact": "Call or text 988",
+      "description": "Free and confidential support available 24/7 for anyone in crisis.",
+      "url": "https://988lifeline.org/"
+    },
+    {
+      "id": "crisis-vcl",
+      "name": "Veterans Crisis Line",
+      "contact": "Call 988 and press 1 — Text 838255 — Chat at veteranscrisisline.net",
+      "description": "Dedicated crisis support for veterans, service members, and their families. Available around the clock.",
+      "url": "https://www.veteranscrisisline.net/"
+    },
+    {
+      "id": "crisis-qrfup",
+      "name": "QRFup Crisis App",
+      "contact": "Visit qrfup.org",
+      "description": "A free crisis-support app for veterans, first responders, and their families.",
+      "url": "https://www.qrfup.org/"
+    },
+    {
+      "id": "crisis-copline",
+      "name": "CopLine",
+      "contact": "Call 1-800-267-5463",
+      "description": "24/7 confidential support for law enforcement officers (active and retired) and their family members, answered by retired officers.",
+      "url": "https://www.copline.org/"
+    }
+  ],
+  "safety": {
+    "notEmergency": "OAF OS is not an emergency service. If you are in immediate danger, call 911.",
+    "notClinical": "OAF does not provide medical, mental health, legal, or financial advice. This platform supports operational follow-through — not clinical care.",
+    "demoNotice": "This is a demonstration version of OAF OS. All data shown is fictional and exists only in your browser.",
+    "privacy": "In this alpha, all data is stored unencrypted in your browser's localStorage on this device. It is not sent to OAF servers. Anyone with access to this browser or device can read it. Do not enter real personal information."
+  }
+}

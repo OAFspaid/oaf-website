@@ -1,0 +1,374 @@
+{
+  "app": {
+    "name": "OAF OS",
+    "tagline": "The operating backbone for the mission.",
+    "description": "Intake, member support, care packages, retreats, coaching, resources, and impact visibility."
+  },
+
+  "nav": {
+    "dashboard": "Dashboard",
+    "applications": "Applications",
+    "carePackages": "Care Packages",
+    "tasks": "Tasks",
+    "checkIns": "Check-Ins",
+    "coaching": "Coaching",
+    "resources": "Resources",
+    "retreats": "Retreats",
+    "impact": "Impact",
+    "sponsor": "Sponsor",
+    "crisis": "Crisis Resources",
+    "settings": "Settings",
+    "logout": "Sign Out"
+  },
+
+  "screens": {
+    "login": {
+      "heading": "Login to OAF OS",
+      "subheading": "Alpha preview — no real accounts or authentication.",
+      "intro": "This is a demo role picker. No credentials are required. Select a role to explore the app.",
+      "emailLabel": "Email address",
+      "passwordLabel": "Password",
+      "submitLabel": "Sign In",
+      "forgotPassword": "Forgot your password? Contact OAF staff.",
+      "demoPrompt": "Exploring OAF OS? Use a demo role below.",
+      "demoLabel": "Try a demo role"
+    },
+
+    "rolePicker": {
+      "heading": "Choose a demo role",
+      "subheading": "This is the OAF OS alpha preview.",
+      "intro": "Select a role to explore the app from that perspective. No account required. All data shown is fictional and lives only in this browser.",
+      "roles": {
+        "member": {
+          "label": "Member",
+          "description": "View your application status, check-ins, care packages, and resources."
+        },
+        "staff": {
+          "label": "Staff",
+          "description": "Manage intake, review requests, assign tasks, and track care package lifecycles."
+        },
+        "coach": {
+          "label": "Coach",
+          "description": "Review member check-ins, log coaching notes, and manage your task queue."
+        }
+      },
+      "selectLabel": "Enter as",
+      "resetLabel": "Reset demo data"
+    },
+
+    "dashboard": {
+      "heading": "Mission Overview",
+      "subheading": "Here's where things stand today.",
+      "memberGreeting": "You're in. Let's keep moving.",
+      "staffGreeting": "Good to have you. Here's what needs attention.",
+      "coachGreeting": "Ready when you are. Here's your queue.",
+      "noticeDemo": "You are viewing demo data. Nothing here is a real record.",
+      "noticeCrisis": "If you are in crisis, do not wait. Call or text 988."
+    },
+
+    "applications": {
+      "heading": "Applications",
+      "subheading": "Apply for support or review submitted applications.",
+      "intro": "Choose the path that fits your situation. Staff review every submission before any support is granted.",
+      "newApplicationLabel": "Start a new application",
+      "statusLabel": "Status",
+      "assignedLabel": "Assigned to",
+      "submittedLabel": "Submitted",
+      "detailLabel": "View details"
+    },
+
+    "applicationDetail": {
+      "heading": "Application Detail",
+      "historyHeading": "Status History",
+      "assignedLabel": "Assigned to",
+      "summaryLabel": "Summary",
+      "updateStatusLabel": "Update status"
+    },
+
+    "applyForm": {
+      "heading": "Apply for Support",
+      "subheading": "Tell us what you need.",
+      "intro": "Plain language is fine. A staff member reviews every submission before any action is taken.",
+      "submitLabel": "Submit Application",
+      "cancelLabel": "Cancel",
+      "requiredNotice": "Fields marked * are required.",
+      "ackNotice": "Before submitting, confirm this is not an emergency. For emergencies, call 911 or text 988.",
+      "localStorageNotice": "Anything you enter here is saved only in this browser on this device — not sent to OAF. Anyone with access to this browser can see it. To remove it, reset demo data in Settings."
+    },
+
+    "carePackages": {
+      "heading": "Care Packages",
+      "subheading": "Track requests from submission to follow-up.",
+      "intro": "Every request is reviewed by staff. Priority and eligibility are assessed before approval.",
+      "newRequestLabel": "Request a care package",
+      "statusLabel": "Status",
+      "priorityLabel": "Priority",
+      "followUpLabel": "Follow-up due",
+      "detailLabel": "View details"
+    },
+
+    "carePackageDetail": {
+      "heading": "Care Package Detail",
+      "itemsHeading": "Items",
+      "historyHeading": "Status History",
+      "notesLabel": "Notes",
+      "followUpLabel": "Follow-up scheduled",
+      "updateStatusLabel": "Update status"
+    },
+
+    "tasks": {
+      "heading": "Tasks",
+      "subheading": "Your queue. Keep it moving.",
+      "intro": "Tasks are assigned by role. Mark done when complete. Flag blocked if something is in the way.",
+      "newTaskLabel": "Add task",
+      "dueLabel": "Due",
+      "ownerLabel": "Owner",
+      "relatedLabel": "Related to",
+      "statusLabel": "Status"
+    },
+
+    "checkIns": {
+      "heading": "Check-Ins",
+      "subheading": "A quick read on where you are.",
+      "intro": "Log how you're doing. Mood, energy, sleep, and a note. This is for you and your coach — not a clinical form.",
+      "newCheckInLabel": "Log a check-in",
+      "moodLabel": "Mood",
+      "energyLabel": "Energy",
+      "sleepLabel": "Sleep (hours)",
+      "noteLabel": "Note",
+      "scaleNote": "Rate mood and energy on a scale of 1 (low) to 5 (high).",
+      "submitLabel": "Save check-in"
+    },
+
+    "coaching": {
+      "heading": "Coaching Notes",
+      "subheading": "Observations, adjustments, and accountability.",
+      "intro": "Coaching notes are practical — programming adjustments, accountability reminders, and follow-up items. Not a clinical record.",
+      "newNoteLabel": "Add coaching note",
+      "authorLabel": "Author",
+      "subjectLabel": "Subject",
+      "dateLabel": "Date"
+    },
+
+    "resources": {
+      "heading": "Resources",
+      "subheading": "Programs, tools, and support pathways.",
+      "intro": "These links cover training, mental fortitude, mobility, nutrition, benefits, and crisis support. External links open in a new tab.",
+      "filterLabel": "Filter by category",
+      "externalNotice": "Opens an external site",
+      "categories": {
+        "training": "Training",
+        "mental-fortitude": "Mental Fortitude",
+        "mobility": "Mobility",
+        "nutrition": "Nutrition",
+        "benefits": "Benefits",
+        "crisis": "Crisis Support"
+      }
+    },
+
+    "retreats": {
+      "heading": "Retreats",
+      "subheading": "Multi-day programs built around strength and peer connection.",
+      "intro": "Spots are limited and reviewed for fit. Submit interest and staff will follow up.",
+      "spotsLabel": "Spots open",
+      "statusLabel": "Status",
+      "capacityLabel": "Capacity",
+      "windowLabel": "Window",
+      "locationLabel": "Location",
+      "applyInterestLabel": "Submit interest",
+      "closedLabel": "This retreat cycle is complete."
+    },
+
+    "impact": {
+      "heading": "Impact",
+      "subheading": "Where the mission stands.",
+      "intro": "These figures are illustrative demo data. They show what impact visibility looks like inside OAF OS — not verified program statistics.",
+      "periodLabel": "Period",
+      "noteLabel": "Note"
+    },
+
+    "sponsor": {
+      "heading": "Sponsor the Mission",
+      "subheading": "Payment processed by Stripe.",
+      "intro": "Sponsor care packages, retreat seats, scholarships, or general program support. Payments are handled by Stripe — card details go directly to Stripe, not to OAF systems.",
+      "learnMoreLabel": "Learn more about sponsoring",
+      "proceedLabel": "Proceed to payment",
+      "secureNotice": "Payments are processed by Stripe. OAF never stores your card details."
+    },
+
+    "crisis": {
+      "heading": "Crisis Resources",
+      "subheading": "If you are in crisis, reach out now.",
+      "intro": "OAF OS is not a crisis service. These resources are free, confidential, and available around the clock. Do not wait.",
+      "callLabel": "Call",
+      "textLabel": "Text",
+      "chatLabel": "Chat",
+      "visitLabel": "Visit"
+    },
+
+    "settings": {
+      "heading": "Settings",
+      "subheading": "App preferences and demo options.",
+      "demoLabel": "Demo mode",
+      "resetLabel": "Reset demo data",
+      "roleLabel": "Current role",
+      "versionLabel": "App version",
+      "localStorageNotice": "Data you enter is saved on this device only, in your browser's local storage. Anyone with access to this browser can see it. It is never sent to OAF servers in this demo.",
+      "clearDataLabel": "To remove all stored data, use Reset demo data above."
+    }
+  },
+
+  "empty": {
+    "applications": {
+      "heading": "No applications yet.",
+      "body": "Start by choosing a support path. Staff review every submission — apply when you're ready.",
+      "action": "Start a new application"
+    },
+    "carePackages": {
+      "heading": "No care package requests.",
+      "body": "If you need equipment or practical support, submit a request. Staff will review eligibility and follow up.",
+      "action": "Request a care package"
+    },
+    "tasks": {
+      "heading": "Your queue is clear.",
+      "body": "No tasks assigned right now. Check back after new applications or requests come in.",
+      "action": null
+    },
+    "checkIns": {
+      "heading": "No check-ins logged yet.",
+      "body": "Log your first check-in. It takes under a minute and helps your coach keep up with your momentum.",
+      "action": "Log a check-in"
+    },
+    "coaching": {
+      "heading": "No coaching notes yet.",
+      "body": "Notes will appear here once your coach begins follow-up. If you expected a note, reach out to your assigned coach.",
+      "action": null
+    },
+    "resources": {
+      "heading": "No resources in this category.",
+      "body": "Try a different filter, or browse all resources to find what you need.",
+      "action": "View all resources"
+    },
+    "retreats": {
+      "heading": "No retreat windows open right now.",
+      "body": "Retreat dates are added when a new program is confirmed. Check back or submit your interest so staff can notify you.",
+      "action": "Submit retreat interest"
+    },
+    "impact": {
+      "heading": "No impact data available.",
+      "body": "Impact figures will appear here as the program runs. Check back later.",
+      "action": null
+    }
+  },
+
+  "status": {
+    "submitted": "Submitted",
+    "in_review": "In Review",
+    "needs_info": "Needs Info",
+    "matched": "Matched",
+    "active": "Active",
+    "closed": "Closed",
+    "requested": "Requested",
+    "under_review": "Under Review",
+    "approved": "Approved",
+    "sourcing": "Sourcing",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "follow_up": "Follow-Up",
+    "todo": "To Do",
+    "doing": "In Progress",
+    "blocked": "Blocked",
+    "done": "Done",
+    "open": "Open",
+    "accepting_interest": "Accepting Interest"
+  },
+
+  "priority": {
+    "low": "Low",
+    "standard": "Standard",
+    "high": "High"
+  },
+
+  "errors": {
+    "generic": "Something went wrong. Try again or reload the app.",
+    "formValidation": "Please check the fields below and correct any errors before submitting.",
+    "requiredField": "This field is required.",
+    "invalidEmail": "Enter a valid email address.",
+    "invalidPhone": "Enter a valid phone number.",
+    "ackRequired": "You must acknowledge this before continuing.",
+    "submitFailed": "Your submission did not go through. Check your connection and try again.",
+    "notFound": "That page or record doesn't exist.",
+    "unauthorized": "You don't have access to this. Return to the role picker to choose a different role.",
+    "sessionExpired": "Your session expired. Return to the role picker to continue."
+  },
+
+  "offline": {
+    "heading": "You're offline.",
+    "body": "OAF OS works offline for most features. Some actions — like submitting forms — require a connection. Your data is saved in this browser.",
+    "reconnectNotice": "Reconnected. You're back online."
+  },
+
+  "install": {
+    "heading": "Add OAF OS to your home screen",
+    "body": "Install OAF OS for faster access and offline support.",
+    "installLabel": "Install",
+    "dismissLabel": "Not now"
+  },
+
+  "forms": {
+    "success": {
+      "applicationSubmitted": "This is demo data — your submission was saved in this browser only and was not sent to OAF. If you need help now, call or text 988 (Veterans Crisis Line: call 988 then press 1).",
+      "carePackageSubmitted": "This is demo data — your request was saved in this browser only and was not sent to OAF. If you need support now, call or text 988.",
+      "checkInSaved": "Check-in logged.",
+      "coachingNoteSaved": "Coaching note saved.",
+      "taskSaved": "Task saved.",
+      "retreatInterestSubmitted": "This is demo data — your interest was saved in this browser only and was not sent to OAF."
+    },
+    "failure": {
+      "applicationSubmitted": "Submission failed. Check your connection and try again.",
+      "carePackageSubmitted": "Request didn't go through. Try again or contact OAF staff directly.",
+      "checkInSaved": "Couldn't save your check-in. Try again.",
+      "coachingNoteSaved": "Note didn't save. Try again.",
+      "taskSaved": "Task didn't save. Try again.",
+      "retreatInterestSubmitted": "Submission failed. Try again or contact OAF staff directly."
+    }
+  },
+
+  "demo": {
+    "badge": "Demo",
+    "notice": "You are viewing demo data. Nothing here is a real record.",
+    "resetHeading": "Reset demo data?",
+    "resetBody": "This will clear all demo data in this browser and reload the default seed. Your real OAF account is not affected.",
+    "resetConfirm": "Reset",
+    "resetCancel": "Cancel",
+    "rolePickerHeading": "OAF OS Alpha Preview",
+    "rolePickerBody": "Select a role to explore the app. No account required. All data is fictional and stored only in this browser.",
+    "exitDemoLabel": "Exit demo",
+    "sharedDeviceNotice": "Shared device? Data you enter is stored unencrypted in this browser and is visible to anyone who uses it. Use Reset demo data to clear it."
+  },
+
+  "mission": {
+    "headline": "A New Mission To Strengthen Our Veterans & First Responders",
+    "noShortcuts": "No Shortcuts, Only Progress",
+    "noShortcutsDetail": "No emergency promises. No clinical claims. Just disciplined operational follow-through for veterans and first responders.",
+    "howItWorksHeading": "How It Works",
+    "steps": [
+      { "number": "01", "label": "Apply for support" },
+      { "number": "02", "label": "OAF reviews your needs" },
+      { "number": "03", "label": "You are connected to the right path" },
+      { "number": "04", "label": "Staff and coaches keep follow-up moving" }
+    ],
+    "visibilityNote": "OAF OS keeps the process visible without exposing private member details to the wrong audience."
+  },
+
+  "a11y": {
+    "loadingSpinner": "Loading…",
+    "closeModal": "Close",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "externalLink": "Opens in a new tab",
+    "requiredField": "Required",
+    "statusBadge": "Status:",
+    "priorityBadge": "Priority:"
+  }
+}
