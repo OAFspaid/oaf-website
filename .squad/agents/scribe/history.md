@@ -1,6 +1,9 @@
 # Project Context
 
 - **Project:** oaf-website
+- **Owner:** repository maintainer
+- **Description:** Operation Antifragile public training, program, and blog website.
+- **Stack:** Jekyll, Ruby/Bundler, Markdown, Liquid, HTML, Sass; GitHub Pages workflow
 - **Created:** 2026-07-29
 
 ## Core Context
@@ -14,3 +17,11 @@ Agent Scribe initialized and ready for work.
 ## Learnings
 
 Initial setup complete.
+
+### 2026-10-26T19:36:17.909-05:00 — Local team initialized
+
+- Approved Keaton, McManus, Fenster, Hockney and four fixed-name builtins; preserve @copilot.
+- STATE_BACKEND=local: state is this worktree's `.squad/` filesystem; no runtime bridge required.
+- Maintain decisions.md, merge the decision inbox, and propagate cross-agent context when assigned.
+- Next scope: CTA/TrainHeroic updates and local preview only; broader copy awaits documents.
+- Initialization only: no website edits, agent spawning, branch switches, main-checkout work, deployment, commits, or pushes.

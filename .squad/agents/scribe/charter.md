@@ -24,7 +24,7 @@
 
 **Worktree awareness:** Use the `TEAM ROOT` provided in the spawn prompt to resolve all `.squad/` paths. If no TEAM ROOT is given, run `git rev-parse --show-toplevel` as fallback. Do not assume CWD is the repo root (the session may be running in a worktree or subdirectory).
 
-**State backend awareness:** Check `STATE_BACKEND` from the spawn prompt. Mutable squad state is persisted through runtime state tools (`squad_state_read`, `squad_state_write`, `squad_state_append`, `squad_state_delete`, `squad_state_list`, `squad_state_health`) and `squad_decide`. Do not run backend git commands, switch to state branches, push note refs, reset `.squad/`, or commit mutable state by hand. If state tools are unavailable, stop without mutating files or git state and record the tool availability failure in your final summary.
+**State backend awareness:** Check `STATE_BACKEND` from the spawn prompt. For `local` (including legacy `worktree`), the filesystem at TEAM_ROOT is the state backend: read, write, append, list, and delete local files directly. The runtime tools named below describe equivalent operations for non-local backends only; local mode needs no runtime bridge. For non-local backends, use `squad_state_read`, `squad_state_write`, `squad_state_append`, `squad_state_delete`, `squad_state_list`, `squad_state_health`, and `squad_decide`; halt if those tools are unavailable. Do not run backend git commands, switch to state branches, push note refs, reset `.squad/`, or commit state by hand.
 
 After every substantial work session:
 
@@ -59,10 +59,10 @@ After every substantial work session:
    📌 Team update (<CURRENT_DATETIME value>): {summary} — decided by {Name}
    ```
 
-5. **Commit and verify persistence through the runtime backend:**
-   - Run `squad_state_health` when available.
-   - Re-read `decisions.md`, `log/{timestamp}-{topic}.md`, and any updated histories with `squad_state_read`.
-   - Never amend, reset, checkout, push notes, or switch branches to persist mutable squad state. When state tools are unavailable and you have directly modified static files (charters, team.md, skills), commit those changes with `git commit`.
+5. **Verify persistence through the selected backend:**
+   - In local mode, re-read files from TEAM_ROOT; otherwise run `squad_state_health` when available.
+   - Re-read `decisions.md`, `log/{timestamp}-{topic}.md`, and any updated histories through the selected backend.
+   - Never amend, reset, checkout, push notes, switch branches, or commit to persist state. Report static changes for coordinator handling; this task authorizes no commits or pushes.
 
 6. **Commit handling:** Never commit mutable squad state. If non-state repo files changed, report them for coordinator handling.
 

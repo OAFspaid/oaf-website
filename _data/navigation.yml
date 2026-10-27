@@ -11,6 +11,10 @@ main:
         external: true
       - title: OAF Strength and Conditioning
         url: /physical-training/
+        children:
+          - title: TrainHeroic
+            url: https://marketplace.trainheroic.com/workout-plan/team/operation-antifragile
+            external: true
       - title: Modern Athlete Warfighter Program
         url: /modern-athlete-warfighter-program/
       - title: "Modern Athlete Warfighter Program: Mobility and Stability"
@@ -28,9 +32,10 @@ main:
   - title: Merch
     url: https://operationantifragile.secure-decoration.com/
     external: true
-  - title: Application
-    url: https://docs.google.com/forms/d/e/1FAIpQLSdne1leZ2mUm1HM76-DJGBgRpORtC2YUgVxLse6QUYmSBD98Q/viewform
+  - title: Apply for Support
+    url: https://app.operationantifragile.com/apply
     external: true
+    highlight: true
 
 actions:
   donate:

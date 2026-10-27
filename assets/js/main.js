@@ -12,7 +12,7 @@ function initHeaderNav() {
   const panel = document.getElementById('nav-panel');
   const submenuToggles = document.querySelectorAll('[data-nav-submenu-toggle]');
   const menuLinks = document.querySelectorAll('.site-nav__list a, .site-header__actions a');
-  const desktopQuery = window.matchMedia('(min-width: 1025px)');
+  const desktopQuery = window.matchMedia('(min-width: 1280px)');
 
   function closeSubmenus(except) {
     submenuToggles.forEach(submenuToggle => {

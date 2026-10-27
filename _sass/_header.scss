@@ -94,6 +94,24 @@
   cursor: pointer;
 }
 
+.site-nav__link--apply {
+  align-self: center;
+  justify-content: center;
+  min-height: 3rem;
+  margin: 0.65rem 0.5rem;
+  padding: 0.65rem 0.75rem;
+  border: 2px solid var(--color-primary);
+  background: var(--color-primary);
+  color: var(--color-body);
+  text-align: center;
+}
+
+.site-nav__link--apply:hover,
+.site-nav__link--apply:focus-visible {
+  background: transparent;
+  color: var(--color-primary);
+}
+
 .site-nav__caret {
   width: 0.8rem;
   height: 0.8rem;
@@ -143,6 +161,17 @@
 .site-nav__submenu a:focus-visible,
 .site-nav__submenu a.is-current {
   color: var(--color-primary);
+}
+
+.site-nav__subgroup {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1.25rem;
+}
+
+.site-nav__subgroup a {
+  border-left: 2px solid var(--color-primary);
+  font-size: 0.85rem;
 }
 
 .site-header__actions {

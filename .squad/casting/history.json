@@ -1,4 +1,21 @@
 {
-  "universe_usage_history": [],
-  "assignment_cast_snapshots": {}
+  "universe_usage_history": [
+    {
+      "universe": "The Usual Suspects",
+      "assignment_id": "oaf-local-team-20261026T193617909-0500",
+      "used_at": "2026-10-26T19:36:17.909-05:00"
+    }
+  ],
+  "assignment_cast_snapshots": {
+    "oaf-local-team-20261026T193617909-0500": {
+      "universe": "The Usual Suspects",
+      "agents": {
+        "lead": "Keaton",
+        "frontend": "McManus",
+        "deployment": "Fenster",
+        "qa": "Hockney"
+      },
+      "created_at": "2026-10-26T19:36:17.909-05:00"
+    }
+  }
 }
