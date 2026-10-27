@@ -49,7 +49,16 @@
                 <ul class="site-nav__submenu" id="site-nav-submenu-{{ forloop.index }}">
                   {% for child in item.children %}
                     <li>
-                      <a class="{% if page.url == child.url %}is-current{% endif %}" href="{{ child.url | relative_url }}"{% if page.url == child.url %} aria-current="page"{% endif %}>{{ child.title }}</a>
+                      <a class="{% if page.url == child.url %}is-current{% endif %}" href="{% if child.external %}{{ child.url }}{% else %}{{ child.url | relative_url }}{% endif %}"{% if page.url == child.url %} aria-current="page"{% endif %}{% if child.external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ child.title }}</a>
+                      {% if child.children %}
+                        <ul class="site-nav__subgroup">
+                          {% for service in child.children %}
+                            <li>
+                              <a href="{% if service.external %}{{ service.url }}{% else %}{{ service.url | relative_url }}{% endif %}"{% if service.external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ service.title }}</a>
+                            </li>
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
                     </li>
                   {% endfor %}
                 </ul>
@@ -64,7 +73,7 @@
               {% endif %}
               <li class="site-nav__item{% if item_active %} is-active{% endif %}">
                 <a
-                  class="site-nav__link{% if item_active %} is-current{% endif %}"
+                  class="site-nav__link{% if item.highlight %} site-nav__link--apply{% endif %}{% if item_active %} is-current{% endif %}"
                   href="{% if item.external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"
                   {% if item_active %}aria-current="page"{% endif %}
                   {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>
@@ -80,7 +89,7 @@
         <a class="button button--compact" href="{{ nav.actions.donate.url }}" target="_blank" rel="noopener noreferrer">
           {{ nav.actions.donate.title }}
         </a>
-        <a class="button button--compact button--contact" href="{{ nav.actions.contact.url | relative_url }}">
+        <a class="button button--compact button--ghost button--contact" href="{{ nav.actions.contact.url | relative_url }}">
           <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
             <path d="M21.6 3.6a1 1 0 0 0-1-.16l-17 7A1 1 0 0 0 4 12.34l5.84 2.33 2.33 5.84a1 1 0 0 0 .9.63h.06a1 1 0 0 0 .9-.52l7-17a1 1 0 0 0-.43-1.02ZM13.4 17.5l-1.36-3.4a1 1 0 0 0-.58-.58l-3.4-1.36L18.4 7.9Z"></path>
           </svg>

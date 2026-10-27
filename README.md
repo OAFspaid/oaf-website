@@ -21,6 +21,16 @@ bundle exec jekyll serve --baseurl=""
 
 Preview locally at http://127.0.0.1:4000/.
 
+On macOS or Linux, use Ruby 3.3 with Bundler 2.5.17 (the version in
+`Gemfile.lock`), then run from the working branch:
+
+```sh
+bundle install
+bundle exec jekyll serve --host 127.0.0.1 --baseurl=""
+```
+
+This is a local draft preview; it does not publish changes.
+
 ## Content structure
 
 - `_posts/` - published articles
@@ -52,6 +62,12 @@ This keeps migrated URLs stable while reimplementing the public presentation in 
 ## Deployment
 
 GitHub Actions builds the site on pushes and deploys to GitHub Pages from the repository default branch.
+
+Working branches are built but **not deployed**. This repository's Pages site
+serves the live custom domain, so deploying a working branch there would replace
+the live site, not create a separate branch preview. Use a separate Pages
+repository for an isolated public draft; do not change the production deployment
+guard or copy `CNAME` into that preview site.
 
 ## Notes
 

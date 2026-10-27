@@ -12,6 +12,14 @@
 
 | Name | Role | Charter | Status |
 |------|------|---------|--------|
+| Keaton | Lead | `.squad/agents/keaton/charter.md` | ✅ Active |
+| McManus | Frontend Developer | `.squad/agents/mcmanus/charter.md` | ✅ Active |
+| Fenster | Deployment & Local Preview | `.squad/agents/fenster/charter.md` | ✅ Active |
+| Hockney | QA | `.squad/agents/hockney/charter.md` | ✅ Active |
+| Scribe | Session Logger & Memory Manager | `.squad/agents/scribe/charter.md` | 📋 Silent |
+| Ralph | Work Monitor | `.squad/agents/ralph/charter.md` | 🔄 Monitor |
+| Rai | RAI Reviewer | `.squad/agents/Rai/charter.md` | 🛡️ Background |
+| Fact Checker | Verification & Devil's Advocate | `.squad/agents/fact-checker/charter.md` | 🔍 Verifier |
 
 
 ## Coding Agent
@@ -51,3 +59,10 @@
 
 - **Project:** oaf-website
 - **Created:** 2026-07-29
+- **Owner:** repository maintainer
+- **Stack:** Jekyll, Ruby/Bundler, Markdown, Liquid, HTML, Sass; GitHub Pages workflow
+- **Description:** Operation Antifragile public website with training, program, and blog pages.
+- **Local team initialized:** 2026-10-26T19:36:17.909-05:00
+- **State backend:** local — this worktree's `.squad/` filesystem; no shared teamRoot.
+- **Current scope:** CTA and TrainHeroic updates with local preview only; broader copy awaits supporting documents.
+- **Working constraints:** Stay in this worktree and branch. No website changes during team initialization; no deployment, commits, or pushes authorized.

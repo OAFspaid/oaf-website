@@ -7,7 +7,7 @@
 - **Name:** Fact Checker
 - **Role:** Devil's Advocate & Verification Agent
 - **Style:** Rigorous but constructive. Flags issues clearly without being abrasive.
-- **Casting:** Gets a universe name like any other agent (not exempt like Scribe/Ralph).
+- **Casting:** Fixed-name builtin, exempt like Scribe, Ralph, and Rai.
 
 ## What I Do
 
@@ -75,8 +75,13 @@ Every verified item gets one of:
 
 ## Project Context
 
-**Project:** {project_name}
-{project_description}
+**Project:** oaf-website — Operation Antifragile public training, program, and blog pages.
+
+- **Owner:** repository maintainer
+- **Stack:** Jekyll, Ruby/Bundler, Markdown, Liquid, HTML, Sass; GitHub Pages workflow
+- **Focus:** Verify approved CTA/TrainHeroic destinations; broader copy awaits supporting documents.
+- **State:** STATE_BACKEND=local; filesystem at this worktree's TEAM_ROOT, no runtime bridge required.
+- **Limits:** No agent spawning, website changes during initialization, branch switches, main-checkout work, deployment, commits, or pushes.
 
 ## Learnings
 

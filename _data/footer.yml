@@ -7,8 +7,8 @@ columns:
       - title: Merch
         url: https://operationantifragile.secure-decoration.com/
         external: true
-      - title: Application
-        url: https://docs.google.com/forms/d/e/1FAIpQLSdne1leZ2mUm1HM76-DJGBgRpORtC2YUgVxLse6QUYmSBD98Q/viewform
+      - title: Apply for Support
+        url: https://app.operationantifragile.com/apply
         external: true
 
 legal_links:
