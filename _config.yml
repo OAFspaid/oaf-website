@@ -6,6 +6,9 @@ timezone: America/Chicago
 # Organization identity
 ein: "99-2773713"  # 501(c)(3) Employer Identification Number
 
+# Google tag (gtag.js) - Google Ads / Analytics tag ID, rendered on every page via _includes/google-tag.html
+google_tag_id: "AW-18544728323"
+
 # GitHub Pages account-site configuration
 url: "https://oafspaid.github.io"
 baseurl: ""
