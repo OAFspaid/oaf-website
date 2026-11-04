@@ -29,22 +29,24 @@ main:
         url: /mental-fortitude/
   - title: Blog
     url: /blog/
-  - title: Freedom Bear Coffee
-    url: /freedom-bear-coffee/
   - title: Merch
     section: merch
     children:
       - title: Shop Merch
         url: https://operationantifragile.secure-decoration.com/
         external: true
-      - title: Apply for Support
-        url: https://app.operationantifragile.com/apply
-        external: true
-      - title: Donate
-        url: https://buy.stripe.com/7sIaFj5Yh96S7L29AB
-        external: true
+      - title: Freedom Bear Coffee
+        url: /freedom-bear-coffee/
+  - title: Apply for Support
+    url: https://app.operationantifragile.com/apply
+    external: true
+    highlight: true
 
 actions:
+  donate:
+    title: Donate
+    url: https://buy.stripe.com/7sIaFj5Yh96S7L29AB
+    external: true
   contact:
     title: Contact Us
     url: /contact-us/
