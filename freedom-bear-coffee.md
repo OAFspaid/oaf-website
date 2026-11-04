@@ -10,12 +10,7 @@ breadcrumbs: true
 
 <section class="content-section">
   <div class="section-content">
-    <p>Freedom Bear Coffee is a proud partner of Operation Antifragile. Grab a bag of the Mycelioperator Lion's Mane Chaga blend, an OAF travel mug, or matcha directly below, or browse the full lineup on their site.</p>
-    <ul>
-      <li><a href="https://www.freedombearcoffee.com/products/mycelioperator-lions-mane-chaga" target="_blank" rel="noopener noreferrer">Mycelioperator Lion's Mane Chaga</a></li>
-      <li><a href="https://www.freedombearcoffee.com/products/oaf-travel-mug" target="_blank" rel="noopener noreferrer">OAF Travel Mug</a></li>
-      <li><a href="https://www.freedombearcoffee.com/products/matcha" target="_blank" rel="noopener noreferrer">Matcha</a></li>
-    </ul>
+    <p>Freedom Bear Coffee is a proud partner of Operation Antifragile. Shop the Mycelioperator Lion's Mane Chaga blend, OAF travel mug, and matcha below.</p>
   </div>
 </section>
 
@@ -190,5 +185,8 @@ breadcrumbs: true
     })();
     /*]]>*/
     </script>
+
+    <!-- TODO: OAF Travel Mug buy button goes here once we have the embed code. -->
+    <!-- TODO: Matcha buy button goes here once we have the embed code. -->
   </div>
 </section>
