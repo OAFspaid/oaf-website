@@ -32,6 +32,8 @@ main:
   - title: Merch
     url: https://operationantifragile.secure-decoration.com/
     external: true
+  - title: Freedom Bear Coffee
+    url: /freedom-bear-coffee/
   - title: Apply for Support
     url: https://app.operationantifragile.com/apply
     external: true

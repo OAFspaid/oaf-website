@@ -77,6 +77,11 @@
   lead: Articles, recovery insights, and training notes from Operation Antifragile.
   background_image: /assets/images/bg-14.png
 
+"/freedom-bear-coffee/":
+  eyebrow: Partners
+  lead: Shop Freedom Bear Coffee, a proud partner of Operation Antifragile.
+  background_image: /assets/images/bg-13.png
+
 "/contact-us/":
   eyebrow: Contact
   title_html: "Contact <span>Us</span>"
