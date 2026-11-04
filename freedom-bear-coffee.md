@@ -17,6 +17,8 @@ breadcrumbs: true
 <section class="content-section">
   <div class="section-content">
     <div id='product-component-1762980574068'></div>
+    <div id='product-component-1762980574069'></div>
+    <div id='product-component-1762980574070'></div>
     <script type="text/javascript">
     /*<![CDATA[*/
     (function () {
@@ -42,12 +44,7 @@ breadcrumbs: true
           domain: 'bear-necessity-coffee-company.myshopify.com',
           storefrontAccessToken: 'a263020449d74cbbd11438257a7e069b',
         });
-        ShopifyBuy.UI.onReady(client).then(function (ui) {
-          ui.createComponent('product', {
-            id: '9461922627858',
-            node: document.getElementById('product-component-1762980574068'),
-            moneyFormat: '%24%7B%7Bamount%7D%7D',
-            options: {
+        var productOptions = {
       "product": {
         "styles": {
           "product": {
@@ -178,15 +175,33 @@ breadcrumbs: true
           }
         }
       }
-    },
+    };
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          // Mycelioperator Lion's Mane Chaga
+          ui.createComponent('product', {
+            id: '9461922627858',
+            node: document.getElementById('product-component-1762980574068'),
+            moneyFormat: '%24%7B%7Bamount%7D%7D',
+            options: productOptions,
+          });
+          // OAF Travel Mug
+          ui.createComponent('product', {
+            id: '10295356424466',
+            node: document.getElementById('product-component-1762980574069'),
+            moneyFormat: '%24%7B%7Bamount%7D%7D',
+            options: productOptions,
+          });
+          // Matcha
+          ui.createComponent('product', {
+            id: '10291377471762',
+            node: document.getElementById('product-component-1762980574070'),
+            moneyFormat: '%24%7B%7Bamount%7D%7D',
+            options: productOptions,
           });
         });
       }
     })();
     /*]]>*/
     </script>
-
-    <!-- TODO: OAF Travel Mug buy button goes here once we have the embed code. -->
-    <!-- TODO: Matcha buy button goes here once we have the embed code. -->
   </div>
 </section>
