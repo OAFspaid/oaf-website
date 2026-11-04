@@ -16,9 +16,36 @@ breadcrumbs: true
 
 <section class="content-section">
   <div class="section-content">
-    <div id='product-component-1762980574068'></div>
-    <div id='product-component-1762980574069'></div>
-    <div id='product-component-1762980574070'></div>
+    <div class="fb-products">
+      <div class="fb-products__col"><div id='product-component-1762980574068'></div></div>
+      <div class="fb-products__col"><div id='product-component-1762980574069'></div></div>
+      <div class="fb-products__col"><div id='product-component-1762980574070'></div></div>
+    </div>
+    <style>
+      .fb-products {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: center;
+      }
+      .fb-products__col {
+        flex: 1 1 0;
+        min-width: 0;
+      }
+      .fb-products__col * {
+        max-width: 100%;
+      }
+      @media (max-width: 600px) {
+        .fb-products {
+          flex-direction: column;
+          align-items: center;
+        }
+        .fb-products__col {
+          max-width: 100%;
+          width: 100%;
+        }
+      }
+    </style>
     <script type="text/javascript">
     /*<![CDATA[*/
     (function () {
@@ -48,11 +75,9 @@ breadcrumbs: true
       "product": {
         "styles": {
           "product": {
-            "@media (min-width: 601px)": {
-              "max-width": "calc(25% - 20px)",
-              "margin-left": "20px",
-              "margin-bottom": "50px"
-            }
+            "max-width": "100%",
+            "margin-left": "0px",
+            "margin-bottom": "0px"
           },
           "button": {
             "font-family": "Avant Garde, sans-serif",
